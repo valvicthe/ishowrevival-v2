@@ -16,9 +16,8 @@ try {
     $con = new PDO("mysql:host=$servername;port=$dbport;dbname=$dbname;charset=utf8mb4", $dbusername, $dbpassword);
     $con->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 } catch(PDOException $e) {
-    // Only show this on your local machine if needed; in production, logs are better
-    echo "Database connection failed. Please check your Railway environment variables.";
-    error_log($e->getMessage());
+    // This will now show the EXACT reason it is failing
+    echo "Database connection failed! Error details: " . $e->getMessage();
     exit();
 }
 
