@@ -26,7 +26,7 @@ $stmt2->execute();
 $randguestid = $ticket['randomGuestId'];
 }
 $randguestid = urlencode($randguestid);
-echo "http://www.voidrev.us/login/Negotiate.ashx?suggest=$randguestid";
+echo "http://ishowrevival.up.railway.app/login/Negotiate.ashx?suggest=$randguestid";
 }else{
 http_response_code(401);
 exit();

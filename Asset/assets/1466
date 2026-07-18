@@ -4,7 +4,7 @@
   <Item class="Pants" referent="RBX0">
     <Properties>
       <Content name="PantsTemplate">
-        <url>http://www.voidrev.us/asset/?id=1467</url>
+        <url>http://ishowrevival.up.railway.app/asset/?id=1467</url>
       </Content>
       <string name="Name">Pants</string>
       <bool name="archivable">true</bool>

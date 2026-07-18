@@ -11,7 +11,7 @@ $options = [
 'cost' => 10,
 ];
 $analyticsdata = password_hash("BJ@ynVL+ZP2xT-h8rXTPv@9yCbfS8Z%rb_TkCE^T=SUycJVjh6gaf8=92W7nvFtU", PASSWORD_BCRYPT, $options);
-setcookie("browserTrackerIds", $analyticsdata, time() + (460800* 30), "/", '.voidrev.us');
+setcookie("browserTrackerIds", $analyticsdata, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
 }
 header('Content-Type: application/json; charset=UTF-8; X-Robots-Tag: noindex');
 if($_POST["username"] && $_POST["password"]){
@@ -58,11 +58,11 @@ $banvalue = $check['banned'];
 if($banvalue > 0)
 {$isbanned = true;
 }else{$isbanned = false;}
-setcookie("username", $username, time() + (460800* 30), "/", '.voidrev.us');
-setcookie("password", $password, time() + (460800* 30), "/", '.voidrev.us');
-setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.voidrev.us');
-setcookie(".RBXID", $roblosec, time() + (460800* 30), "/", '.voidrev.us');
-setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.voidrev.us');
+setcookie("username", $username, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie("password", $password, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie(".RBXID", $roblosec, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.ishowrevival.up.railway.app');
 if (strpos($headers['User-Agent'], "Android") !== false || strpos($headers['User-Agent'], "iPhone") !== false) {
 ?>
 {"user":{"id":<?=$uID;?>,"name":"<?echo NOSpacesPlz($username);?>","displayName":"<?echo NOSpacesPlz($username);?>"},"isBanned":<?if($check2['banned'] > 0){echo"true";}else{echo"false";}?>}
@@ -110,11 +110,11 @@ $banvalue = $check['banned'];
 if($banvalue > 0)
 {$isbanned = true;
 }else{$isbanned = false;}
-setcookie("username", $username, time() + (460800* 30), "/", '.voidrev.us');
-setcookie("password", $password, time() + (460800* 30), "/", '.voidrev.us');
-setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.voidrev.us');
-setcookie(".RBXID", $roblosec, time() + (460800* 30), "/", '.voidrev.us');
-setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.voidrev.us');
+setcookie("username", $username, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie("password", $password, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie(".RBXID", $roblosec, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.ishowrevival.up.railway.app');
 if (strpos($headers['User-Agent'], "Android") !== false || strpos($headers['User-Agent'], "iPhone") !== false) {
 ?>
 {"user":{"id":<?=$uID;?>,"name":"<?echo NOSpacesPlz($username);?>","displayName":"<?echo NOSpacesPlz($username);?>"},"isBanned":<?if($check2['banned'] > 0){echo"true";}else{echo"false";}?>}
@@ -162,11 +162,11 @@ $banvalue = $check['banned'];
 if($banvalue > 0)
 {$isbanned = true;
 }else{$isbanned = false;}
-setcookie("username", $username, time() + (460800* 30), "/", '.voidrev.us');
-setcookie("password", $password, time() + (460800* 30), "/", '.voidrev.us');
-setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.voidrev.us');
-setcookie(".RBXID", $roblosec, time() + (460800* 30), "/", '.voidrev.us');
-setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.voidrev.us');
+setcookie("username", $username, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie("password", $password, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie(".RBXID", $roblosec, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.ishowrevival.up.railway.app');
 if (strpos($headers['User-Agent'], "Android") !== false || strpos($headers['User-Agent'], "iPhone") !== false) {
 ?>
 {"user":{"id":<?=$uID;?>,"name":"<?echo NOSpacesPlz($username);?>","displayName":"<?echo NOSpacesPlz($username);?>"},"isBanned":<?if($check2['banned'] > 0){echo"true";}else{echo"false";}?>}

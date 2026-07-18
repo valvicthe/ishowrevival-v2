@@ -1,7 +1,7 @@
 <?php
 // check if placeId is set, if not exit
 if (!isset($_GET['placeId'])) {
-$data = array('status' => 8, 'jobId' => null, 'joinScriptUrl' => null, 'authenticationUrl' => 'https://www.voidrev.us/Login/Negotiate.ashx', 'authenticationTicket' => null, 'message' => 'Place does not exist');
+$data = array('status' => 8, 'jobId' => null, 'joinScriptUrl' => null, 'authenticationUrl' => 'https://ishowrevival.up.railway.app/Login/Negotiate.ashx', 'authenticationTicket' => null, 'message' => 'Place does not exist');
 die(json_encode($data));
 }
 try {
@@ -33,7 +33,7 @@ $query->bindParam(':id', $getid);
 $query->execute();
 $exist = $query->fetch();
 if (!is_array($exist)) {
-$data = array('status' => 8, 'jobId' => null, 'joinScriptUrl' => null, 'authenticationUrl' => '{$http}://www.voidrev.us/Login/Negotiate.ashx', 'authenticationTicket' => null, 'message' => 'Place does not exist');
+$data = array('status' => 8, 'jobId' => null, 'joinScriptUrl' => null, 'authenticationUrl' => '{$http}://ishowrevival.up.railway.app/Login/Negotiate.ashx', 'authenticationTicket' => null, 'message' => 'Place does not exist');
 die(json_encode($data));
 }
 if ($exist['version'] == 2018) {
@@ -251,8 +251,8 @@ $type = "&type=" . $type;
 $array = [
 "jobId" => $jobid,
 "status" => $gamestatus,
-"joinScriptUrl" => "{$http}://www.voidrev.us/game/join.ashx?serverPort=" . $port . "&gameid=" . $getid . "&jobid=" . $jobid . "&rbxsig=" . $rbxsig . "&type" . $type,
-"authenticationUrl" => "{$http}://www.voidrev.us/Login/Negotiate.ashx",
+"joinScriptUrl" => "{$http}://ishowrevival.up.railway.app/game/join.ashx?serverPort=" . $port . "&gameid=" . $getid . "&jobid=" . $jobid . "&rbxsig=" . $rbxsig . "&type" . $type,
+"authenticationUrl" => "{$http}://ishowrevival.up.railway.app/Login/Negotiate.ashx",
 "authenticationTicket" => $roblosec,
 "message" => $message
 ];
@@ -262,7 +262,7 @@ $array = [
 "jobId" => $jobid,
 "status" => 4,
 "joinScriptUrl" => null,
-"authenticationUrl" => "{$http}://www.voidrev.us/Login/Negotiate.ashx",
+"authenticationUrl" => "{$http}://ishowrevival.up.railway.app/Login/Negotiate.ashx",
 "authenticationTicket" => $roblosec,
 "message" => $type . " Unknown Error " . $e
 ];

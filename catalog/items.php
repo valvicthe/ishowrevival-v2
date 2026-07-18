@@ -131,7 +131,7 @@ $item = array(
 "ItemType" => 1,
 "AssetId" => $row['id'],
 "Name" => $row['name'],
-"AbsoluteUrl" => "https://www.voidrev.us/library/?id=".$row['id']."",
+"AbsoluteUrl" => "https://ishowrevival.up.railway.app/library/?id=".$row['id']."",
 "Price" => $row['Robux'],
 "BestPrice" => null,
 "Remaining" => null,
@@ -148,7 +148,7 @@ $item = array(
 "AssetStatusIcon" => array(),
 "Thumbnail" => array(
 "Final" => true,
-"Url" => "https://www.voidrev.us".getModelThumbnail($con,$row['id']),
+"Url" => "https://ishowrevival.up.railway.app".getModelThumbnail($con,$row['id']),
 "RetryUrl" => "",
 "IsApproved" => true
 )

@@ -25,7 +25,7 @@
     "@context" : "http://schema.org",
     "@type" : "Organization",
     "name" : "Roblox",
-    "url" : "https://www.voidrev.us/",
+    "url" : "https://ishowrevival.up.railway.app/",
     "logo": "https://images.rbxcdn.com/c69b74f49e785df33b732273fad9dbe0.png",
     "sameAs" : [
     "https://www.facebook.com/ROBLOX/",
@@ -45,7 +45,7 @@
 <meta name="locale-data" 
       data-language-code="en_us" 
       data-language-name="English" 
-      data-locale-api-url="https://locale.voidrev.us" /><meta name="device-meta"
+      data-locale-api-url="https://locale.ishowrevival.up.railway.app" /><meta name="device-meta"
       data-device-type="computer"
       data-is-in-app="false"
       data-is-desktop="true"
@@ -69,7 +69,7 @@
 
     Roblox.BundleVerifierConstants = {
         isMetricsApiEnabled: false,
-        eventStreamUrl: "//ecsv2.voidrev.us/pe?t=diagnostic",
+        eventStreamUrl: "//ecsv2.ishowrevival.up.railway.app/pe?t=diagnostic",
         deviceType: "Computer",
         cdnLoggingEnabled: JSON.parse("true")
     };
@@ -171,7 +171,7 @@ Roblox.BundleDetector = (function () {
             }
 
             var xhr = new XMLHttpRequest();
-            var metricsApiUrl = (Roblox.EnvironmentUrls && Roblox.EnvironmentUrls.metricsApi) || "https://metrics.voidrev.us";
+            var metricsApiUrl = (Roblox.EnvironmentUrls && Roblox.EnvironmentUrls.metricsApi) || "https://metrics.ishowrevival.up.railway.app";
 
             xhr.open("POST", metricsApiUrl + "/v1/bundle-metrics/report", true);
             xhr.setRequestHeader("Content-Type", "application/json");
@@ -381,12 +381,12 @@ Roblox.BundleDetector.setTiming(window.performance.timing);
     <link href="https://images.rbxcdn.com/23421382939a9f4ae8bbe60dbe2a3e7e.ico.gzip" rel="icon" />
 
 
-        <link rel="manifest" href="https://www.voidrev.us/v2/push-notifications/chrome-manifest" crossorigin="use-credentials">
+        <link rel="manifest" href="https://ishowrevival.up.railway.app/v2/push-notifications/chrome-manifest" crossorigin="use-credentials">
     <link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' data-bundlename='StyleGuide' href='https://static.rbxcdn.com/css/4db56b05c02c8ab6a24e3aec5aca644b3a2ac54ae5c1157bc697e7d8918f9918.css/fetch' />
 
 
 
-    <link rel="canonical" href="https://www.voidrev.us/my/messages/" />
+    <link rel="canonical" href="https://ishowrevival.up.railway.app/my/messages/" />
     
 <link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet'  href='https://static.rbxcdn.com/css/leanbase___c16356b01078769ba2754f85b4c00045_m.css/fetch' />
 
@@ -409,7 +409,7 @@ Roblox.BundleDetector.setTiming(window.performance.timing);
     var Roblox = Roblox || {};
     Roblox.RealTimeSettings = Roblox.RealTimeSettings ||
         {
-            NotificationsEndpoint: "https://www.voidrev.us",
+            NotificationsEndpoint: "https://ishowrevival.up.railway.app",
             MaxConnectionTime: "21600000",
             IsEventPublishingEnabled: false,
             IsDisconnectOnSlowConnectionDisabled: true,
@@ -425,52 +425,52 @@ Roblox.BundleDetector.setTiming(window.performance.timing);
     Roblox.EnvironmentUrls = Roblox.EnvironmentUrls || {};
     // please keep the list in alphabetical order
     Roblox.EnvironmentUrls = {
-        abtestingApiSite: "https://abtesting.voidrev.us",
-        accountInformationApi: "https://accountinformation.voidrev.us",
-        accountSettingsApi: "https://accountsettings.voidrev.us",
+        abtestingApiSite: "https://abtesting.ishowrevival.up.railway.app",
+        accountInformationApi: "https://accountinformation.ishowrevival.up.railway.app",
+        accountSettingsApi: "https://accountsettings.ishowrevival.up.railway.app",
         amazonStoreLink: "http://amzn.com/B00NUF4YOA",
-        apiGatewayUrl: "https://apis.voidrev.us",
-        apiProxyUrl: "https://api.voidrev.us",
+        apiGatewayUrl: "https://apis.ishowrevival.up.railway.app",
+        apiProxyUrl: "https://api.ishowrevival.up.railway.app",
         appProtocolUrl: "robloxmobile://",
         appStoreLink: "https://itunes.apple.com/us/app/roblox-mobile/id431946152",
-        authApi: "https://auth.voidrev.us",
-        authAppSite: "https://authsite.voidrev.us",
-        avatarApi: "https://avatar.voidrev.us",
-        avatarAppSite: "https://avatarsite.voidrev.us",
-        badgesApi: "https://badges.voidrev.us",
-        billingApi: "https://billing.voidrev.us",
-        captchaApi: "https://captcha.voidrev.us",
-        catalogApi: "https://catalog.voidrev.us",
-        chatApi: "https://www.voidrev.us",
-        contactsApi: "https://contacts.voidrev.us",
-        developApi: "https://develop.voidrev.us",
-        domain: "voidrev.us",
-        economyApi: "https://economy.voidrev.us",
-        followingsApi: "https://followings.voidrev.us",
-        friendsApi: "https://www.voidrev.us",
-        friendsAppSite: "https://friendsite.voidrev.us",
-        gamesApi: "https://games.voidrev.us",
-        gamesAppSite: "https://gamesite.voidrev.us",
-        gameInternationalizationApi: "https://gameinternationalization.voidrev.us",
+        authApi: "https://auth.ishowrevival.up.railway.app",
+        authAppSite: "https://authsite.ishowrevival.up.railway.app",
+        avatarApi: "https://avatar.ishowrevival.up.railway.app",
+        avatarAppSite: "https://avatarsite.ishowrevival.up.railway.app",
+        badgesApi: "https://badges.ishowrevival.up.railway.app",
+        billingApi: "https://billing.ishowrevival.up.railway.app",
+        captchaApi: "https://captcha.ishowrevival.up.railway.app",
+        catalogApi: "https://catalog.ishowrevival.up.railway.app",
+        chatApi: "https://ishowrevival.up.railway.app",
+        contactsApi: "https://contacts.ishowrevival.up.railway.app",
+        developApi: "https://develop.ishowrevival.up.railway.app",
+        domain: "ishowrevival.up.railway.app",
+        economyApi: "https://economy.ishowrevival.up.railway.app",
+        followingsApi: "https://followings.ishowrevival.up.railway.app",
+        friendsApi: "https://ishowrevival.up.railway.app",
+        friendsAppSite: "https://friendsite.ishowrevival.up.railway.app",
+        gamesApi: "https://games.ishowrevival.up.railway.app",
+        gamesAppSite: "https://gamesite.ishowrevival.up.railway.app",
+        gameInternationalizationApi: "https://gameinternationalization.ishowrevival.up.railway.app",
         googlePlayStoreLink: "https://play.google.com/store/apps/details?id=com.roblox.client&amp;hl=en",
-        groupsApi: "https://groups.voidrev.us",
-        inventoryApi: "https://inventory.voidrev.us",
-        itemConfigurationApi: "https://itemconfiguration.voidrev.us",
+        groupsApi: "https://groups.ishowrevival.up.railway.app",
+        inventoryApi: "https://inventory.ishowrevival.up.railway.app",
+        itemConfigurationApi: "https://itemconfiguration.ishowrevival.up.railway.app",
         iosAppStoreLink: "https://itunes.apple.com/us/app/roblox-mobile/id431946152",
-        localeApi: "https://locale.voidrev.us",
-        localizationTablesApi: "https://localizationtables.voidrev.us",
-        metricsApi: "https://metrics.voidrev.us",
-        midasApi: "https://midas.voidrev.us",
-        notificationApi: "https://www.voidrev.us",
-        notificationAppSite: "https://notificationsite.voidrev.us",
-        premiumFeaturesApi: "https://premiumfeatures.voidrev.us",
-        presenceApi: "https://www.voidrev.us",
-        publishApi: "https://publish.voidrev.us",
-        surveysAppSite: "https://surveyssite.voidrev.us",
-        thumbnailsApi: "https://www.voidrev.us",
-        translationRolesApi: "https://translationroles.voidrev.us",
-        voiceApi: "https://voice.voidrev.us",
-        websiteUrl: "https://www.voidrev.us",
+        localeApi: "https://locale.ishowrevival.up.railway.app",
+        localizationTablesApi: "https://localizationtables.ishowrevival.up.railway.app",
+        metricsApi: "https://metrics.ishowrevival.up.railway.app",
+        midasApi: "https://midas.ishowrevival.up.railway.app",
+        notificationApi: "https://ishowrevival.up.railway.app",
+        notificationAppSite: "https://notificationsite.ishowrevival.up.railway.app",
+        premiumFeaturesApi: "https://premiumfeatures.ishowrevival.up.railway.app",
+        presenceApi: "https://ishowrevival.up.railway.app",
+        publishApi: "https://publish.ishowrevival.up.railway.app",
+        surveysAppSite: "https://surveyssite.ishowrevival.up.railway.app",
+        thumbnailsApi: "https://ishowrevival.up.railway.app",
+        translationRolesApi: "https://translationroles.ishowrevival.up.railway.app",
+        voiceApi: "https://voice.ishowrevival.up.railway.app",
+        websiteUrl: "https://ishowrevival.up.railway.app",
         windowsStoreLink: "https://www.microsoft.com/en-us/store/games/roblox/9nblgggzm6wm",
         xboxStoreLink: "https://www.microsoft.com/en-us/p/roblox/bq1tn1t79v9k"
     }
@@ -563,7 +563,7 @@ Roblox.BundleDetector.setTiming(window.performance.timing);
         _gaq.push(['b._setCampMediumKey', 'rbx_medium']);
         _gaq.push(['b._setCampContentKey', 'rbx_campaign']);
 
-            _gaq.push(['b._setDomainName', 'voidrev.us']);
+            _gaq.push(['b._setDomainName', 'ishowrevival.up.railway.app']);
 
             _gaq.push(['b._setCustomVar', 1, 'Visitor', 'Member', 2]);
                 _gaq.push(['b._setPageGroup', 1, 'Messages']);
@@ -571,7 +571,7 @@ Roblox.BundleDetector.setTiming(window.performance.timing);
 
         _gaq.push(['c._setAccount', 'UA-26810151-2']);
             _gaq.push(['c._setSampleRate', '1']);
-                    _gaq.push(['c._setDomainName', 'voidrev.us']);
+                    _gaq.push(['c._setDomainName', 'ishowrevival.up.railway.app']);
                     _gaq.push(['c._setPageGroup', 1, 'Messages']);
 
         (function () {
@@ -588,10 +588,10 @@ Roblox.BundleDetector.setTiming(window.performance.timing);
     
             <script type="text/javascript">
             if (Roblox && Roblox.EventStream) {
-                Roblox.EventStream.Init("//ecsv2.voidrev.us/www/e.png",
-                    "//ecsv2.voidrev.us/www/e.png",
-                    "//ecsv2.voidrev.us/pe?t=studio",
-                    "//ecsv2.voidrev.us/pe?t=diagnostic");
+                Roblox.EventStream.Init("//ecsv2.ishowrevival.up.railway.app/www/e.png",
+                    "//ecsv2.ishowrevival.up.railway.app/www/e.png",
+                    "//ecsv2.ishowrevival.up.railway.app/pe?t=studio",
+                    "//ecsv2.ishowrevival.up.railway.app/pe?t=diagnostic");
             }
         </script>
 
@@ -605,74 +605,74 @@ Roblox.BundleDetector.setTiming(window.performance.timing);
 if (typeof(Roblox) === "undefined") { Roblox = {}; }
 Roblox.Endpoints = Roblox.Endpoints || {};
 Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
-Roblox.Endpoints.Urls['/api/item.ashx'] = 'https://www.voidrev.us/api/item.ashx';
-Roblox.Endpoints.Urls['/asset/'] = 'https://assetgame.voidrev.us/asset/';
-Roblox.Endpoints.Urls['/client-status/set'] = 'https://www.voidrev.us/client-status/set';
-Roblox.Endpoints.Urls['/client-status'] = 'https://www.voidrev.us/client-status';
-Roblox.Endpoints.Urls['/game/'] = 'https://assetgame.voidrev.us/game/';
-Roblox.Endpoints.Urls['/game-auth/getauthticket'] = 'https://www.voidrev.us/game-auth/getauthticket';
-Roblox.Endpoints.Urls['/game/edit.ashx'] = 'https://assetgame.voidrev.us/game/edit.ashx';
-Roblox.Endpoints.Urls['/game/getauthticket'] = 'https://assetgame.voidrev.us/game/getauthticket';
-Roblox.Endpoints.Urls['/game/get-hash'] = 'https://assetgame.voidrev.us/game/get-hash';
-Roblox.Endpoints.Urls['/game/placelauncher.ashx'] = 'https://assetgame.voidrev.us/game/placelauncher.ashx';
-Roblox.Endpoints.Urls['/game/preloader'] = 'https://assetgame.voidrev.us/game/preloader';
-Roblox.Endpoints.Urls['/game/report-stats'] = 'https://assetgame.voidrev.us/game/report-stats';
-Roblox.Endpoints.Urls['/game/report-event'] = 'https://assetgame.voidrev.us/game/report-event';
-Roblox.Endpoints.Urls['/game/updateprerollcount'] = 'https://assetgame.voidrev.us/game/updateprerollcount';
-Roblox.Endpoints.Urls['/login/default.aspx'] = 'https://www.voidrev.us/login/default.aspx';
-Roblox.Endpoints.Urls['/my/avatar'] = 'https://www.voidrev.us/my/avatar';
-Roblox.Endpoints.Urls['/my/money.aspx'] = 'https://www.voidrev.us/my/money.aspx';
-Roblox.Endpoints.Urls['/navigation/userdata'] = 'https://www.voidrev.us/navigation/userdata';
-Roblox.Endpoints.Urls['/chat/chat'] = 'https://www.voidrev.us/chat/chat';
-Roblox.Endpoints.Urls['/chat/data'] = 'https://www.voidrev.us/chat/data';
-Roblox.Endpoints.Urls['/presence/users'] = 'https://www.voidrev.us/presence/users';
-Roblox.Endpoints.Urls['/presence/user'] = 'https://www.voidrev.us/presence/user';
-Roblox.Endpoints.Urls['/friends/list'] = 'https://www.voidrev.us/friends/list';
-Roblox.Endpoints.Urls['/navigation/getcount'] = 'https://www.voidrev.us/navigation/getCount';
-Roblox.Endpoints.Urls['/regex/email'] = 'https://www.voidrev.us/regex/email';
-Roblox.Endpoints.Urls['/catalog/browse.aspx'] = 'https://www.voidrev.us/catalog/browse.aspx';
-Roblox.Endpoints.Urls['/catalog/html'] = 'https://search.voidrev.us/catalog/html';
-Roblox.Endpoints.Urls['/catalog/json'] = 'https://search.voidrev.us/catalog/json';
-Roblox.Endpoints.Urls['/catalog/contents'] = 'https://search.voidrev.us/catalog/contents';
-Roblox.Endpoints.Urls['/catalog/lists.aspx'] = 'https://search.voidrev.us/catalog/lists.aspx';
-Roblox.Endpoints.Urls['/catalog/items'] = 'https://search.voidrev.us/catalog/items';
-Roblox.Endpoints.Urls['/asset-hash-thumbnail/image'] = 'https://assetgame.voidrev.us/asset-hash-thumbnail/image';
-Roblox.Endpoints.Urls['/asset-hash-thumbnail/json'] = 'https://assetgame.voidrev.us/asset-hash-thumbnail/json';
-Roblox.Endpoints.Urls['/asset-thumbnail-3d/json'] = 'https://assetgame.voidrev.us/asset-thumbnail-3d/json';
-Roblox.Endpoints.Urls['/asset-thumbnail/image'] = 'https://assetgame.voidrev.us/asset-thumbnail/image';
-Roblox.Endpoints.Urls['/asset-thumbnail/json'] = 'https://assetgame.voidrev.us/asset-thumbnail/json';
-Roblox.Endpoints.Urls['/asset-thumbnail/url'] = 'https://assetgame.voidrev.us/asset-thumbnail/url';
-Roblox.Endpoints.Urls['/asset/request-thumbnail-fix'] = 'https://assetgame.voidrev.us/asset/request-thumbnail-fix';
-Roblox.Endpoints.Urls['/avatar-thumbnail-3d/json'] = 'https://www.voidrev.us/avatar-thumbnail-3d/json';
-Roblox.Endpoints.Urls['/avatar-thumbnail/image'] = 'https://www.voidrev.us/avatar-thumbnail/image';
-Roblox.Endpoints.Urls['/avatar-thumbnail/json'] = 'https://www.voidrev.us/avatar-thumbnail/json';
-Roblox.Endpoints.Urls['/avatar-thumbnails'] = 'https://www.voidrev.us/avatar-thumbnails';
-Roblox.Endpoints.Urls['/avatar/request-thumbnail-fix'] = 'https://www.voidrev.us/avatar/request-thumbnail-fix';
-Roblox.Endpoints.Urls['/bust-thumbnail/json'] = 'https://www.voidrev.us/bust-thumbnail/json';
-Roblox.Endpoints.Urls['/group-thumbnails'] = 'https://www.voidrev.us/group-thumbnails';
-Roblox.Endpoints.Urls['/groups/getprimarygroupinfo.ashx'] = 'https://www.voidrev.us/groups/getprimarygroupinfo.ashx';
-Roblox.Endpoints.Urls['/headshot-thumbnail/json'] = 'https://www.voidrev.us/headshot-thumbnail/json';
-Roblox.Endpoints.Urls['/item-thumbnails'] = 'https://www.voidrev.us/item-thumbnails';
-Roblox.Endpoints.Urls['/outfit-thumbnail/json'] = 'https://www.voidrev.us/outfit-thumbnail/json';
-Roblox.Endpoints.Urls['/place-thumbnails'] = 'https://www.voidrev.us/place-thumbnails';
-Roblox.Endpoints.Urls['/thumbnail/asset/'] = 'https://www.voidrev.us/thumbnail/asset/';
-Roblox.Endpoints.Urls['/thumbnail/avatar-headshot'] = 'https://www.voidrev.us/thumbnail/avatar-headshot';
-Roblox.Endpoints.Urls['/thumbnail/avatar-headshots'] = 'https://www.voidrev.us/thumbnail/avatar-headshots';
-Roblox.Endpoints.Urls['/thumbnail/user-avatar'] = 'https://www.voidrev.us/thumbnail/user-avatar';
-Roblox.Endpoints.Urls['/thumbnail/resolve-hash'] = 'https://www.voidrev.us/thumbnail/resolve-hash';
-Roblox.Endpoints.Urls['/thumbnail/place'] = 'https://www.voidrev.us/thumbnail/place';
-Roblox.Endpoints.Urls['/thumbnail/get-asset-media'] = 'https://www.voidrev.us/thumbnail/get-asset-media';
-Roblox.Endpoints.Urls['/thumbnail/remove-asset-media'] = 'https://www.voidrev.us/thumbnail/remove-asset-media';
-Roblox.Endpoints.Urls['/thumbnail/set-asset-media-sort-order'] = 'https://www.voidrev.us/thumbnail/set-asset-media-sort-order';
-Roblox.Endpoints.Urls['/thumbnail/place-thumbnails'] = 'https://www.voidrev.us/thumbnail/place-thumbnails';
-Roblox.Endpoints.Urls['/thumbnail/place-thumbnails-partial'] = 'https://www.voidrev.us/thumbnail/place-thumbnails-partial';
-Roblox.Endpoints.Urls['/thumbnail_holder/g'] = 'https://www.voidrev.us/thumbnail_holder/g';
-Roblox.Endpoints.Urls['/users/{id}/profile'] = 'https://www.voidrev.us/users/{id}/profile';
-Roblox.Endpoints.Urls['/service-workers/push-notifications'] = 'https://www.voidrev.us/service-workers/push-notifications';
-Roblox.Endpoints.Urls['/notification-stream/notification-stream-data'] = 'https://www.voidrev.us/notification-stream/notification-stream-data';
-Roblox.Endpoints.Urls['/api/friends/acceptfriendrequest'] = 'https://www.voidrev.us/api/friends/acceptfriendrequest';
-Roblox.Endpoints.Urls['/api/friends/declinefriendrequest'] = 'https://www.voidrev.us/api/friends/declinefriendrequest';
-Roblox.Endpoints.Urls['/authentication/is-logged-in'] = 'https://www.voidrev.us/authentication/is-logged-in';
+Roblox.Endpoints.Urls['/api/item.ashx'] = 'https://ishowrevival.up.railway.app/api/item.ashx';
+Roblox.Endpoints.Urls['/asset/'] = 'https://assetgame.ishowrevival.up.railway.app/asset/';
+Roblox.Endpoints.Urls['/client-status/set'] = 'https://ishowrevival.up.railway.app/client-status/set';
+Roblox.Endpoints.Urls['/client-status'] = 'https://ishowrevival.up.railway.app/client-status';
+Roblox.Endpoints.Urls['/game/'] = 'https://assetgame.ishowrevival.up.railway.app/game/';
+Roblox.Endpoints.Urls['/game-auth/getauthticket'] = 'https://ishowrevival.up.railway.app/game-auth/getauthticket';
+Roblox.Endpoints.Urls['/game/edit.ashx'] = 'https://assetgame.ishowrevival.up.railway.app/game/edit.ashx';
+Roblox.Endpoints.Urls['/game/getauthticket'] = 'https://assetgame.ishowrevival.up.railway.app/game/getauthticket';
+Roblox.Endpoints.Urls['/game/get-hash'] = 'https://assetgame.ishowrevival.up.railway.app/game/get-hash';
+Roblox.Endpoints.Urls['/game/placelauncher.ashx'] = 'https://assetgame.ishowrevival.up.railway.app/game/placelauncher.ashx';
+Roblox.Endpoints.Urls['/game/preloader'] = 'https://assetgame.ishowrevival.up.railway.app/game/preloader';
+Roblox.Endpoints.Urls['/game/report-stats'] = 'https://assetgame.ishowrevival.up.railway.app/game/report-stats';
+Roblox.Endpoints.Urls['/game/report-event'] = 'https://assetgame.ishowrevival.up.railway.app/game/report-event';
+Roblox.Endpoints.Urls['/game/updateprerollcount'] = 'https://assetgame.ishowrevival.up.railway.app/game/updateprerollcount';
+Roblox.Endpoints.Urls['/login/default.aspx'] = 'https://ishowrevival.up.railway.app/login/default.aspx';
+Roblox.Endpoints.Urls['/my/avatar'] = 'https://ishowrevival.up.railway.app/my/avatar';
+Roblox.Endpoints.Urls['/my/money.aspx'] = 'https://ishowrevival.up.railway.app/my/money.aspx';
+Roblox.Endpoints.Urls['/navigation/userdata'] = 'https://ishowrevival.up.railway.app/navigation/userdata';
+Roblox.Endpoints.Urls['/chat/chat'] = 'https://ishowrevival.up.railway.app/chat/chat';
+Roblox.Endpoints.Urls['/chat/data'] = 'https://ishowrevival.up.railway.app/chat/data';
+Roblox.Endpoints.Urls['/presence/users'] = 'https://ishowrevival.up.railway.app/presence/users';
+Roblox.Endpoints.Urls['/presence/user'] = 'https://ishowrevival.up.railway.app/presence/user';
+Roblox.Endpoints.Urls['/friends/list'] = 'https://ishowrevival.up.railway.app/friends/list';
+Roblox.Endpoints.Urls['/navigation/getcount'] = 'https://ishowrevival.up.railway.app/navigation/getCount';
+Roblox.Endpoints.Urls['/regex/email'] = 'https://ishowrevival.up.railway.app/regex/email';
+Roblox.Endpoints.Urls['/catalog/browse.aspx'] = 'https://ishowrevival.up.railway.app/catalog/browse.aspx';
+Roblox.Endpoints.Urls['/catalog/html'] = 'https://search.ishowrevival.up.railway.app/catalog/html';
+Roblox.Endpoints.Urls['/catalog/json'] = 'https://search.ishowrevival.up.railway.app/catalog/json';
+Roblox.Endpoints.Urls['/catalog/contents'] = 'https://search.ishowrevival.up.railway.app/catalog/contents';
+Roblox.Endpoints.Urls['/catalog/lists.aspx'] = 'https://search.ishowrevival.up.railway.app/catalog/lists.aspx';
+Roblox.Endpoints.Urls['/catalog/items'] = 'https://search.ishowrevival.up.railway.app/catalog/items';
+Roblox.Endpoints.Urls['/asset-hash-thumbnail/image'] = 'https://assetgame.ishowrevival.up.railway.app/asset-hash-thumbnail/image';
+Roblox.Endpoints.Urls['/asset-hash-thumbnail/json'] = 'https://assetgame.ishowrevival.up.railway.app/asset-hash-thumbnail/json';
+Roblox.Endpoints.Urls['/asset-thumbnail-3d/json'] = 'https://assetgame.ishowrevival.up.railway.app/asset-thumbnail-3d/json';
+Roblox.Endpoints.Urls['/asset-thumbnail/image'] = 'https://assetgame.ishowrevival.up.railway.app/asset-thumbnail/image';
+Roblox.Endpoints.Urls['/asset-thumbnail/json'] = 'https://assetgame.ishowrevival.up.railway.app/asset-thumbnail/json';
+Roblox.Endpoints.Urls['/asset-thumbnail/url'] = 'https://assetgame.ishowrevival.up.railway.app/asset-thumbnail/url';
+Roblox.Endpoints.Urls['/asset/request-thumbnail-fix'] = 'https://assetgame.ishowrevival.up.railway.app/asset/request-thumbnail-fix';
+Roblox.Endpoints.Urls['/avatar-thumbnail-3d/json'] = 'https://ishowrevival.up.railway.app/avatar-thumbnail-3d/json';
+Roblox.Endpoints.Urls['/avatar-thumbnail/image'] = 'https://ishowrevival.up.railway.app/avatar-thumbnail/image';
+Roblox.Endpoints.Urls['/avatar-thumbnail/json'] = 'https://ishowrevival.up.railway.app/avatar-thumbnail/json';
+Roblox.Endpoints.Urls['/avatar-thumbnails'] = 'https://ishowrevival.up.railway.app/avatar-thumbnails';
+Roblox.Endpoints.Urls['/avatar/request-thumbnail-fix'] = 'https://ishowrevival.up.railway.app/avatar/request-thumbnail-fix';
+Roblox.Endpoints.Urls['/bust-thumbnail/json'] = 'https://ishowrevival.up.railway.app/bust-thumbnail/json';
+Roblox.Endpoints.Urls['/group-thumbnails'] = 'https://ishowrevival.up.railway.app/group-thumbnails';
+Roblox.Endpoints.Urls['/groups/getprimarygroupinfo.ashx'] = 'https://ishowrevival.up.railway.app/groups/getprimarygroupinfo.ashx';
+Roblox.Endpoints.Urls['/headshot-thumbnail/json'] = 'https://ishowrevival.up.railway.app/headshot-thumbnail/json';
+Roblox.Endpoints.Urls['/item-thumbnails'] = 'https://ishowrevival.up.railway.app/item-thumbnails';
+Roblox.Endpoints.Urls['/outfit-thumbnail/json'] = 'https://ishowrevival.up.railway.app/outfit-thumbnail/json';
+Roblox.Endpoints.Urls['/place-thumbnails'] = 'https://ishowrevival.up.railway.app/place-thumbnails';
+Roblox.Endpoints.Urls['/thumbnail/asset/'] = 'https://ishowrevival.up.railway.app/thumbnail/asset/';
+Roblox.Endpoints.Urls['/thumbnail/avatar-headshot'] = 'https://ishowrevival.up.railway.app/thumbnail/avatar-headshot';
+Roblox.Endpoints.Urls['/thumbnail/avatar-headshots'] = 'https://ishowrevival.up.railway.app/thumbnail/avatar-headshots';
+Roblox.Endpoints.Urls['/thumbnail/user-avatar'] = 'https://ishowrevival.up.railway.app/thumbnail/user-avatar';
+Roblox.Endpoints.Urls['/thumbnail/resolve-hash'] = 'https://ishowrevival.up.railway.app/thumbnail/resolve-hash';
+Roblox.Endpoints.Urls['/thumbnail/place'] = 'https://ishowrevival.up.railway.app/thumbnail/place';
+Roblox.Endpoints.Urls['/thumbnail/get-asset-media'] = 'https://ishowrevival.up.railway.app/thumbnail/get-asset-media';
+Roblox.Endpoints.Urls['/thumbnail/remove-asset-media'] = 'https://ishowrevival.up.railway.app/thumbnail/remove-asset-media';
+Roblox.Endpoints.Urls['/thumbnail/set-asset-media-sort-order'] = 'https://ishowrevival.up.railway.app/thumbnail/set-asset-media-sort-order';
+Roblox.Endpoints.Urls['/thumbnail/place-thumbnails'] = 'https://ishowrevival.up.railway.app/thumbnail/place-thumbnails';
+Roblox.Endpoints.Urls['/thumbnail/place-thumbnails-partial'] = 'https://ishowrevival.up.railway.app/thumbnail/place-thumbnails-partial';
+Roblox.Endpoints.Urls['/thumbnail_holder/g'] = 'https://ishowrevival.up.railway.app/thumbnail_holder/g';
+Roblox.Endpoints.Urls['/users/{id}/profile'] = 'https://ishowrevival.up.railway.app/users/{id}/profile';
+Roblox.Endpoints.Urls['/service-workers/push-notifications'] = 'https://ishowrevival.up.railway.app/service-workers/push-notifications';
+Roblox.Endpoints.Urls['/notification-stream/notification-stream-data'] = 'https://ishowrevival.up.railway.app/notification-stream/notification-stream-data';
+Roblox.Endpoints.Urls['/api/friends/acceptfriendrequest'] = 'https://ishowrevival.up.railway.app/api/friends/acceptfriendrequest';
+Roblox.Endpoints.Urls['/api/friends/declinefriendrequest'] = 'https://ishowrevival.up.railway.app/api/friends/declinefriendrequest';
+Roblox.Endpoints.Urls['/authentication/is-logged-in'] = 'https://ishowrevival.up.railway.app/authentication/is-logged-in';
 Roblox.Endpoints.addCrossDomainOptionsToAllRequests = true;
 </script>
 
@@ -736,7 +736,7 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
                 </div>
                 <div class="navbar-header">
                     
-                    <a class="navbar-brand" href="https://www.voidrev.us/">
+                    <a class="navbar-brand" href="https://ishowrevival.up.railway.app/">
                         <span class="icon-logo"></span>
                         <span class="icon-logo-r"></span>
                     </a>
@@ -744,16 +744,16 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
             </div>
             <ul class="nav rbx-navbar hidden-xs hidden-sm col-md-4 col-lg-3">
                 <li class="cursor-pointer">
-                    <a class="font-header-2 nav-menu-title text-header" href="https://www.voidrev.us/games">Games</a>
+                    <a class="font-header-2 nav-menu-title text-header" href="https://ishowrevival.up.railway.app/games">Games</a>
                 </li>
                 <li class="cursor-pointer">
-                    <a class="font-header-2 nav-menu-title text-header" href="https://www.voidrev.us/catalog/">Catalog</a>
+                    <a class="font-header-2 nav-menu-title text-header" href="https://ishowrevival.up.railway.app/catalog/">Catalog</a>
                 </li>
                 <li class="cursor-pointer">
-                    <a class="font-header-2 nav-menu-title text-header" href="https://www.voidrev.us/develop">Create</a>
+                    <a class="font-header-2 nav-menu-title text-header" href="https://ishowrevival.up.railway.app/develop">Create</a>
                 </li>
                 <li class="cursor-pointer">
-                    <a class="font-header-2 buy-robux nav-menu-title text-header" href="https://www.voidrev.us/upgrades/robux?ctx=nav">Robux</a>
+                    <a class="font-header-2 buy-robux nav-menu-title text-header" href="https://ishowrevival.up.railway.app/upgrades/robux?ctx=nav">Robux</a>
                 </li>
             </ul><!--rbx-navbar-->
             <div id="navbar-universal-search" class="navbar-left rbx-navbar-search col-xs-5 col-sm-6 col-md-3" data-behavior="univeral-search" role="search">
@@ -766,28 +766,28 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
                     </div>
                 </div>
                 <ul data-toggle="dropdown-menu" class="dropdown-menu" role="menu">
-                        <li class="rbx-navbar-search-option rbx-clickable-li selected" data-searchurl="https://www.voidrev.us/search/users?keyword=">
-                            <a class="rbx-navbar-search-anchor" href="https://www.voidrev.us/search/users?keyword=">
+                        <li class="rbx-navbar-search-option rbx-clickable-li selected" data-searchurl="https://ishowrevival.up.railway.app/search/users?keyword=">
+                            <a class="rbx-navbar-search-anchor" href="https://ishowrevival.up.railway.app/search/users?keyword=">
                                 <span class="rbx-navbar-search-text"> Search "<span class='rbx-navbar-search-string'></span>" in Players</span>
                             </a>
                         </li>
-                        <li class="rbx-navbar-search-option rbx-clickable-li " data-searchurl="https://www.voidrev.us/games/?Keyword=">
-                            <a class="rbx-navbar-search-anchor" href="https://www.voidrev.us/games/?Keyword=">
+                        <li class="rbx-navbar-search-option rbx-clickable-li " data-searchurl="https://ishowrevival.up.railway.app/games/?Keyword=">
+                            <a class="rbx-navbar-search-anchor" href="https://ishowrevival.up.railway.app/games/?Keyword=">
                                 <span class="rbx-navbar-search-text"> Search "<span class='rbx-navbar-search-string'></span>" in Games</span>
                             </a>
                         </li>
-                        <li class="rbx-navbar-search-option rbx-clickable-li " data-searchurl="https://www.voidrev.us/catalog/browse.aspx?CatalogContext=1&amp;Keyword=">
-                            <a class="rbx-navbar-search-anchor" href="https://www.voidrev.us/catalog/browse.aspx?CatalogContext=1&amp;Keyword=">
+                        <li class="rbx-navbar-search-option rbx-clickable-li " data-searchurl="https://ishowrevival.up.railway.app/catalog/browse.aspx?CatalogContext=1&amp;Keyword=">
+                            <a class="rbx-navbar-search-anchor" href="https://ishowrevival.up.railway.app/catalog/browse.aspx?CatalogContext=1&amp;Keyword=">
                                 <span class="rbx-navbar-search-text"> Search "<span class='rbx-navbar-search-string'></span>" in Catalog</span>
                             </a>
                         </li>
-                        <li class="rbx-navbar-search-option rbx-clickable-li " data-searchurl="https://www.voidrev.us/search/groups?keyword=">
-                            <a class="rbx-navbar-search-anchor" href="https://www.voidrev.us/search/groups?keyword=">
+                        <li class="rbx-navbar-search-option rbx-clickable-li " data-searchurl="https://ishowrevival.up.railway.app/search/groups?keyword=">
+                            <a class="rbx-navbar-search-anchor" href="https://ishowrevival.up.railway.app/search/groups?keyword=">
                                 <span class="rbx-navbar-search-text"> Search "<span class='rbx-navbar-search-string'></span>" in Groups</span>
                             </a>
                         </li>
-                        <li class="rbx-navbar-search-option rbx-clickable-li " data-searchurl="https://www.voidrev.us/develop/library?CatalogContext=2&amp;Category=6&amp;Keyword=">
-                            <a class="rbx-navbar-search-anchor" href="https://www.voidrev.us/develop/library?CatalogContext=2&amp;Category=6&amp;Keyword=">
+                        <li class="rbx-navbar-search-option rbx-clickable-li " data-searchurl="https://ishowrevival.up.railway.app/develop/library?CatalogContext=2&amp;Category=6&amp;Keyword=">
+                            <a class="rbx-navbar-search-anchor" href="https://ishowrevival.up.railway.app/develop/library?CatalogContext=2&amp;Category=6&amp;Keyword=">
                                 <span class="rbx-navbar-search-text"> Search "<span class='rbx-navbar-search-string'></span>" in Library</span>
                             </a>
                         </li>
@@ -804,13 +804,13 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
         <div class="rbx-popover-content" data-toggle="popover-setting">
             <ul class="dropdown-menu" role="menu">
                 <li>
-                    <a class="rbx-menu-item" href="https://www.voidrev.us/my/account">
+                    <a class="rbx-menu-item" href="https://ishowrevival.up.railway.app/my/account">
                         Settings
                         <span class="notification-blue notification nav-setting-highlight ">1</span>
                     </a>
                 </li>
-                <li><a class="rbx-menu-item" href="https://www.voidrev.us/info/help?locale=en_us" target="_blank">Help</a></li>
-                <li><a class="rbx-menu-item" data-behavior="logout" data-bind="https://auth.voidrev.us/v2/logout">Logout</a></li>
+                <li><a class="rbx-menu-item" href="https://ishowrevival.up.railway.app/info/help?locale=en_us" target="_blank">Help</a></li>
+                <li><a class="rbx-menu-item" data-behavior="logout" data-bind="https://auth.ishowrevival.up.railway.app/v2/logout">Logout</a></li>
             </ul>
         </div>
     </li>
@@ -821,8 +821,8 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
         </a>
         <div class="rbx-popover-content" data-toggle="popover-robux">
             <ul class="dropdown-menu" role="menu">
-                <li><a href="https://www.voidrev.us/My/Money.aspx#/#Summary_tab" id="nav-robux-balance" class="rbx-menu-item"> Robux</a></li>
-                <li><a href="https://www.voidrev.us/upgrades/robux?ctx=navpopover" class="rbx-menu-item">Buy Robux</a></li>
+                <li><a href="https://ishowrevival.up.railway.app/My/Money.aspx#/#Summary_tab" id="nav-robux-balance" class="rbx-menu-item"> Robux</a></li>
+                <li><a href="https://ishowrevival.up.railway.app/upgrades/robux?ctx=navpopover" class="rbx-menu-item">Buy Robux</a></li>
             </ul>
         </div>
     </li>
@@ -841,16 +841,16 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
             </div><!-- navbar right-->
             <ul class="nav rbx-navbar hidden-md hidden-lg col-xs-12">
                 <li class="cursor-pointer">
-                    <a class="font-header-2 nav-menu-title text-header" href="https://www.voidrev.us/games">Games</a>
+                    <a class="font-header-2 nav-menu-title text-header" href="https://ishowrevival.up.railway.app/games">Games</a>
                 </li>
                 <li class="cursor-pointer">
-                    <a class="font-header-2 nav-menu-title text-header" href="https://www.voidrev.us/catalog/">Catalog</a>
+                    <a class="font-header-2 nav-menu-title text-header" href="https://ishowrevival.up.railway.app/catalog/">Catalog</a>
                 </li>
                 <li class="cursor-pointer">
-                    <a class="font-header-2 nav-menu-title text-header" href="https://www.voidrev.us/develop">Create</a>
+                    <a class="font-header-2 nav-menu-title text-header" href="https://ishowrevival.up.railway.app/develop">Create</a>
                 </li>
                 <li class="cursor-pointer">
-                    <a class="font-header-2 buy-robux nav-menu-title text-header" href="https://www.voidrev.us/upgrades/robux?ctx=nav">Robux</a>
+                    <a class="font-header-2 buy-robux nav-menu-title text-header" href="https://ishowrevival.up.railway.app/upgrades/robux?ctx=nav">Robux</a>
                 </li>
             </ul><!--rbx-navbar-->
         </div>
@@ -859,7 +859,7 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
         <div id="navigation" class="rbx-left-col  gotham-font" data-behavior="left-col">
             <ul>
                 <li class="text-lead">
-                    <a class="text-nav font-header-2 text-overflow" href="https://www.voidrev.us/users/886284560/profile">pepsiboy6000</a>
+                    <a class="text-nav font-header-2 text-overflow" href="https://ishowrevival.up.railway.app/users/886284560/profile">pepsiboy6000</a>
                 </li>
                 <li class="rbx-divider"></li>
             </ul>
@@ -867,13 +867,13 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
             <div class="rbx-scrollbar" data-toggle="scrollbar" onselectstart="return false;">
                 <ul class="left-col-list">
                     <li>
-                        <a href="https://www.voidrev.us/home" id="nav-home" class="dynamic-overflow-container text-nav">
+                        <a href="https://ishowrevival.up.railway.app/home" id="nav-home" class="dynamic-overflow-container text-nav">
                             <div><span class="icon-nav-home"></span></div>
                             <span class="font-header-2 dynamic-ellipsis-item">Home</span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.voidrev.us/users/886284560/profile" id="nav-profile" class="dynamic-overflow-container text-nav">
+                        <a href="https://ishowrevival.up.railway.app/users/886284560/profile" id="nav-profile" class="dynamic-overflow-container text-nav">
                             <div>
                                 <span class="icon-nav-profile"></span>
                             </div>
@@ -881,7 +881,7 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
                         </a>
                     </li>
                     <li id="navigation-messages">
-                        <a href="https://www.voidrev.us/my/messages/#!/inbox" id="nav-message" data-count="0" class="dynamic-overflow-container text-nav">
+                        <a href="https://ishowrevival.up.railway.app/my/messages/#!/inbox" id="nav-message" data-count="0" class="dynamic-overflow-container text-nav">
                             <div><span class="icon-nav-message"></span></div>
                             <span class="font-header-2 dynamic-ellipsis-item" title="Messages">Messages</span>
                             <div class="dynamic-width-item align-right">
@@ -899,19 +899,19 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.voidrev.us/my/avatar" id="nav-character" class="dynamic-overflow-container text-nav">
+                        <a href="https://ishowrevival.up.railway.app/my/avatar" id="nav-character" class="dynamic-overflow-container text-nav">
                             <div><span class="icon-nav-charactercustomizer"></span></div>
                             <span class="font-header-2 dynamic-width-item">Avatar</span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.voidrev.us/users/886284560/inventory" id="nav-inventory" class="dynamic-overflow-container text-nav">
+                        <a href="https://ishowrevival.up.railway.app/users/886284560/inventory" id="nav-inventory" class="dynamic-overflow-container text-nav">
                             <div><span class="icon-nav-inventory"></span></div>
                             <span class="font-header-2 dynamic-width-item">Inventory</span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.voidrev.us/my/money.aspx#/#TradeItems_tab" id="nav-trade" class="dynamic-overflow-container text-nav">
+                        <a href="https://ishowrevival.up.railway.app/my/money.aspx#/#TradeItems_tab" id="nav-trade" class="dynamic-overflow-container text-nav">
                             <div>
                                 <span class="icon-nav-trade"></span>
                             </div>
@@ -922,7 +922,7 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.voidrev.us/my/groups" id="nav-group" class="dynamic-overflow-container text-nav">
+                        <a href="https://ishowrevival.up.railway.app/my/groups" id="nav-group" class="dynamic-overflow-container text-nav">
                             <div>
                                 <span class="icon-nav-group"></span>
                             </div>
@@ -930,13 +930,13 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.voidrev.us/feeds/" id="nav-my-feed" class="dynamic-overflow-container text-nav">
+                        <a href="https://ishowrevival.up.railway.app/feeds/" id="nav-my-feed" class="dynamic-overflow-container text-nav">
                             <div><span class="icon-nav-my-feed"></span></div>
                             <span class="font-header-2 dynamic-ellipsis-item">My Feed</span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://blog.voidrev.us" id="nav-blog" class="dynamic-overflow-container text-nav">
+                        <a href="https://blog.ishowrevival.up.railway.app" id="nav-blog" class="dynamic-overflow-container text-nav">
                             <div>
                                 <span class="icon-nav-blog"></span>
                             </div>
@@ -952,19 +952,19 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
                             </a>
                         </li>
                     <li class="rbx-upgrade-now">
-                        <a href="https://www.voidrev.us/premium/membership?ctx=leftnav"
+                        <a href="https://ishowrevival.up.railway.app/premium/membership?ctx=leftnav"
                            class="btn-growth-md btn-secondary-md" id="upgrade-now-button">Upgrade Now</a>
                     </li>
                         <li class="font-bold small text-nav">
                             Events
                         </li>
                             <li class="rbx-nav-sponsor" ng-non-bindable>
-                                <a class="text-nav menu-item" href="https://www.voidrev.us/sponsored/weeklygames" title="weeklygames">
+                                <a class="text-nav menu-item" href="https://ishowrevival.up.railway.app/sponsored/weeklygames" title="weeklygames">
                                         <img src="https://images.rbxcdn.com/20fca360a84928e9a10145540f759331" />
                                 </a>
                             </li>
                             <li class="rbx-nav-sponsor" ng-non-bindable>
-                                <a class="text-nav menu-item" href="https://www.voidrev.us/sponsored/creatorgodzilla" title="creatorgodzilla">
+                                <a class="text-nav menu-item" href="https://ishowrevival.up.railway.app/sponsored/creatorgodzilla" title="creatorgodzilla">
                                         <img src="https://images.rbxcdn.com/aba8bf01efe1ae9942498eb94e0a0498" />
                                 </a>
                             </li>
@@ -1018,7 +1018,7 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
         height="110"
         scrolling="no"
         data-src=""
-        src="https://www.voidrev.us/user-sponsorship/?id=3"
+        src="https://ishowrevival.up.railway.app/user-sponsorship/?id=3"
         width="728"
         data-js-adtype="iframead"
         data-ad-slot="Roblox_Default_Top_728x90"></iframe>
@@ -1052,13 +1052,13 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
             MarkMessagesUnreadLink: "/messages/api/mark-messages-unread",
             SendMessageJsonResultLink: "/messages/send",
             GetMyUnreadMessagesCountLink: "/messages/api/unread-messages-summary",
-            GetMessageDetailByIdLink: "https://www.voidrev.us/messages/api/get-message/"
+            GetMessageDetailByIdLink: "https://ishowrevival.up.railway.app/messages/api/get-message/"
         };
         Roblox.messageDefaults = {
             robloxUserId: 1,
             robloxUserName: "ROBLOX",
             robloxUserThumbnail: "https://t0.rbxcdn.com/a36d6aab17f37ce4f71d32efedf05823",
-            robloxUserAbsoluteUrl: "https://www.voidrev.us/users/1/profile/"
+            robloxUserAbsoluteUrl: "https://ishowrevival.up.railway.app/users/1/profile/"
         };
     </script>
     <div ng-modules="robloxApp, messages" class="messages-container">
@@ -1079,7 +1079,7 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
         height="612"
         scrolling="no"
         data-src=""
-        src="https://www.voidrev.us/user-sponsorship/?id=1"
+        src="https://ishowrevival.up.railway.app/user-sponsorship/?id=1"
         width="160"
         data-js-adtype="iframead"
         data-ad-slot="Roblox_Default_Right_160x600"></iframe>
@@ -1093,37 +1093,37 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
         <div class="footer">
             <ul class="row footer-links">
                     <li class="footer-link">
-                        <a href="https://www.voidrev.us/info/about-us?locale=en_us" class="text-footer-nav roblox-interstitial" target="_blank">
+                        <a href="https://ishowrevival.up.railway.app/info/about-us?locale=en_us" class="text-footer-nav roblox-interstitial" target="_blank">
                             About Us
                         </a>
                     </li>
                     <li class="footer-link">
-                        <a href="https://www.voidrev.us/info/jobs?locale=en_us" class="text-footer-nav roblox-interstitial" target="_blank">
+                        <a href="https://ishowrevival.up.railway.app/info/jobs?locale=en_us" class="text-footer-nav roblox-interstitial" target="_blank">
                             Jobs
                         </a>
                     </li>
                 <li class=" footer-link">
-                    <a href="https://www.voidrev.us/info/blog?locale=en_us" class="text-footer-nav" target="_blank">
+                    <a href="https://ishowrevival.up.railway.app/info/blog?locale=en_us" class="text-footer-nav" target="_blank">
                         Blog
                     </a>
                 </li>
                 <li class=" footer-link">
-                    <a href="https://www.voidrev.us/info/parents?locale=en_us" class="text-footer-nav roblox-interstitial" target="_blank">
+                    <a href="https://ishowrevival.up.railway.app/info/parents?locale=en_us" class="text-footer-nav roblox-interstitial" target="_blank">
                         Parents
                     </a>
                 </li>
                 <li class=" footer-link">
-                    <a href="https://www.voidrev.us/info/help?locale=en_us" class="text-footer-nav roblox-interstitial" target="_blank">
+                    <a href="https://ishowrevival.up.railway.app/info/help?locale=en_us" class="text-footer-nav roblox-interstitial" target="_blank">
                         Help
                     </a>
                 </li>
                 <li class=" footer-link">
-                    <a href="https://www.voidrev.us/info/terms?locale=en_us" class="text-footer-nav" target="_blank">
+                    <a href="https://ishowrevival.up.railway.app/info/terms?locale=en_us" class="text-footer-nav" target="_blank">
                         Terms
                     </a>
                 </li>
                 <li class=" footer-link">
-                    <a href="https://www.voidrev.us/info/privacy?locale=en_us" class="text-footer-nav privacy" target="_blank">
+                    <a href="https://ishowrevival.up.railway.app/info/privacy?locale=en_us" class="text-footer-nav privacy" target="_blank">
                         Privacy
                     </a>
                 </li>
@@ -1774,7 +1774,7 @@ English                                </span>
             play: {
                 content: "<img src='https://images.rbxcdn.com/6304dfebadecbb3b338a79a6a528936c.svg.gzip' width='90' height='90' alt='R'/><p>You&#39;re moments away from getting into the game!</p>",
                 buttonText: "Download and Install Roblox",
-                footerContent: "<a href='https://assetgame.voidrev.us/game/help'class= 'text-name small' target='_blank' >Click here for help</a> "
+                footerContent: "<a href='https://assetgame.ishowrevival.up.railway.app/game/help'class= 'text-name small' target='_blank' >Click here for help</a> "
             },
             studio: {
                 content: "<img src='https://images.rbxcdn.com/3da410727fa2670dcb4f31316643138a.svg.gzip' width='95' height='95' alt='R' /><p>Get started creating your own games!</p>",
@@ -1860,7 +1860,7 @@ English                                </span>
         </div>
         <div id="videoPrerollJoinBC">
             <span>Get more with Builders Club!</span>
-            <a href="https://www.voidrev.us/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
+            <a href="https://ishowrevival.up.railway.app/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
         </div>
     </div>   
     <script type="text/javascript">
@@ -1897,7 +1897,7 @@ English                                </span>
 
 <script type="text/javascript">
 function checkRobloxInstall() {
-             window.location = 'https://www.voidrev.us/install/unsupported.aspx?osx=10.5'; return false;
+             window.location = 'https://ishowrevival.up.railway.app/install/unsupported.aspx?osx=10.5'; return false;
 }
 </script>
 
@@ -2075,7 +2075,7 @@ function checkRobloxInstall() {
 
     <script type="text/javascript">
         $(function () {
-            Roblox.CookieUpgrader.domain = 'voidrev.us';
+            Roblox.CookieUpgrader.domain = 'ishowrevival.up.railway.app';
             Roblox.CookieUpgrader.upgrade("GuestData", { expires: Roblox.CookieUpgrader.thirtyYearsFromNow });
             Roblox.CookieUpgrader.upgrade("RBXSource", { expires: function (cookie) { return Roblox.CookieUpgrader.getExpirationFromCookieValue("rbx_acquisition_time", cookie); } });
             Roblox.CookieUpgrader.upgrade("RBXViralAcquisition", { expires: function (cookie) { return Roblox.CookieUpgrader.getExpirationFromCookieValue("time", cookie); } });
@@ -2258,7 +2258,7 @@ function checkRobloxInstall() {
 <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='pushnotifications' type='text/javascript' src='https://js.rbxcdn.com/e795d08fc25dc32f62c4d5959bef0edb.js.gzip'></script>
 
 <div id="push-notification-registrar-settings"
-        data-notificationshost="https://www.voidrev.us"
+        data-notificationshost="https://ishowrevival.up.railway.app"
         data-reregistrationinterval="0"
         data-registrationpath="register-chrome"
         data-shoulddeliveryendpointbesentduringregistration="False"
@@ -2269,7 +2269,7 @@ function checkRobloxInstall() {
         data-promptonfriendrequestsentenabled="true"
         data-promptonprivatemessagesentenabled="false"
         data-promptintervals="[604800000,1209600000,2419200000]"
-        data-notificationsdomain="https://www.voidrev.us"
+        data-notificationsdomain="https://ishowrevival.up.railway.app"
         data-userid="886284560">
 </div>
 

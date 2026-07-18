@@ -41,8 +41,8 @@ $placeId = "/img/games/0s.png";
 }
 $gameItem = [
 "final" => true,
-"url" => "https://www.voidrev.us/v1/games/game-thumbnail?imageToken={$placeId}&height=50&width=50",
-"cdnUrl" => "https://www.voidrev.us/img/games/{$gameid}s.png",
+"url" => "https://ishowrevival.up.railway.app/v1/games/game-thumbnail?imageToken={$placeId}&height=50&width=50",
+"cdnUrl" => "https://ishowrevival.up.railway.app/img/games/{$gameid}s.png",
 "retryToken" => null,
 "universeId" => $gameid,
 "placeId" => $gameid
@@ -52,7 +52,7 @@ $gameData[] = $gameItem;
 echo json_encode($gameData, JSON_PRETTY_PRINT);
 }elseif(strpos($url, "game-thumbnail") !== false){
 $imageToken = urldecode($_GET['imageToken']);
-header("Location: https://www.voidrev.us".$imageToken);
+header("Location: https://ishowrevival.up.railway.app".$imageToken);
 exit();
 }elseif(strpos($url, "icons") !== false){
 // yes i didnt rename shit im lazy ok
@@ -78,7 +78,7 @@ foreach ($placeIds as $placeId) {
 $gameItem = [
 "targetId" => (int)$placeId,
 "state" => "Completed",
-"imageUrl" => "https://www.voidrev.us".getPlaceIcon($con,$placeId),
+"imageUrl" => "https://ishowrevival.up.railway.app".getPlaceIcon($con,$placeId),
 ];
 $gameData["data"][] = $gameItem;
 }
@@ -230,7 +230,7 @@ $gameItem = [
 "description" => $game['description'],
 "sourceName" => $game['name'],
 "sourceDescription" => $game['description'],
-"url" => "https://www.voidrev.us/games/{$game['id']}/",
+"url" => "https://ishowrevival.up.railway.app/games/{$game['id']}/",
 "builder" => $creatorname,
 "builderId" => $game['creatorid'],
 "hasVerifiedBadge" => ($game['featured'] == 1),

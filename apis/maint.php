@@ -2,8 +2,8 @@
 $input = urldecode($_POST['ctl00$cphRoblox$Textbox1']);
 $actualpassword = "LimboBypassPass";
 if($input === $actualpassword){
-setcookie("BypassMaintenance", $actualpassword, time() + (86400), "/", '.voidrev.us');
-header("Location: https://www.voidrev.us");
+setcookie("BypassMaintenance", $actualpassword, time() + (86400), "/", '.ishowrevival.up.railway.app');
+header("Location: https://ishowrevival.up.railway.app");
 }else{
-header("Location: https://www.voidrev.us/maintenance");
+header("Location: https://ishowrevival.up.railway.app/maintenance");
 }

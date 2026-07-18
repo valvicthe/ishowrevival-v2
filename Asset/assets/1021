@@ -104,7 +104,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<token name="LODX">2</token>
 					<token name="LODY">2</token>
-					<Content name="MeshId"><url>http://voidrev.us/asset?id=856</url></Content>
+					<Content name="MeshId"><url>http://ishowrevival.up.railway.app/asset?id=856</url></Content>
 					<token name="MeshType">5</token>
 					<string name="Name">SpecialMesh</string>
 					<Vector3 name="Offset">
@@ -119,7 +119,7 @@
 					</Vector3>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
-					<Content name="TextureId"><url>http://voidrev.us/asset?id=979</url></Content>
+					<Content name="TextureId"><url>http://ishowrevival.up.railway.app/asset?id=979</url></Content>
 					<Vector3 name="VertexColor">
 						<X>1</X>
 						<Y>1</Y>
@@ -203,7 +203,7 @@ end]]></ProtectedString>
 					<bool name="Playing">false</bool>
 					<token name="RollOffMode">0</token>
 					<Ref name="SoundGroup">null</Ref>
-					<Content name="SoundId"><url>http://voidrev.us/asset?id=1000</url></Content>
+					<Content name="SoundId"><url>http://ishowrevival.up.railway.app/asset?id=1000</url></Content>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 					<double name="TimePosition">0</double>
@@ -222,7 +222,7 @@ end]]></ProtectedString>
 					<bool name="Playing">false</bool>
 					<token name="RollOffMode">0</token>
 					<Ref name="SoundGroup">null</Ref>
-					<Content name="SoundId"><url>http://voidrev.us/asset?id=997</url></Content>
+					<Content name="SoundId"><url>http://ishowrevival.up.railway.app/asset?id=997</url></Content>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 					<double name="TimePosition">0</double>
@@ -241,7 +241,7 @@ end]]></ProtectedString>
 					<bool name="Playing">false</bool>
 					<token name="RollOffMode">0</token>
 					<Ref name="SoundGroup">null</Ref>
-					<Content name="SoundId"><url>http://voidrev.us/asset?id=994</url></Content>
+					<Content name="SoundId"><url>http://ishowrevival.up.railway.app/asset?id=994</url></Content>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 					<double name="TimePosition">0</double>
@@ -260,7 +260,7 @@ end]]></ProtectedString>
 					<bool name="Playing">false</bool>
 					<token name="RollOffMode">0</token>
 					<Ref name="SoundGroup">null</Ref>
-					<Content name="SoundId"><url>http://voidrev.us/asset?id=991</url></Content>
+					<Content name="SoundId"><url>http://ishowrevival.up.railway.app/asset?id=991</url></Content>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 					<double name="TimePosition">0</double>

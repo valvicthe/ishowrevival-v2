@@ -2,7 +2,7 @@
 require($_SERVER['DOCUMENT_ROOT']."/config/includes.php");
 $usr = getUserData($con);
 if($usr['activated'] == 1 && $usr['discordid'] != NULL){
-die(header("Location: https://www.voidrev.us/home/"));
+die(header("Location: https://ishowrevival.up.railway.app/home/"));
 }
 if($_GET['error'] == 1){
 $errorMsg = "Sorry, your Discord account is too new to do this, come back later.";

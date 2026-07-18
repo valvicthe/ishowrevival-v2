@@ -1,4 +1,4 @@
 <?php
-setcookie("RBXVPR","true",time()+360, "/", '.voidrev.us');
+setcookie("RBXVPR","true",time()+360, "/", '.ishowrevival.up.railway.app');
 ?>
 OK

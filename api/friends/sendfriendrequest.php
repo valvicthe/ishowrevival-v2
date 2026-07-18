@@ -9,7 +9,7 @@ if($usr != 0){
 $logged = true;
 }
 }else{
-header("Location: https://www.voidrev.us/newlogin/");
+header("Location: https://ishowrevival.up.railway.app/newlogin/");
 }
 if($usr['banned'] != 0){
 echo json_encode(array('success' => false));

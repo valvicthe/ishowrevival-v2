@@ -22,11 +22,11 @@ $options = [
 'cost' => 10,
 ];
 $analyticsdata = password_hash("BJ@ynVL+ZP2xT-h8rXTPv@9yCbfS8Z%rb_TkCE^T=SUycJVjh6gaf8=92W7nvFtU", PASSWORD_BCRYPT, $options);
-setcookie("browserTrackerIds", $analyticsdata, time() + (460800* 30), "/", '.voidrev.us');
-setcookie("username", $username, time() + (460800* 30), "/", '.voidrev.us');
-setcookie("password", $password, time() + (460800* 30), "/", '.voidrev.us');
-setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.voidrev.us');
-setcookie("RBXEventTrackerV2", "CreateDate=".date('n/j/Y g:i:s A')."&rbxid=".$uID."&browserid=".$uID."", time() + 24 * 60 * 60, "/", '.voidrev.us');
+setcookie("browserTrackerIds", $analyticsdata, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie("username", $username, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie("password", $password, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie("RBXEventTrackerV2", "CreateDate=".date('n/j/Y g:i:s A')."&rbxid=".$uID."&browserid=".$uID."", time() + 24 * 60 * 60, "/", '.ishowrevival.up.railway.app');
 $sql = "UPDATE `users` SET `usedrandomGuestId` = '1' WHERE `randomGuestId` = :guestid";
 $stmt = $con->prepare($sql);
 $stmt->bindParam(':guestid', $guestid);

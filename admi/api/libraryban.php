@@ -48,7 +48,7 @@ $fileid = $library['fileid'];
 $realfileid = $library['realfileid'];
 unlink($_SERVER['DOCUMENT_ROOT']."/asset/assets/".$fileid);
 unlink($_SERVER['DOCUMENT_ROOT']."/asset/assets/".$realfileid);
-header("Location: https://www.voidrev.us/admi/?tab=Moderation&item=Library");
+header("Location: https://ishowrevival.up.railway.app/admi/?tab=Moderation&item=Library");
 die("Success, returning");
 } else {
 die("Bad Request");

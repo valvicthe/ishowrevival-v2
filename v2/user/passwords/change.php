@@ -23,12 +23,12 @@ $options = [
 $newPassword = password_hash($newPassword, PASSWORD_BCRYPT, $options);
 $nameupdate = $con->prepare("UPDATE `users` SET `password` = :password WHERE `id`= :id");
 $nameupdate->execute(['password' => $newPassword, 'id' => $uID]);
-setcookie("password", $newPassword, time() + (460800* 30), "/", '.voidrev.us');
+setcookie("password", $newPassword, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
 
 $newPassword = password_hash($newPassword, PASSWORD_BCRYPT, $options);
 $nameupdate = $con->prepare("UPDATE `users` SET `ROBLOSECURITY` = :ROBLOSECURITY WHERE `id`= :id");
 $nameupdate->execute(['ROBLOSECURITY' => $newPassword, 'id' => $uID]);
-setcookie(".ROBLOSECURITY", $newPassword, time() + (460800* 30), "/", '.voidrev.us');
+setcookie(".ROBLOSECURITY", $newPassword, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
 
 echo"{}";
 exit();

@@ -1,3 +1,3 @@
 <?php
-header("Location: https://www.voidrev.us/games/");
+header("Location: https://ishowrevival.up.railway.app/games/");
 ?>

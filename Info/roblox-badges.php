@@ -15,11 +15,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://www.voidrev.us/css/leanbase.css' />
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://ishowrevival.up.railway.app/css/leanbase.css' />
 
 
     
-<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://www.voidrev.us/css/badgepage.css' />
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://ishowrevival.up.railway.app/css/badgepage.css' />
 
                                         <div id="Leaderboard-Abp" class="abp leaderboard-abp">
                     
@@ -30,7 +30,7 @@
         height="110"
         scrolling="no"
         data-src=""
-        src="https://www.voidrev.us/user-sponsorship/?id=3"
+        src="https://ishowrevival.up.railway.app/user-sponsorship/?id=3"
         width="728"
         data-js-adtype="iframead"
         data-ad-slot=""></iframe>
@@ -43,7 +43,7 @@
             <ul class="stack-list">
                     <li id="Badge18" class="divider-bottom stack-row">
                         <div class="badge-image">
-                                <img src="https://www.voidrev.us/img/6c2a598114231066a386fa716ac099c4.png" alt="Welcome To The Club" width="75" height="75" />
+                                <img src="https://ishowrevival.up.railway.app/img/6c2a598114231066a386fa716ac099c4.png" alt="Welcome To The Club" width="75" height="75" />
                         </div>
                         <div class="badge-description">
                             <h3>Welcome To The Club Badge</h3>
@@ -53,7 +53,7 @@
                     </li>
                     <li id="Badge11" class="divider-bottom stack-row">
                         <div class="badge-image">
-                                <img src="https://www.voidrev.us/img/3b3ab51727ad660e1569cb53e0b2d4a5.png" alt="Builders Club" width="75" height="75" />
+                                <img src="https://ishowrevival.up.railway.app/img/3b3ab51727ad660e1569cb53e0b2d4a5.png" alt="Builders Club" width="75" height="75" />
                         </div>
                         <div class="badge-description">
                             <h3>Builders Club Badge</h3>
@@ -63,7 +63,7 @@
                     </li>
                     <li id="Badge15" class="divider-bottom stack-row">
                         <div class="badge-image">
-                                <img src="https://www.voidrev.us/img/61f5f43c05222fc2ce06b9983d4e1107.png" alt="Turbo Builders Club" width="75" height="75" />
+                                <img src="https://ishowrevival.up.railway.app/img/61f5f43c05222fc2ce06b9983d4e1107.png" alt="Turbo Builders Club" width="75" height="75" />
                         </div>
                         <div class="badge-description">
                             <h3>Turbo Builders Club Badge</h3>
@@ -73,7 +73,7 @@
                     </li>
                     <li id="Badge16" class="divider-bottom stack-row">
                         <div class="badge-image">
-                                <img src="https://www.voidrev.us/img/7df6357ab1eb2dcf5267d2c5184732ab.png" alt="Outrageous Builders Club" width="75" height="75" />
+                                <img src="https://ishowrevival.up.railway.app/img/7df6357ab1eb2dcf5267d2c5184732ab.png" alt="Outrageous Builders Club" width="75" height="75" />
                         </div>
                         <div class="badge-description">
                             <h3>Outrageous Builders Club Badge</h3>
@@ -98,7 +98,7 @@
                     </li>
                     <li id="Badge12" class="divider-bottom stack-row">
                         <div class="badge-image">
-                                <img src="https://www.voidrev.us/img/b7e6cabb5a1600d813f5843f37181fa3.png" alt="Veteran" width="75" height="75" />
+                                <img src="https://ishowrevival.up.railway.app/img/b7e6cabb5a1600d813f5843f37181fa3.png" alt="Veteran" width="75" height="75" />
                         </div>
                         <div class="badge-description">
                             <h3>Veteran Badge</h3>
@@ -108,7 +108,7 @@
                     </li>
                     <li id="Badge2" class="divider-bottom stack-row">
                         <div class="badge-image">
-                                <img src="https://www.voidrev.us/img/5eb20917cf530583e2641c0e1f7ba95e.png" alt="Friendship" width="75" height="75" />
+                                <img src="https://ishowrevival.up.railway.app/img/5eb20917cf530583e2641c0e1f7ba95e.png" alt="Friendship" width="75" height="75" />
                         </div>
                         <div class="badge-description">
                             <h3>Friendship Badge</h3>
@@ -118,7 +118,7 @@
                     </li>
                     <li id="Badge14" class="divider-bottom stack-row">
                         <div class="badge-image">
-                                <img src="https://www.voidrev.us/img/b853909efc7fdcf590363d01f5894f09.png" alt="Ambassador" width="75" height="75" />
+                                <img src="https://ishowrevival.up.railway.app/img/b853909efc7fdcf590363d01f5894f09.png" alt="Ambassador" width="75" height="75" />
                         </div>
                         <div class="badge-description">
                             <h3>Ambassador Badge</h3>
@@ -128,7 +128,7 @@
                     </li>
                     <li id="Badge8" class="divider-bottom stack-row">
                         <div class="badge-image">
-                                <img src="https://www.voidrev.us/img/01044aca1d917eb20bfbdc5e25af1294.png" alt="Inviter" width="75" height="75" />
+                                <img src="https://ishowrevival.up.railway.app/img/01044aca1d917eb20bfbdc5e25af1294.png" alt="Inviter" width="75" height="75" />
                         </div>
                         <div class="badge-description">
                             <h3>Inviter Badge</h3>
@@ -143,7 +143,7 @@
             <ul class="stack-list">
                     <li id="Badge6" class="divider-bottom stack-row">
                         <div class="badge-image">
-                                <img src="https://www.voidrev.us/img/b66bc601e2256546c5dd6188fce7a8d1.png" alt="Homestead" width="75" height="75" />
+                                <img src="https://ishowrevival.up.railway.app/img/b66bc601e2256546c5dd6188fce7a8d1.png" alt="Homestead" width="75" height="75" />
                         </div>
                         <div class="badge-description">
                             <h3>Homestead Badge</h3>
@@ -153,7 +153,7 @@
                     </li>
                     <li id="Badge7" class="divider-bottom stack-row">
                         <div class="badge-image">
-                                <img src="https://www.voidrev.us/img/49f3d30f5c16a1c25ea0f97ea8ef150e.png" alt="Bricksmith" width="75" height="75" />
+                                <img src="https://ishowrevival.up.railway.app/img/49f3d30f5c16a1c25ea0f97ea8ef150e.png" alt="Bricksmith" width="75" height="75" />
                         </div>
                         <div class="badge-description">
                             <h3>Bricksmith Badge</h3>
@@ -163,7 +163,7 @@
                     </li>
                     <li id="Badge17" class="divider-bottom stack-row">
                         <div class="badge-image">
-                                <img src="https://www.voidrev.us/img/45710972c9c8d556805f8bee89389648.png" alt="Official Model Maker" width="75" height="75" />
+                                <img src="https://ishowrevival.up.railway.app/img/45710972c9c8d556805f8bee89389648.png" alt="Official Model Maker" width="75" height="75" />
                         </div>
                         <div class="badge-description">
                             <h3>Official Model Maker Badge</h3>
@@ -178,7 +178,7 @@
             <ul class="stack-list">
                     <li id="Badge3" class="divider-bottom stack-row">
                         <div class="badge-image">
-                                <img src="https://www.voidrev.us/img/8d77254fc1e6d904fd3ded29dfca28cb.png" alt="Combat Initiation" width="75" height="75" />
+                                <img src="https://ishowrevival.up.railway.app/img/8d77254fc1e6d904fd3ded29dfca28cb.png" alt="Combat Initiation" width="75" height="75" />
                         </div>
                         <div class="badge-description">
                             <h3>Combat Initiation Badge</h3>
@@ -188,7 +188,7 @@
                     </li>
                     <li id="Badge4" class="divider-bottom stack-row">
                         <div class="badge-image">
-                                <img src="https://www.voidrev.us/img/0a010c31a8b482731114810590553be3.png" alt="Warrior" width="75" height="75" />
+                                <img src="https://ishowrevival.up.railway.app/img/0a010c31a8b482731114810590553be3.png" alt="Warrior" width="75" height="75" />
                         </div>
                         <div class="badge-description">
                             <h3>Warrior Badge</h3>
@@ -198,7 +198,7 @@
                     </li>
                     <li id="Badge5" class="divider-bottom stack-row">
                         <div class="badge-image">
-                                <img src="https://www.voidrev.us/img/139a7b3acfeb0b881b93a40134766048.png" alt="Bloxxer" width="75" height="75" />
+                                <img src="https://ishowrevival.up.railway.app/img/139a7b3acfeb0b881b93a40134766048.png" alt="Bloxxer" width="75" height="75" />
                         </div>
                         <div class="badge-description">
                             <h3>Bloxxer Badge</h3>
@@ -217,37 +217,37 @@
     <div class="footer">
         <ul class="row footer-links">
                 <li class="footer-link">
-                    <a href="http://www.voidrev.us" class="text-footer-nav roblox-interstitial" target="_blank">
+                    <a href="http://ishowrevival.up.railway.app" class="text-footer-nav roblox-interstitial" target="_blank">
                         About Us
                     </a>
                 </li>
                 <li class="footer-link">
-                    <a href="https://www.voidrev.us/careers/" class="text-footer-nav roblox-interstitial" target="_blank">
+                    <a href="https://ishowrevival.up.railway.app/careers/" class="text-footer-nav roblox-interstitial" target="_blank">
                         Jobs
                     </a>
                 </li>
             <li class=" footer-link">
-                <a href="https://www.voidrev.us" class="text-footer-nav" target="_blank">
+                <a href="https://ishowrevival.up.railway.app" class="text-footer-nav" target="_blank">
                     Blog
                 </a>
             </li>
             <li class=" footer-link">
-                <a href="http://www.voidrev.us/parents" class="text-footer-nav roblox-interstitial" target="_blank">
+                <a href="http://ishowrevival.up.railway.app/parents" class="text-footer-nav roblox-interstitial" target="_blank">
                     Parents
                 </a>
             </li>
             <li class=" footer-link">
-                <a href="https://www.voidrev.us/help?locale=en_us" class="text-footer-nav roblox-interstitial" target="_blank">
+                <a href="https://ishowrevival.up.railway.app/help?locale=en_us" class="text-footer-nav roblox-interstitial" target="_blank">
                     Help
                 </a>
             </li>
             <li class=" footer-link">
-                <a href="https://www.voidrev.us/info/terms?locale=en_us" class="text-footer-nav" target="_blank">
+                <a href="https://ishowrevival.up.railway.app/info/terms?locale=en_us" class="text-footer-nav" target="_blank">
                     Terms
                 </a>
             </li>
             <li class=" footer-link">
-                <a href="https://www.voidrev.us/info/privacy?locale=en_us" class="text-footer-nav privacy" target="_blank">
+                <a href="https://ishowrevival.up.railway.app/info/privacy?locale=en_us" class="text-footer-nav privacy" target="_blank">
                     Privacy
                 </a>
             </li>
@@ -278,23 +278,23 @@
         RefactorEnabled: "True",
         ProtocolHandlerAreYouInstalled: {
             play: {
-                content: "<img src='https://www.voidrev.us/img/6304dfebadecbb3b338a79a6a528936c.svg' width='90' height='90' alt='R'/><p>You&#39;re moments away from getting into the game!</p>",
+                content: "<img src='https://ishowrevival.up.railway.app/img/6304dfebadecbb3b338a79a6a528936c.svg' width='90' height='90' alt='R'/><p>You&#39;re moments away from getting into the game!</p>",
                 buttonText: "Download and Install Roblox",
                 footerContent: "<a href='https://assetgame.roblox.com/game/help'class= 'text-name small' target='_blank' >Click here for help</a> "
             },
             studio: {
-                content: "<img src='https://www.voidrev.us/img/3da410727fa2670dcb4f31316643138a.svg' width='95' height='95' alt='R' /><p>Get started creating your own games!</p>",
+                content: "<img src='https://ishowrevival.up.railway.app/img/3da410727fa2670dcb4f31316643138a.svg' width='95' height='95' alt='R' /><p>Get started creating your own games!</p>",
                 buttonText: "Download Studio"
             }
         },
         ProtocolHandlerStartingDialog: {
             play: {
-                content: "<img src='https://www.voidrev.us/img/6304dfebadecbb3b338a79a6a528936c.svg' width='90' height='90' alt='R'/><p>Roblox is now loading. Get ready to play!</p>"
+                content: "<img src='https://ishowrevival.up.railway.app/img/6304dfebadecbb3b338a79a6a528936c.svg' width='90' height='90' alt='R'/><p>Roblox is now loading. Get ready to play!</p>"
             },
             studio: {
-                content: "<img src='https://www.voidrev.us/img/3da410727fa2670dcb4f31316643138a.svg' width='95' height='95' alt='R' /><p>Checking for Roblox Studio...</p>"
+                content: "<img src='https://ishowrevival.up.railway.app/img/3da410727fa2670dcb4f31316643138a.svg' width='95' height='95' alt='R' /><p>Checking for Roblox Studio...</p>"
             },
-            loader: "<img src='https://www.voidrev.us/img/4bed93c91f909002b1f17f05c0ce13d1.gif' width='82' height='24' class='loader'/>"
+            loader: "<img src='https://ishowrevival.up.railway.app/img/4bed93c91f909002b1f17f05c0ce13d1.gif' width='82' height='24' class='loader'/>"
         }
     };
 </script>
@@ -318,7 +318,7 @@
 >
     <div class="modalPopup blueAndWhite PlaceLauncherModal" style="min-height: 160px">
         <div id="Spinner" class="Spinner" style="padding:20px 0;">
-            <img data-delaysrc="https://www.voidrev.us/img/e998fb4c03e8c2e30792f2f3436e9416.gif" height="32" width="32" alt="Progress" />
+            <img data-delaysrc="https://ishowrevival.up.railway.app/img/e998fb4c03e8c2e30792f2f3436e9416.gif" height="32" width="32" alt="Progress" />
         </div>
         <div id="status" style="min-height:40px;text-align:center;margin:5px 20px">
             <div id="Starting" class="PlaceLauncherStatus MadStatusStarting" style="display:block">
@@ -339,7 +339,7 @@
     <p class="larger-font-size">
         <span class="icon-moreinfo"></span>
                 
-                    Check <strong>Remember my choice</strong> and click <img data-delaysrc="https://www.voidrev.us/img/5efc356364c1fc286a6e7bbb67e6bd74.png" alt="Launch Application" /> in the dialog box above to join games faster in the future!
+                    Check <strong>Remember my choice</strong> and click <img data-delaysrc="https://ishowrevival.up.railway.app/img/5efc356364c1fc286a6e7bbb67e6bd74.png" alt="Launch Application" /> in the dialog box above to join games faster in the future!
                 
     </p>
 </div>
@@ -364,7 +364,7 @@
         </div>
         <div id="videoPrerollJoinBC">
             <span>Get more with Builders Club!</span>
-            <a href="https://www.voidrev.us/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
+            <a href="https://ishowrevival.up.railway.app/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
         </div>
     </div>   
     <script type="text/javascript">
@@ -401,7 +401,7 @@
 
 <script type="text/javascript">
 function checkRobloxInstall() {
-         window.location = 'https://www.voidrev.us/install/download.aspx'; return false;
+         window.location = 'https://ishowrevival.up.railway.app/install/download.aspx'; return false;
 }
 </script>
 
@@ -445,7 +445,7 @@ function checkRobloxInstall() {
 <div id="pluginObjDiv" style="height:1px;width:1px;visibility:hidden;position: absolute;top: 0;"></div>
 <iframe id="downloadInstallerIFrame" name="downloadInstallerIFrame" style="visibility:hidden;height:0;width:1px;position:absolute"></iframe>
 
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='clientinstaller' type='text/javascript' src='https://www.voidrev.us/js/3f2a863e0026fe90136944e1837e13df.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='clientinstaller' type='text/javascript' src='https://ishowrevival.up.railway.app/js/3f2a863e0026fe90136944e1837e13df.js'></script>
 
 <script type="text/javascript">
     Roblox.Client._skip = '/install/download.aspx';
@@ -530,7 +530,7 @@ function checkRobloxInstall() {
                     <a href id="decline-btn"><span></span></a>
                 </div>
                 <div class="loading modal-processing">
-                    <img class="loading-default" src='https://www.voidrev.us/img/4bed93c91f909002b1f17f05c0ce13d1.gif' alt="Processing..." />
+                    <img class="loading-default" src='https://ishowrevival.up.railway.app/img/4bed93c91f909002b1f17f05c0ce13d1.gif' alt="Processing..." />
                 </div>
             </div>
             <div class="modal-footer text-footer">
@@ -569,24 +569,24 @@ function checkRobloxInstall() {
 
 
     
-    <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='leanbase' type='text/javascript' src='https://www.voidrev.us/js/45d004b5e18052eb0a92835e06014253.js'></script>
+    <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='leanbase' type='text/javascript' src='https://ishowrevival.up.railway.app/js/45d004b5e18052eb0a92835e06014253.js'></script>
 
 
     
-    <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='angular' type='text/javascript' src='https://www.voidrev.us/js/976cb30135704a71e4458af1975c88b8.js'></script>
+    <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='angular' type='text/javascript' src='https://ishowrevival.up.railway.app/js/976cb30135704a71e4458af1975c88b8.js'></script>
 
     <div ng-modules="baseTemplateApp">
-        <script type="text/javascript" src="https://www.voidrev.us/js/f6f21acbca51f8beeba773a02c6ec91a.js"></script>
+        <script type="text/javascript" src="https://ishowrevival.up.railway.app/js/f6f21acbca51f8beeba773a02c6ec91a.js"></script>
     </div>
 
     <div ng-modules="pageTemplateApp">
-        <script type="text/javascript" src="https://www.voidrev.us/js/c595daa1054b8bc26de4dc26428a3eae.js"></script>
+        <script type="text/javascript" src="https://ishowrevival.up.railway.app/js/c595daa1054b8bc26de4dc26428a3eae.js"></script>
     </div>
 
     
 
     
-    <script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://www.voidrev.us/js/446f2ae6dc0920de1e1bd875984f4c36.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://www.voidrev.us/js/fac702cb852bab6006d426d83c56f8ab.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://www.voidrev.us/js/76e30b0ae6a1be83cbf018579681b891.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://www.voidrev.us/js/c948a7edd36e01db699c8cf19303376d.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://www.voidrev.us/js/3afc03adcc2aaca01500baaf69b52d9c.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://www.voidrev.us/js/c90aea1e430a241776db6775e98c3e03.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://www.voidrev.us/js/de56e6c24a3e70ee7d1ec900c24042e8.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://www.voidrev.us/js/6003f8790df31d5445169faea5c04fd7.js';</script>
+    <script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://ishowrevival.up.railway.app/js/446f2ae6dc0920de1e1bd875984f4c36.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://ishowrevival.up.railway.app/js/fac702cb852bab6006d426d83c56f8ab.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://ishowrevival.up.railway.app/js/76e30b0ae6a1be83cbf018579681b891.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://ishowrevival.up.railway.app/js/c948a7edd36e01db699c8cf19303376d.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://ishowrevival.up.railway.app/js/3afc03adcc2aaca01500baaf69b52d9c.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://ishowrevival.up.railway.app/js/c90aea1e430a241776db6775e98c3e03.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://ishowrevival.up.railway.app/js/de56e6c24a3e70ee7d1ec900c24042e8.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://ishowrevival.up.railway.app/js/6003f8790df31d5445169faea5c04fd7.js';</script>
 
     
     <script>
@@ -692,7 +692,7 @@ function checkRobloxInstall() {
 </script>
 
     
-    <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='page' type='text/javascript' src='https://www.voidrev.us/js/4303cd984f21f496d5aa2fc8d30b9fa2.js'></script>
+    <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='page' type='text/javascript' src='https://ishowrevival.up.railway.app/js/4303cd984f21f496d5aa2fc8d30b9fa2.js'></script>
 
 
 

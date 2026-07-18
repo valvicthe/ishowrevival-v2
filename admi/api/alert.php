@@ -33,10 +33,10 @@ $text = filter_var($_POST['text'], FILTER_SANITIZE_FULL_SPECIAL_CHARS, FILTER_FL
 $sql = "INSERT INTO `alerts` (`text`) VALUES (:text)";
 $stmt = $con->prepare($sql);
 $stmt->execute([':text' => $text]);
-header("Location: https://www.voidrev.us/admi/?tab=WebsiteControl&item=Alerts");
+header("Location: https://ishowrevival.up.railway.app/admi/?tab=WebsiteControl&item=Alerts");
 }else{
 $sql = "DELETE FROM `alerts`";
 $stmt = $con->prepare($sql);
 $stmt->execute();
-header("Location: https://www.voidrev.us/admi/?tab=WebsiteControl&item=Alerts");
+header("Location: https://ishowrevival.up.railway.app/admi/?tab=WebsiteControl&item=Alerts");
 }

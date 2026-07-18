@@ -14,7 +14,7 @@ $torso = $user['TorsoColor'];
 header("Content-type: text/xml");
 ?>
 <?echo"<?"?>xml version="1.0" encoding="utf-8" ?>
-<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.voidrev.us/roblox.xsd" version="4">
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ishowrevival.up.railway.app/roblox.xsd" version="4">
   <External>null</External>
   <External>nil</External>
   <Item class="BodyColors">

@@ -209,7 +209,7 @@ $hash = getUserHeadshotThumbnail($con,$userId);
 $newData[] = array(
 "targetId" => $userId,
 "state" => "Completed",
-"imageUrl" => "https://www.voidrev.us".$hash
+"imageUrl" => "https://ishowrevival.up.railway.app".$hash
 );
 }
 $response = array(

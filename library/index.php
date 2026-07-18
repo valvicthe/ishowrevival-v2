@@ -41,21 +41,21 @@ exit();
 <meta name="description" content="<? echo NoXSSPlz($items['description']); ?>" />
 <meta property="og:title" content="<? echo NoXSSPlz($items['name']); ?> - Void" />
 <meta property="og:type" content="game" />
-<meta property="og:url" content="https://www.voidrev.us/library/?id=<?= $id; ?>" />
+<meta property="og:url" content="https://ishowrevival.up.railway.app/library/?id=<?= $id; ?>" />
 <meta property="og:description" content="<? echo NoXSSPlz($items['description']); ?>" />
-<meta property="og:image" content="https://www.voidrev.us<?=getModelThumbnail($con,$id);?>" />
+<meta property="og:image" content="https://ishowrevival.up.railway.app<?=getModelThumbnail($con,$id);?>" />
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="<? echo NoXSSPlz($items['name']); ?> - Void">
 <meta name="twitter:description" content="<? echo NoXSSPlz($items['description']); ?>">
 <meta name="twitter:creator" content="">
-<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://www.voidrev.us/css/leanbase.css' />
-<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://www.voidrev.us/css/librarypage.css' />
-<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' data-bundlename='Captcha' href='https://www.voidrev.us/css/d802dfd15776e71aa0fe8a47d133f7820dbb27eb394fe79a21e5be07aee85ce7.css' />
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://ishowrevival.up.railway.app/css/leanbase.css' />
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://ishowrevival.up.railway.app/css/librarypage.css' />
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' data-bundlename='Captcha' href='https://ishowrevival.up.railway.app/css/d802dfd15776e71aa0fe8a47d133f7820dbb27eb394fe79a21e5be07aee85ce7.css' />
 <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' type='text/javascript' src='https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js'></script>
 <script type='text/javascript'>window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-1.11.1.js'><\/script>")</script>
 <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' type='text/javascript' src='https://ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.2.1.min.js'></script>
 <script type='text/javascript'>window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-migrate-1.2.1.js'><\/script>")</script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='headerinit' type='text/javascript' src='https://www.voidrev.us/js/14b0465ae5e9af6da2a5360328273186.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='headerinit' type='text/javascript' src='https://ishowrevival.up.railway.app/js/14b0465ae5e9af6da2a5360328273186.js'></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 <div id="Leaderboard-Abp" class="abp leaderboard-abp">
 <iframe name="Roblox_Item_Top_728x90"
@@ -64,7 +64,7 @@ frameborder="0"
 height="110"
 scrolling="no"
 data-src=""
-src="https://www.voidrev.us/user-sponsorship/?id=3"
+src="https://ishowrevival.up.railway.app/user-sponsorship/?id=3"
 width="728"
 data-js-adtype="iframead"
 data-ad-slot="Roblox_Item_Top_728x90"></iframe>
@@ -92,8 +92,8 @@ data-is-limited-unique="<?php if($items['limited'] == 2){echo"true";}else{echo"f
 data-user-id="<?php echo ($uID); ?>"
 data-asset-granted="<?php if(is_array($itemgranted)){echo"true";}else{echo"false";}?>"
 data-forward-url=""
-data-avatar-wear-url="https://www.voidrev.us/my/wear?id=<?php echo ($items['id']); ?>"
-data-avatar-remove-url="https://www.voidrev.us/my/wear?id=<?php echo ($items['id']); ?>"
+data-avatar-wear-url="https://ishowrevival.up.railway.app/my/wear?id=<?php echo ($items['id']); ?>"
+data-avatar-remove-url="https://ishowrevival.up.railway.app/my/wear?id=<?php echo ($items['id']); ?>"
 data-current-time="<?=date("m/d/Y g:i:s A");?>">
 <div class="system-feedback">
 <div class="alert-system-feedback">
@@ -107,7 +107,7 @@ data-current-time="<?=date("m/d/Y g:i:s A");?>">
 <div class="border-bottom item-name-container">
 <h2><?php echo NOXSSPlz($items['name']); ?></h2>
 <div>
-<span class="text-label">By <a href='https://www.voidrev.us/users/<?php echo ($items['creatorid']); ?>/profile/' class='text-name'><?php echo NoXSSPlz($items['creatorname']); ?></a></span>
+<span class="text-label">By <a href='https://ishowrevival.up.railway.app/users/<?php echo ($items['creatorid']); ?>/profile/' class='text-name'><?php echo NoXSSPlz($items['creatorname']); ?></a></span>
 <?php if($owned == 'disabled'){ ?>
 <div class="label-checkmark">
 <span class="icon-checkmark-white-bold"></span>
@@ -131,7 +131,7 @@ echo'data-3d-thumbs-enabled';
 ?>
 data-url="/thumbnail/asset?assetId=<?=$id;?>&amp;thumbnailFormatId=254&amp;width=420&amp;height=420">
 <div id="current-animation-name"></div>
-<span class="thumbnail-span" ><img class='' src='https://www.voidrev.us<?=getModelThumbnail($con,$id);?>'/></span><span class="thumbnail-span-original hidden" data-3d-url="/asset-thumbnail-3d/json?assetId=<?=$id;?>"><img class='' src='https://www.voidrev.us<?=getModelThumbnail($con,$id);?>'/></span> <div class="equipped-marker"></div>
+<span class="thumbnail-span" ><img class='' src='https://ishowrevival.up.railway.app<?=getModelThumbnail($con,$id);?>'/></span><span class="thumbnail-span-original hidden" data-3d-url="/asset-thumbnail-3d/json?assetId=<?=$id;?>"><img class='' src='https://ishowrevival.up.railway.app<?=getModelThumbnail($con,$id);?>'/></span> <div class="equipped-marker"></div>
 <div class="thumbnail-buttons">
 <?php
 if($items['type2'] == "Model" || $items['type2'] == "Mesh" || $items['type2'] == "Shirt" || $items['type2'] == "TShirt" || $items['type2'] == "Pants" || $items['type2'] == "Hat" || $items['type2'] == "Gear" || $items['type2'] == "Package"){
@@ -143,7 +143,7 @@ echo'
 </div>
 <?php if($items['type2'] == "Sound"){?>
 <div class="MediaPlayerControls">
-<div class="MediaPlayerIcon icon-play" data-mediathumb-url="https://www.voidrev.us/asset/?id=<?=$items['realfileid'];?>" data-jplayer-version="2.9.2">
+<div class="MediaPlayerIcon icon-play" data-mediathumb-url="https://ishowrevival.up.railway.app/asset/?id=<?=$items['realfileid'];?>" data-jplayer-version="2.9.2">
 </div>
 </div>
 <? } ?>
@@ -199,7 +199,7 @@ if ($items['Robux'] > 0) { ?>
 <div class="clearfix item-field-container">
 <div class="text-label text-overflow field-label">Genres</div>
 <div class="field-content">
-<a class="text-name item-genre" href="https://www.voidrev.us/develop/library">
+<a class="text-name item-genre" href="https://ishowrevival.up.railway.app/develop/library">
 <?php echo NOXSSPlz($items['genre']); ?>
 </a> </div>
 </div>
@@ -255,7 +255,7 @@ if ($items['Robux'] > 0) { ?>
 <li class="favorite-button-container">
 <div class="tooltip-container" data-toggle="tooltip" title="" data-original-title="Add to Favorites">
 <a id="toggle-favorite" data-toggle-url="/v2/favorite/toggle" data-targetId="<?=$id;?>" data-isguest="False" data-favoriteType="Asset"
-data-signin-url="https://www.voidrev.us/newlogin?returnUrl=%2Flibrary%2F<?=$id;?>%2F<?php echo NOXSSPlz($items['name']); ?>">
+data-signin-url="https://ishowrevival.up.railway.app/newlogin?returnUrl=%2Flibrary%2F<?=$id;?>%2F<?php echo NOXSSPlz($items['name']); ?>">
 <span title="<? echo ($items['favorite']); ?>" class="text-favorite favoriteCount <? echo ($items['favorite']); ?>" id="result"><? echo ($items['favorite']); ?></span>
 <div id="favorite-icon" class="icon-favorite "></div>
 </a>
@@ -272,18 +272,18 @@ data-signin-url="https://www.voidrev.us/newlogin?returnUrl=%2Flibrary%2F<?=$id;?
 if($items['creatorid'] == $uID){
 ?>
 <li>
-<a id="configure-item" class="configure-item-modal" href="https://www.voidrev.us/library/configure?id=<?=$id;?>">
+<a id="configure-item" class="configure-item-modal" href="https://ishowrevival.up.railway.app/library/configure?id=<?=$id;?>">
 Configure
 </a>
 </li>
 <li>
-<a id="archive-item" class="archive-item-modal" href="https://www.voidrev.us/library/archive?assetId=<?=$id;?>">
+<a id="archive-item" class="archive-item-modal" href="https://ishowrevival.up.railway.app/library/archive?assetId=<?=$id;?>">
 Archive
 </a>
 </li>
 <? } ?>
 <li>
-<a id="report-item" class="abuse-report-modal" href="https://www.voidrev.us/abusereport/asset?id=<?=$id;?>&amp;RedirectUrl=https%3a%2f%2fwww.voidrev.us%2flibrary%2f<?=$id;?>%2f<?php echo NOXSSPlz($items['name']); ?>">
+<a id="report-item" class="abuse-report-modal" href="https://ishowrevival.up.railway.app/abusereport/asset?id=<?=$id;?>&amp;RedirectUrl=https%3a%2f%2fishowrevival.up.railway.app%2flibrary%2f<?=$id;?>%2f<?php echo NOXSSPlz($items['name']); ?>">
 Report Item
 </a>
 </li>
@@ -294,7 +294,7 @@ Report Item
 <div ng-modules="robloxApp, recommendations">
 <script type="text/javascript">
 var Roblox = Roblox || {};
-Roblox.InventoryData = {"inventoryDomain":"https://www.voidrev.us","useInventorySite":true};
+Roblox.InventoryData = {"inventoryDomain":"https://ishowrevival.up.railway.app","useInventorySite":true};
 </script>
 <div class="current-items" ng-controller="recommendationsController" ng-init="initializeWithModelValues(<?=$id;?>, 3, 7)" ng-show="recommendationsData.items.length > 0" ng-cloak>
 <div class="container-list recommendations-container">
@@ -359,7 +359,7 @@ var Roblox = Roblox || {};
 $(function () {
 var funCaptcha = Roblox.FunCaptcha;
 if (funCaptcha) {
-var captchaTypes = [{"Type":"PostComment","PublicKey":"63E4117F-E727-42B4-6DAA-C8448E9B137F","ApiUrl":"https://captcha.voidrev.us/v1/funcaptcha/user"}];
+var captchaTypes = [{"Type":"PostComment","PublicKey":"63E4117F-E727-42B4-6DAA-C8448E9B137F","ApiUrl":"https://captcha.ishowrevival.up.railway.app/v1/funcaptcha/user"}];
 funCaptcha.addCaptchaTypes(captchaTypes, true);
 funCaptcha.setMaxRetriesOnTokenValidationFailure(3);
 funCaptcha.setPerAppTypeLoggingEnabled(true);
@@ -381,8 +381,8 @@ Roblox.BundleDetector.reportResourceLoaded("funcaptcha");
 data-asset-id="<?=$id;?>"
 data-total-collection-size=""
 data-is-user-authenticated="True"
-data-signin-url="https://www.voidrev.us/newlogin?returnUrl=%2Flibrary%2F<?=$id;?>%2F<?php echo NOXSSPlz($items['name']); ?>"
-data-account-url="https://www.voidrev.us/my/account?confirmemail=1"
+data-signin-url="https://ishowrevival.up.railway.app/newlogin?returnUrl=%2Flibrary%2F<?=$id;?>%2F<?php echo NOXSSPlz($items['name']); ?>"
+data-account-url="https://ishowrevival.up.railway.app/my/account?confirmemail=1"
 data-newline-limit="10"
 data-character-limit="200"
 data-filter-enabled="true"
@@ -427,7 +427,7 @@ data-fun-captcha-enabled="true">
 <span class="xsmall text-date-hint">4 hours ago</span>
 </div>
 <div class="comment-controls">
-<a class="rbx-comment-report-link abuse-report-modal" href="https://www.voidrev.us/abusereport/comment?id=%CommentID&amp;RedirectUrl=%PageURL" title="Report Abuse"><span class="icon-flag"></span></a>
+<a class="rbx-comment-report-link abuse-report-modal" href="https://ishowrevival.up.railway.app/abusereport/comment?id=%CommentID&amp;RedirectUrl=%PageURL" title="Report Abuse"><span class="icon-flag"></span></a>
 </div>
 </div>
 </div>
@@ -468,10 +468,10 @@ data-currency-service-error-message=""
 data-authenticateduser-isnull="False"
 data-user-balance-robux="<?=$Robux;?>"
 data-user-bc="0"
-data-continueshopping-url="https://www.voidrev.us/library/<?=$id;?>/<?php echo NOXSSPlz($items['name']); ?>"
-data-imageurl ="https://www.voidrev.us<?=getModelThumbnail($con,$id);?>"
-data-alerturl ="https://www.voidrev.us/img/75af9e2cb6a75450bee5245f5ee11c86.svg"
-data-inSufficentFundsurl ="https://www.voidrev.us/img/b80339ddf867ccfe6ab23a2c263d8000.png"
+data-continueshopping-url="https://ishowrevival.up.railway.app/library/<?=$id;?>/<?php echo NOXSSPlz($items['name']); ?>"
+data-imageurl ="https://ishowrevival.up.railway.app<?=getModelThumbnail($con,$id);?>"
+data-alerturl ="https://ishowrevival.up.railway.app/img/75af9e2cb6a75450bee5245f5ee11c86.svg"
+data-inSufficentFundsurl ="https://ishowrevival.up.railway.app/img/b80339ddf867ccfe6ab23a2c263d8000.png"
 >
 </div>
 <div id="Skyscraper-Abp-Right" class="abp abp-container right-abp">
@@ -481,7 +481,7 @@ frameborder="0"
 height="612"
 scrolling="no"
 data-src=""
-src="https://www.voidrev.us/user-sponsorship/?id=1"
+src="https://ishowrevival.up.railway.app/user-sponsorship/?id=1"
 width="160"
 data-js-adtype="iframead"
 data-ad-slot="Roblox_Item_Right_160x600"></iframe>
@@ -492,37 +492,37 @@ data-ad-slot="Roblox_Item_Right_160x600"></iframe>
 <div class="footer">
 <ul class="row footer-links">
 <li class="footer-link">
-<a href="http://corp.voidrev.us" class="text-footer-nav roblox-interstitial" target="_blank">
+<a href="http://corp.ishowrevival.up.railway.app" class="text-footer-nav roblox-interstitial" target="_blank">
 About Us
 </a>
 </li>
 <li class="footer-link">
-<a href="https://corp.voidrev.us/careers/" class="text-footer-nav roblox-interstitial" target="_blank">
+<a href="https://corp.ishowrevival.up.railway.app/careers/" class="text-footer-nav roblox-interstitial" target="_blank">
 Jobs
 </a>
 </li>
 <li class=" footer-link">
-<a href="https://blog.voidrev.us" class="text-footer-nav" target="_blank">
+<a href="https://blog.ishowrevival.up.railway.app" class="text-footer-nav" target="_blank">
 Blog
 </a>
 </li>
 <li class=" footer-link">
-<a href="http://corp.voidrev.us/parents" class="text-footer-nav roblox-interstitial" target="_blank">
+<a href="http://corp.ishowrevival.up.railway.app/parents" class="text-footer-nav roblox-interstitial" target="_blank">
 Parents
 </a>
 </li>
 <li class=" footer-link">
-<a href="https://www.voidrev.us/help?locale=en_us" class="text-footer-nav roblox-interstitial" target="_blank">
+<a href="https://ishowrevival.up.railway.app/help?locale=en_us" class="text-footer-nav roblox-interstitial" target="_blank">
 Help
 </a>
 </li>
 <li class=" footer-link">
-<a href="https://www.voidrev.us/info/terms?locale=en_us" class="text-footer-nav" target="_blank">
+<a href="https://ishowrevival.up.railway.app/info/terms?locale=en_us" class="text-footer-nav" target="_blank">
 Terms
 </a>
 </li>
 <li class=" footer-link">
-<a href="https://www.voidrev.us/info/privacy?locale=en_us" class="text-footer-nav privacy" target="_blank">
+<a href="https://ishowrevival.up.railway.app/info/privacy?locale=en_us" class="text-footer-nav privacy" target="_blank">
 Privacy
 </a>
 </li>
@@ -547,23 +547,23 @@ RefactorEnabled: "True",
 IsProtocolHandlerBaseUrlParamEnabled: "False",
 ProtocolHandlerAreYouInstalled: {
 play: {
-content: "<img src='https://www.voidrev.us/img/6304dfebadecbb3b338a79a6a528936c.svg' width='90' height='90' alt='R'/><p>You&#39;re moments away from getting into the game!</p>",
+content: "<img src='https://ishowrevival.up.railway.app/img/6304dfebadecbb3b338a79a6a528936c.svg' width='90' height='90' alt='R'/><p>You&#39;re moments away from getting into the game!</p>",
 buttonText: "Download and Install Roblox",
-footerContent: "<a href='https://assetgame.voidrev.us/game/help'class= 'text-name small' target='_blank' >Click here for help</a> "
+footerContent: "<a href='https://assetgame.ishowrevival.up.railway.app/game/help'class= 'text-name small' target='_blank' >Click here for help</a> "
 },
 studio: {
-content: "<img src='https://www.voidrev.us/img/3da410727fa2670dcb4f31316643138a.svg' width='95' height='95' alt='R' /><p>Get started creating your own games!</p>",
+content: "<img src='https://ishowrevival.up.railway.app/img/3da410727fa2670dcb4f31316643138a.svg' width='95' height='95' alt='R' /><p>Get started creating your own games!</p>",
 buttonText: "Download Studio"
 }
 },
 ProtocolHandlerStartingDialog: {
 play: {
-content: "<img src='https://www.voidrev.us/img/6304dfebadecbb3b338a79a6a528936c.svg' width='90' height='90' alt='R'/><p>Roblox is now loading. Get ready to play!</p>"
+content: "<img src='https://ishowrevival.up.railway.app/img/6304dfebadecbb3b338a79a6a528936c.svg' width='90' height='90' alt='R'/><p>Roblox is now loading. Get ready to play!</p>"
 },
 studio: {
-content: "<img src='https://www.voidrev.us/img/3da410727fa2670dcb4f31316643138a.svg' width='95' height='95' alt='R' /><p>Checking for Roblox Studio...</p>"
+content: "<img src='https://ishowrevival.up.railway.app/img/3da410727fa2670dcb4f31316643138a.svg' width='95' height='95' alt='R' /><p>Checking for Roblox Studio...</p>"
 },
-loader: "<img src='https://www.voidrev.us/img/4bed93c91f909002b1f17f05c0ce13d1.gif' width='82' height='24' class='loader'/>"
+loader: "<img src='https://ishowrevival.up.railway.app/img/4bed93c91f909002b1f17f05c0ce13d1.gif' width='82' height='24' class='loader'/>"
 }
 };
 </script>
@@ -587,7 +587,7 @@ data-protocol-sending-locales-enabled="true"
 >
 <div class="modalPopup blueAndWhite PlaceLauncherModal" style="min-height: 160px">
 <div id="Spinner" class="Spinner" style="padding:20px 0;">
-<img data-delaysrc="https://www.voidrev.us/img/e998fb4c03e8c2e30792f2f3436e9416.gif" height="32" width="32" alt="Progress" />
+<img data-delaysrc="https://ishowrevival.up.railway.app/img/e998fb4c03e8c2e30792f2f3436e9416.gif" height="32" width="32" alt="Progress" />
 </div>
 <div id="status" style="min-height:40px;text-align:center;margin:5px 20px">
 <div id="Starting" class="PlaceLauncherStatus MadStatusStarting" style="display:block">
@@ -628,7 +628,7 @@ Loading <span id="videoPrerollLoadingPercent">0%</span> - <span id="videoPreroll
 </div>
 <div id="videoPrerollJoinBC">
 <span>Get more with Builders Club!</span>
-<a href="https://www.voidrev.us/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
+<a href="https://ishowrevival.up.railway.app/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
 </div>
 </div>
 <script type="text/javascript">
@@ -663,7 +663,7 @@ $(videoPreRollDFP.checkEligibility);
 </script>
 <script type="text/javascript">
 function checkRobloxInstall() {
-return RobloxLaunch.CheckRobloxInstall('https://www.voidrev.us/install/download.aspx');
+return RobloxLaunch.CheckRobloxInstall('https://ishowrevival.up.railway.app/install/download.aspx');
 }
 </script>
 <div id="InstallationInstructions" class="" style="display:none;">
@@ -678,17 +678,17 @@ return RobloxLaunch.CheckRobloxInstall('https://www.voidrev.us/install/download.
 <li class="step1-of-4">
 <h2>1</h2>
 <p class="larger-font-size">Click <strong>RobloxPlayer.exe</strong> to run the Roblox installer, which just downloaded via your web browser.</p>
-<img data-delaysrc="https://www.voidrev.us/img/28eaa93b899b93461399aebf21c5346f.png" />
+<img data-delaysrc="https://ishowrevival.up.railway.app/img/28eaa93b899b93461399aebf21c5346f.png" />
 </li>
 <li class="step2-of-4">
 <h2>2</h2>
 <p class="larger-font-size">Click <strong>Run</strong> when prompted by your computer to begin the installation process.</p>
-<img data-delaysrc="https://www.voidrev.us/img/51328932dedb5d8d61107272cc1a27db.png" />
+<img data-delaysrc="https://ishowrevival.up.railway.app/img/51328932dedb5d8d61107272cc1a27db.png" />
 </li>
 <li class="step3-of-4">
 <h2>3</h2>
 <p class="larger-font-size">Click <strong>Ok</strong> once you've successfully installed Roblox.</p>
-<img data-delaysrc="https://www.voidrev.us/img/3797745629baca2d1b9496b76bc9e6dc.png" />
+<img data-delaysrc="https://ishowrevival.up.railway.app/img/3797745629baca2d1b9496b76bc9e6dc.png" />
 </li>
 <li class="step4-of-4">
 <h2>4</h2>
@@ -713,11 +713,11 @@ Roblox.ProtocolHandlerClientInterface.attachManualDownloadToLink();
 <div class="InstallInstructionsImage" data-modalwidth="970" style="display:none;"></div>
 <div id="pluginObjDiv" style="height:1px;width:1px;visibility:hidden;position: absolute;top: 0;"></div>
 <iframe id="downloadInstallerIFrame" name="downloadInstallerIFrame" style="visibility:hidden;height:0;width:1px;position:absolute"></iframe>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='clientinstaller' type='text/javascript' src='https://www.voidrev.us/js/3f2a863e0026fe90136944e1837e13df.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='clientinstaller' type='text/javascript' src='https://ishowrevival.up.railway.app/js/3f2a863e0026fe90136944e1837e13df.js'></script>
 <script type="text/javascript">
 Roblox.Client._skip = null;
 Roblox.Client._CLSID = '76D50904-6780-4c8b-8986-1A7EE0B1716D';
-Roblox.Client._installHost = 'setup.voidrev.us';
+Roblox.Client._installHost = 'setup.ishowrevival.up.railway.app';
 Roblox.Client.ImplementsProxy = true;
 Roblox.Client._silentModeEnabled = true;
 Roblox.Client._bringAppToFrontEnabled = false;
@@ -799,7 +799,7 @@ Cancel: "Cancel"
 <a href id="decline-btn"><span></span></a>
 </div>
 <div class="loading modal-processing">
-<img class="loading-default" src='https://www.voidrev.us/img/4bed93c91f909002b1f17f05c0ce13d1.gif' alt="Processing..." />
+<img class="loading-default" src='https://ishowrevival.up.railway.app/img/4bed93c91f909002b1f17f05c0ce13d1.gif' alt="Processing..." />
 </div>
 </div>
 <div class="modal-footer text-footer">
@@ -813,7 +813,7 @@ Roblox.jsConsoleEnabled = false;
 </script>
 <script type="text/javascript">
 $(function () {
-Roblox.CookieUpgrader.domain = 'voidrev.us';
+Roblox.CookieUpgrader.domain = 'ishowrevival.up.railway.app';
 Roblox.CookieUpgrader.upgrade("GuestData", { expires: Roblox.CookieUpgrader.thirtyYearsFromNow });
 Roblox.CookieUpgrader.upgrade("RBXSource", { expires: function (cookie) { return Roblox.CookieUpgrader.getExpirationFromCookieValue("rbx_acquisition_time", cookie); } });
 Roblox.CookieUpgrader.upgrade("RBXViralAcquisition", { expires: function (cookie) { return Roblox.CookieUpgrader.getExpirationFromCookieValue("time", cookie); } });
@@ -822,15 +822,15 @@ Roblox.CookieUpgrader.upgrade("RBXSessionTracker", { expires: Roblox.CookieUpgra
 Roblox.CookieUpgrader.upgrade("RBXEventTrackerV2", {expires: Roblox.CookieUpgrader.thirtyYearsFromNow});
 });
 </script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='leanbase' type='text/javascript' src='https://www.voidrev.us/js/0a209f62d3cc2dd6843ae82901bb146b.js'></script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='angular' type='text/javascript' src='https://www.voidrev.us/js/4ad460973d56d109a2980bea72969f5c.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='leanbase' type='text/javascript' src='https://ishowrevival.up.railway.app/js/0a209f62d3cc2dd6843ae82901bb146b.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='angular' type='text/javascript' src='https://ishowrevival.up.railway.app/js/4ad460973d56d109a2980bea72969f5c.js'></script>
 <div ng-modules="baseTemplateApp">
-<script type="text/javascript" src="https://www.voidrev.us/js/f6f21acbca51f8beeba773a02c6ec91a.js"></script>
+<script type="text/javascript" src="https://ishowrevival.up.railway.app/js/f6f21acbca51f8beeba773a02c6ec91a.js"></script>
 </div>
 <div ng-modules="pageTemplateApp">
-<script type="text/javascript" src="https://www.voidrev.us/js/eb35ad3f38cf3bd885031e4123983876.js"></script>
+<script type="text/javascript" src="https://ishowrevival.up.railway.app/js/eb35ad3f38cf3bd885031e4123983876.js"></script>
 </div>
-<script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://www.voidrev.us/js/baa0c90950583c77f295ecd0748e32ce.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://www.voidrev.us/js/fac702cb852bab6006d426d83c56f8ab.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://www.voidrev.us/js/76e30b0ae6a1be83cbf018579681b891.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://www.voidrev.us/js/c948a7edd36e01db699c8cf19303376d.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://www.voidrev.us/js/3afc03adcc2aaca01500baaf69b52d9c.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://www.voidrev.us/js/c90aea1e430a241776db6775e98c3e03.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://www.voidrev.us/js/de56e6c24a3e70ee7d1ec900c24042e8.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://www.voidrev.us/js/6003f8790df31d5445169faea5c04fd7.js';</script>
+<script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://ishowrevival.up.railway.app/js/baa0c90950583c77f295ecd0748e32ce.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://ishowrevival.up.railway.app/js/fac702cb852bab6006d426d83c56f8ab.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://ishowrevival.up.railway.app/js/76e30b0ae6a1be83cbf018579681b891.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://ishowrevival.up.railway.app/js/c948a7edd36e01db699c8cf19303376d.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://ishowrevival.up.railway.app/js/3afc03adcc2aaca01500baaf69b52d9c.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://ishowrevival.up.railway.app/js/c90aea1e430a241776db6775e98c3e03.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://ishowrevival.up.railway.app/js/de56e6c24a3e70ee7d1ec900c24042e8.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://ishowrevival.up.railway.app/js/6003f8790df31d5445169faea5c04fd7.js';</script>
 <script>
 Roblox.XsrfToken.setToken('ti3lgfq000kh');
 </script>
@@ -909,8 +909,8 @@ decline: "No, thanks"
 //</sl:translate>
 };
 </script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='page' type='text/javascript' src='https://www.voidrev.us/js/b79203e5a57b2b957ee8d1382ee43154.js'></script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='Captcha' type='text/javascript' src='https://www.voidrev.us/js/e4757f8a515c91e5570b049fa12ffbea59ea4f36393b5940878e02685199f2f5.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='page' type='text/javascript' src='https://ishowrevival.up.railway.app/js/b79203e5a57b2b957ee8d1382ee43154.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='Captcha' type='text/javascript' src='https://ishowrevival.up.railway.app/js/e4757f8a515c91e5570b049fa12ffbea59ea4f36393b5940878e02685199f2f5.js'></script>
 <script>
 var _comscore = _comscore || [];
 _comscore.push({ c1: "2", c2: "6035605", c3: "", c4: "", c15: "" });

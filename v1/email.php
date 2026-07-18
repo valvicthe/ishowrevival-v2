@@ -22,7 +22,7 @@ if($usr['verified'] == 1){
 die();
 }
 $email = filter_var($_POST['emailAddress'], FILTER_SANITIZE_EMAIL);
-$data = file_get_contents("https://www.voidrev.us/mail/?userId=".$uID."&request=verifyemail&email=".$email."");
+$data = file_get_contents("https://ishowrevival.up.railway.app/mail/?userId=".$uID."&request=verifyemail&email=".$email."");
 }catch(Exception $e){
 http_response_code(500);
 die(json_encode(["success" => false]));

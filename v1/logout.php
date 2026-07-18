@@ -8,10 +8,10 @@ $parts = explode('=', $cookie);
 $name = trim($parts[0]);
 setcookie($name, '', - 24 * 60 * 60);
 setcookie($name, '', - 24 * 60 * 60, '/');
-setcookie($name, '', - 24 * 60 * 60, '/', '.voidrev.us');
+setcookie($name, '', - 24 * 60 * 60, '/', '.ishowrevival.up.railway.app');
 }
 }
-setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.voidrev.us');
+setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.ishowrevival.up.railway.app');
 echo"{}";
 exit();
 ?>

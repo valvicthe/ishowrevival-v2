@@ -309,5 +309,5 @@ header("Content-Type: application/json");
    "DefaultSortTypeId":0,
    "DefaultSortAggregationId":5,
    "CategoriesWithCreatorFilters":"1,3",
-   "AddGearImageUrl":"https://www.voidrev.us/images/Catalog/add-gear-to-game.png"
+   "AddGearImageUrl":"https://ishowrevival.up.railway.app/images/Catalog/add-gear-to-game.png"
 }

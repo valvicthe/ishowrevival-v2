@@ -21,7 +21,7 @@ $emailUpdate = $con->prepare("UPDATE `users` SET `email` = :email WHERE `id` = :
 $emailUpdate->bindParam(":email", $email);
 $emailUpdate->bindParam(":userID", $uID);
 $emailUpdate->execute();
-$link = "https://www.voidrev.us/RobloxVerify.aspx?Mode=emailOnly&Ticket=$Ticket";
+$link = "https://ishowrevival.up.railway.app/RobloxVerify.aspx?Mode=emailOnly&Ticket=$Ticket";
 $dest = $email;
 $subjetc = "Verify Your Email";
 $body = "Dear Limbo user,
@@ -29,7 +29,7 @@ We are pleased that you have chosen to secure your $username account by providin
 By verifying the email address associated with your Limbo account, you enable a higher level of account security.
 Please click the link below to complete the verification process.
 $link
-voidrev.us";
+ishowrevival.up.railway.app";
 $headers = "From: limborevival@gmail.com";
 if (mail($dest, $subjetc, $body, $headers)) {
 echo "Email successfully sent!";
@@ -57,8 +57,8 @@ $subjetc = "Limbo Account Password Reset";
 $body = 'We have received a request to reset the password for your Roblox account: '.$username.'.
 If you have submitted this request, please click the button below to proceed.
 This link will be active for 1 hour. If you do not wish to reset your password, please disrgard this notice.
-https://www.voidrev.us/login/reset-password?Ticket='.$Ticket.'
-voidrev.us';
+https://ishowrevival.up.railway.app/login/reset-password?Ticket='.$Ticket.'
+ishowrevival.up.railway.app';
 $headers = "From: limborevival@gmail.com";
 if (mail($dest, $subjetc, $body, $headers)) {
 echo "Email successfully sent!";

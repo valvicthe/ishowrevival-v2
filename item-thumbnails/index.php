@@ -12,9 +12,9 @@ foreach ($params as $value) {
     $item = [
         "id" => $assetId,
         "name" => "?",
-        "url" => "https://www.voidrev.us/library/?id={$assetId}",
+        "url" => "https://ishowrevival.up.railway.app/library/?id={$assetId}",
         "thumbnailFinal" => true,
-        "thumbnailUrl" => "https://www.voidrev.us/model-thumbnails?assetId={$assetId}",
+        "thumbnailUrl" => "https://ishowrevival.up.railway.app/model-thumbnails?assetId={$assetId}",
         "bcOverlayUrl" => null,
         "limitedOverlayUrl" => null,
         "deadlineOverlayUrl" => null,
@@ -30,8 +30,8 @@ foreach ($params as $value) {
     $gamequery->execute();
     $game = $gamequery->fetch();
     if(is_array($game)){
-    $item['url'] = "https://www.voidrev.us/games/{$assetId}/";
-    $item['thumbnailUrl'] = "https://www.voidrev.us/Thumbs/GameIcon.ashx?assetId={$assetId}";
+    $item['url'] = "https://ishowrevival.up.railway.app/games/{$assetId}/";
+    $item['thumbnailUrl'] = "https://ishowrevival.up.railway.app/Thumbs/GameIcon.ashx?assetId={$assetId}";
     }
     $response[] = $item;
 }

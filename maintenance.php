@@ -1,5 +1,5 @@
 <?php
-header("Location: https://www.voidrev.us/");
+header("Location: https://ishowrevival.up.railway.app/");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -81,7 +81,7 @@ var typed = new Typed(".typed", options);
 <div class="console">
 Welcome to Limbuntu 22.04.3 LTS (GNU/Binux 3.13.0-74-generic x86_64) <br/>
 <br/>
-* Documentation: https://help.voidrev.us/ <br/> <br/>
+* Documentation: https://help.ishowrevival.up.railway.app/ <br/> <br/>
 System information as of Wed Sep 06 09:45:00 CET 2023 <br/><br/>
 <table>
 <tr>

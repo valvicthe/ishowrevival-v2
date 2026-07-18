@@ -4,18 +4,18 @@ use Snipe\BanBuilder\CensorWords;
 $censor = new CensorWords;
 $getid = isset($_GET['id']) ? intval($_GET['id']) : 0;
 if ($getid <= 0) {
-header("Location: https://www.voidrev.us/develop/");
+header("Location: https://ishowrevival.up.railway.app/develop/");
 exit();
 }
 $libraryquery = $con->prepare("SELECT * FROM `library` WHERE `id` = :id AND `creatorid` = :creatorid");
 $libraryquery->execute(['id' => $getid, 'creatorid' => $uID]);
 $library = $libraryquery->fetch();
 if (!$library) {
-header("Location: https://www.voidrev.us/develop/");
+header("Location: https://ishowrevival.up.railway.app/develop/");
 exit();
 }
 if ($usr['hatcreator'] == 0 && ($library['type2'] == "Hat" || $library['type2'] == "Gear" || $library['type2'] == "Package" || $library['type2'] == "Face")) {
-    header("Location: https://www.voidrev.us/develop/");
+    header("Location: https://ishowrevival.up.railway.app/develop/");
     exit();
 }
 $creatorid = $library['creatorid'];
@@ -26,11 +26,11 @@ $creatorname = $usr['username'];
 $version = $library['version'];
 $icon = $library['icon'];
 if($uID !== $creatorid){
-header("Location: https://www.voidrev.us/develop/");
+header("Location: https://ishowrevival.up.railway.app/develop/");
 exit();
 }
 if($library['banned'] > 0){
-header("Location: https://www.voidrev.us/develop/");
+header("Location: https://ishowrevival.up.railway.app/develop/");
 exit();
 }
 if($_POST){
@@ -77,17 +77,17 @@ exit();
 <head data-machine-id="WEB1269">
 <!-- MachineID: WEB1269 -->
 <title>Configure Item - Void</title>
-<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://www.voidrev.us/css/MainCSS.css' />
-<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://www.voidrev.us/css/universepage.css' />
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://ishowrevival.up.railway.app/css/MainCSS.css' />
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://ishowrevival.up.railway.app/css/universepage.css' />
 <script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js'></script>
 <script type='text/javascript'>window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-1.11.1.js'><\/script>")</script>
 <script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.2.1.min.js'></script>
 <script type='text/javascript'>window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-migrate-1.2.1.js'><\/script>")</script>
-<script type='text/javascript' src='https://www.voidrev.us/js/86411e39f51e0ef39c7fa2f1f92fe7b3.js'></script>
-<script type='text/javascript' src='https://www.voidrev.us/js/54b73269bcd426ec956755cb8cac7033.js'></script>
-<script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://www.voidrev.us/js/109d883fe3988fca757e26e341ed0fe8.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://www.voidrev.us/js/33126cd3e259a404a2563594f55a3f06.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://www.voidrev.us/js/7d49ac94271bd506077acc9d0130eebb.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://www.voidrev.us/js/da553e6b77b3d79bec37441b5fb317e7.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://www.voidrev.us/js/4a0af9989732810851e9e12809aeb8ad.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://www.voidrev.us/js/61a0490ba23afa17f9ecca2a079a6a57.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://www.voidrev.us/js/a6df74a754523e097cab747621643c98.js';</script>
-<script type='text/javascript' src='https://www.voidrev.us/js/f0a2acc861db87466c6ecf755ce236d0.js'></script>
-<script type='text/javascript' src='https://www.voidrev.us/js/c6b47ce9ee4cd0423d35c985917d2b4e.js'></script>
+<script type='text/javascript' src='https://ishowrevival.up.railway.app/js/86411e39f51e0ef39c7fa2f1f92fe7b3.js'></script>
+<script type='text/javascript' src='https://ishowrevival.up.railway.app/js/54b73269bcd426ec956755cb8cac7033.js'></script>
+<script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://ishowrevival.up.railway.app/js/109d883fe3988fca757e26e341ed0fe8.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://ishowrevival.up.railway.app/js/33126cd3e259a404a2563594f55a3f06.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://ishowrevival.up.railway.app/js/7d49ac94271bd506077acc9d0130eebb.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://ishowrevival.up.railway.app/js/da553e6b77b3d79bec37441b5fb317e7.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://ishowrevival.up.railway.app/js/4a0af9989732810851e9e12809aeb8ad.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://ishowrevival.up.railway.app/js/61a0490ba23afa17f9ecca2a079a6a57.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://ishowrevival.up.railway.app/js/a6df74a754523e097cab747621643c98.js';</script>
+<script type='text/javascript' src='https://ishowrevival.up.railway.app/js/f0a2acc861db87466c6ecf755ce236d0.js'></script>
+<script type='text/javascript' src='https://ishowrevival.up.railway.app/js/c6b47ce9ee4cd0423d35c985917d2b4e.js'></script>
 <script type="text/javascript">
 var Roblox = Roblox || {};
 Roblox.UpsellAdModal = Roblox.UpsellAdModal || {};
@@ -167,7 +167,7 @@ data-http-retry-base-timeout="0">
 <a href id="decline-btn"><span></span></a>
 </div>
 <div class="loading modal-processing">
-<img class="loading-default" src='https://www.voidrev.us/img//4bed93c91f909002b1f17f05c0ce13d1.gif' alt="Processing..." />
+<img class="loading-default" src='https://ishowrevival.up.railway.app/img//4bed93c91f909002b1f17f05c0ce13d1.gif' alt="Processing..." />
 </div>
 </div>
 </div>
@@ -215,7 +215,7 @@ data-loadmoreplacesurl="/library/get-universe-places">
 <input autofocus="" class="text-box text-box-medium universe-input" id="Name" maxlength="50" name="Name" type="text" value="<?echo NoXSSPlz($library['name']);?>" />
 <div class="tool-tip warning-text name-error" style="display: none">
 Name cannot be empty
-<img src="https://www.voidrev.us/img//77c4414271016f8257c136305b7888b4.png" class="right">
+<img src="https://ishowrevival.up.railway.app/img//77c4414271016f8257c136305b7888b4.png" class="right">
 </div>
 </div>
 <div class="universe-form-label ">
@@ -238,7 +238,7 @@ if ($library['type'] == "item"){ ?>
 <div class="universe-buttons">
 <a class="btn-medium btn-neutral configure-save-button" id="okButton">Save</a>
 <!-- <input class="btn-medium btn-neutral configure-save-button" id="okButton" type="submit" value="Save" name="wot" class="btn"> -->
-<a href="https://www.voidrev.us/develop/library" class="btn-medium btn-negative" id="cancelButton">Cancel</a>
+<a href="https://ishowrevival.up.railway.app/develop/library" class="btn-medium btn-negative" id="cancelButton">Cancel</a>
 </div>
 </div>
 </form>
@@ -260,10 +260,10 @@ Update a File:
 <div id="startplace-container" class="start-place">
 <div class="universe-place-container">
 <div class="universe-place-thumb">
-<a href="https://www.voidrev.us/games/place.php?id=<?=$getid;?>" class="universe-place" ><img class='universe-place-image' src='/img/games/<?=$icon;?>s.png'/></a>
+<a href="https://ishowrevival.up.railway.app/games/place.php?id=<?=$getid;?>" class="universe-place" ><img class='universe-place-image' src='/img/games/<?=$icon;?>s.png'/></a>
 </div>
 <div class="universe-detail">
-<a href="https://www.voidrev.us/games/place.php?id=<?=$getid;?>"><?echo NoXSSPlz($library['name']);?></a>
+<a href="https://ishowrevival.up.railway.app/games/place.php?id=<?=$getid;?>"><?echo NoXSSPlz($library['name']);?></a>
 </div>
 <div class="clear"></div>
 </div>
@@ -279,10 +279,10 @@ Update a File:
 </div>
 <div class="universe-place-container" style=display:none>
 <div class="universe-place-thumb">
-<a href="https://www.voidrev.us/games/<?=$getid;?>" class="universe-place" ><img class='universe-place-image' src=''/></a>
+<a href="https://ishowrevival.up.railway.app/games/<?=$getid;?>" class="universe-place" ><img class='universe-place-image' src=''/></a>
 </div>
 <div class="universe-detail">
-<a href="https://www.voidrev.us/games/<?=$getid;?>"><?echo NoXSSPlz($library['name']);?></a>
+<a href="https://ishowrevival.up.railway.app/games/<?=$getid;?>"><?echo NoXSSPlz($library['name']);?></a>
 </div>
 <div class="clear"></div>
 </div>
@@ -303,7 +303,7 @@ Update a File:
 </div>
 <div class="place-selector selectable template" title="Place" style="display: none">
 <div class="place-image" data-retry-url-template="https://thumbnails.roblox.com/v1/assets?size=160x100&amp;format=jpeg&amp;returnPolicy=AutoGenerated">
-<img alt="^_^" class="item-image" src="https://www.voidrev.us/img//ec5c01d220bf1b73403fa51519267742.gif"/>
+<img alt="^_^" class="item-image" src="https://ishowrevival.up.railway.app/img//ec5c01d220bf1b73403fa51519267742.gif"/>
 </div>
 <div class="InfoContainer">
 <div class="place-name"></div>
@@ -338,7 +338,7 @@ Update a File:
 </div>
 <div id="ProcessingView" style="display: none">
 <div class="ProcessingModalBody">
-<p class="processing-indicator"><img src='https://www.voidrev.us/img//ec4e85b0c4396cf753a06fade0a8d8af.gif' alt="Saving the Item..."/>
+<p class="processing-indicator"><img src='https://ishowrevival.up.railway.app/img//ec4e85b0c4396cf753a06fade0a8d8af.gif' alt="Saving the Item..."/>
 </p>
 <p class="processing-text">Saving the Item...</p>
 </div>
@@ -370,7 +370,7 @@ data-protocol-url-includes-launchtime="true"
 data-protocol-detection-enabled="true">
 <div class="modalPopup blueAndWhite PlaceLauncherModal" style="min-height: 160px">
 <div id="Spinner" class="Spinner" style="padding:20px 0;">
-<img data-delaysrc="https://www.voidrev.us/img//e998fb4c03e8c2e30792f2f3436e9416.gif" height="32" width="32" alt="Progress" />
+<img data-delaysrc="https://ishowrevival.up.railway.app/img//e998fb4c03e8c2e30792f2f3436e9416.gif" height="32" width="32" alt="Progress" />
 </div>
 <div id="status" style="min-height:40px;text-align:center;margin:5px 20px">
 <div id="Starting" class="PlaceLauncherStatus MadStatusStarting" style="display:block">
@@ -389,14 +389,14 @@ Starting Roblox...
 <div class="ph-modal-header">
 </div>
 <div class="ph-logo-row">
-<img data-delaysrc="https://www.voidrev.us/img//e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R" />
+<img data-delaysrc="https://ishowrevival.up.railway.app/img//e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R" />
 </div>
 <div class="ph-areyouinstalleddialog-content">
 <p class="larger-font-size">
 ROBLOX is now loading. Get ready to play!
 </p>
 <div class="ph-startingdialog-spinner-row">
-<img data-delaysrc="https://www.voidrev.us/img//4bed93c91f909002b1f17f05c0ce13d1.gif" width="82" height="24" />
+<img data-delaysrc="https://ishowrevival.up.railway.app/img//4bed93c91f909002b1f17f05c0ce13d1.gif" width="82" height="24" />
 </div>
 </div>
 </div>
@@ -407,7 +407,7 @@ ROBLOX is now loading. Get ready to play!
 <span class="icon-close simplemodal-close"></span>
 </div>
 <div class="ph-logo-row">
-<img data-delaysrc="https://www.voidrev.us/img//e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R" />
+<img data-delaysrc="https://ishowrevival.up.railway.app/img//e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R" />
 </div>
 <div class="ph-areyouinstalleddialog-content">
 <p class="larger-font-size">
@@ -419,7 +419,7 @@ Download and Install ROBLOX
 </button>
 </div>
 <div class="small">
-<a href="https://help.voidrev.us/hc/en-us/articles/204473560" class="text-name" target="_blank">Click here for help</a>
+<a href="https://help.ishowrevival.up.railway.app/hc/en-us/articles/204473560" class="text-name" target="_blank">Click here for help</a>
 </div>
 </div>
 </div>
@@ -428,7 +428,7 @@ Download and Install ROBLOX
 <p class="larger-font-size">
 <span class="icon-moreinfo"></span>
 Check <b>Remember my choice</b> and click
-<img data-delaysrc="https://www.voidrev.us/img//7c8d7a39b4335931221857cca2b5430b.png" alt="Launch Application" />
+<img data-delaysrc="https://ishowrevival.up.railway.app/img//7c8d7a39b4335931221857cca2b5430b.png" alt="Launch Application" />
 in the dialog box above to join games faster in the future!
 </p>
 </div>
@@ -451,7 +451,7 @@ Loading <span id="videoPrerollLoadingPercent">0%</span> - <span id="videoPreroll
 </div>
 <div id="videoPrerollJoinBC">
 <span>Get more with Builders Club!</span>
-<a href="https://www.voidrev.us/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
+<a href="https://ishowrevival.up.railway.app/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
 </div>
 </div>
 <script type="text/javascript">
@@ -500,15 +500,15 @@ Choose Your Avatar
 <div style="clear:both; height:25px;"></div>
 <div class="RevisedFooter">
 <div style="width:200px;margin:10px auto 0 auto;">
-<a href="https://www.voidrev.us"><div class="RevisedCharacterSelectSignup"></div></a>
-<a class="HaveAccount" href="https://www.voidrev.us/newlogin">I have an account</a>
+<a href="https://ishowrevival.up.railway.app"><div class="RevisedCharacterSelectSignup"></div></a>
+<a class="HaveAccount" href="https://ishowrevival.up.railway.app/newlogin">I have an account</a>
 </div>
 </div>
 </div>
 </div>
 <script type="text/javascript">
 function checkRobloxInstall() {
-window.location = 'https://www.voidrev.us/install/unsupported.aspx?osx=10.5'; return false;
+window.location = 'https://ishowrevival.up.railway.app/install/unsupported.aspx?osx=10.5'; return false;
 }
 </script>
 <div id="InstallationInstructions" class="" style="display:none;">
@@ -522,17 +522,17 @@ window.location = 'https://www.voidrev.us/install/unsupported.aspx?osx=10.5'; re
 <div class="ph-install-step ph-installinstructions-step1-of4">
 <h1>1</h1>
 <p class="larger-font-size">Click <strong>RobloxPlayer.exe</strong> to run the ROBLOX installer, which just downloaded via your web browser.</p>
-<img width="230" height="180" data-delaysrc="https://www.voidrev.us/img//8b0052e4ff81d8e14f19faff2a22fcf7.png" />
+<img width="230" height="180" data-delaysrc="https://ishowrevival.up.railway.app/img//8b0052e4ff81d8e14f19faff2a22fcf7.png" />
 </div>
 <div class="ph-install-step ph-installinstructions-step2-of4">
 <h1>2</h1>
 <p class="larger-font-size">Click <strong>Run</strong> when prompted by your computer to begin the installation process.</p>
-<img width="230" height="180" data-delaysrc="https://www.voidrev.us/img//4a3f96d30df0f7879abde4ed837446c6.png" />
+<img width="230" height="180" data-delaysrc="https://ishowrevival.up.railway.app/img//4a3f96d30df0f7879abde4ed837446c6.png" />
 </div>
 <div class="ph-install-step ph-installinstructions-step3-of4">
 <h1>3</h1>
 <p class="larger-font-size">Click <strong>Ok</strong> once you've successfully installed ROBLOX.</p>
-<img width="230" height="180" data-delaysrc="https://www.voidrev.us/img//6e23e4971ee146e719fb1abcb1d67d59.png" />
+<img width="230" height="180" data-delaysrc="https://ishowrevival.up.railway.app/img//6e23e4971ee146e719fb1abcb1d67d59.png" />
 </div>
 <div class="ph-install-step ph-installinstructions-step4-of4">
 <h1>4</h1>
@@ -551,7 +551,7 @@ The ROBLOX installer should download shortly. If it doesn’t, start the <a href
 <div class="InstallInstructionsImage" data-modalwidth="970" style="display:none;"></div>
 <div id="pluginObjDiv" style="height:1px;width:1px;visibility:hidden;position: absolute;top: 0;"></div>
 <iframe id="downloadInstallerIFrame" name="downloadInstallerIFrame" style="visibility:hidden;height:0;width:1px;position:absolute"></iframe>
-<script type='text/javascript' src='https://www.voidrev.us/js/fbdb5b64583278a8513645a997a89a3c.js'></script>
+<script type='text/javascript' src='https://ishowrevival.up.railway.app/js/fbdb5b64583278a8513645a997a89a3c.js'></script>
 <script type="text/javascript">
 Roblox.Client._skip = '/install/unsupported.aspx';
 Roblox.Client._CLSID = '';

@@ -7,15 +7,15 @@ http_response_code(403);
 exit();
 }
 if(!isset($_GET['tab'])){
-header("Location: https://www.voidrev.us/admi/?tab=Moderation&item=Users");
+header("Location: https://ishowrevival.up.railway.app/admi/?tab=Moderation&item=Users");
 exit();
 }
 $CanSee2020 = $usr['CanSee2020'];
 ?>
 <head>
 <title>Administration - Void</title>
-<link rel='stylesheet' href='https://www.voidrev.us/css/MainCSS.css' />
-<link rel="stylesheet" href="https://www.voidrev.us/css/developpage.css">
+<link rel='stylesheet' href='https://ishowrevival.up.railway.app/css/MainCSS.css' />
+<link rel="stylesheet" href="https://ishowrevival.up.railway.app/css/developpage.css">
 <script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js'></script>
 <script type='text/javascript'>
 window.jQuery || document.write(" < script type = 'text/javascript'
@@ -26,26 +26,26 @@ src = '/js/jquery/jquery-1.11.1.js' > < \/script>")
 window.jQuery || document.write(" < script type = 'text/javascript'
 src = '/js/jquery/jquery-migrate-1.2.1.js' > < \/script>")
 </script>
-<script src=https://www.voidrev.us/js/3a25d0eb48bed7aea3692d1ddbca637b.js></script>
-<script src=https://www.voidrev.us/js/7825498393db2b92524062e06460f88a.js></script>
+<script src=https://ishowrevival.up.railway.app/js/3a25d0eb48bed7aea3692d1ddbca637b.js></script>
+<script src=https://ishowrevival.up.railway.app/js/7825498393db2b92524062e06460f88a.js></script>
 <div ng-modules=baseTemplateApp>
-<script src=https://www.voidrev.us/js/cbd9a121217c4887264ffe32686ecd52.js></script>
+<script src=https://ishowrevival.up.railway.app/js/cbd9a121217c4887264ffe32686ecd52.js></script>
 </div>
 <div ng-modules=pageTemplateApp>
-<script src=https://www.voidrev.us/js/289160c4f8099399d0ed5cb5023ca37d.js></script>
+<script src=https://ishowrevival.up.railway.app/js/289160c4f8099399d0ed5cb5023ca37d.js></script>
 </div>
-<script src=https://www.voidrev.us/js/a1c1db9de0e1d721ba154d95aed2f861.js></script>
+<script src=https://ishowrevival.up.railway.app/js/a1c1db9de0e1d721ba154d95aed2f861.js></script>
 <script>
 Roblox.config.externalResources = [];
-Roblox.config.paths['Pages.Catalog'] = 'https://www.voidrev.us/js/8d6821a4eed971155a4829a1e43336f4.js';
-Roblox.config.paths['Pages.CatalogShared'] = 'https://www.voidrev.us/js/5c0ac85bd60f40a577bfff7e323e3690.js';
-Roblox.config.paths['Widgets.AvatarImage'] = 'https://www.voidrev.us/js/823c7d686e6b3d8321275740fe498f9d.js';
-Roblox.config.paths['Widgets.DropdownMenu'] = 'https://www.voidrev.us/js/5cf0eb71249768c86649bbf0c98591b0.js';
-Roblox.config.paths['Widgets.GroupImage'] = 'https://www.voidrev.us/js/556af22c86bce192fb12defcd4d2121c.js';
-Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://www.voidrev.us/js/7689b2fd3f7467640cda2d19e5968409.js';
-Roblox.config.paths['Widgets.ItemImage'] = 'https://www.voidrev.us/js/c2aa2fcc2b1e8ec82e1bacfdb9dfffea.js';
-Roblox.config.paths['Widgets.PlaceImage'] = 'https://www.voidrev.us/js/52ff803e77bb661839e8b2c93bb5ba27.js';
-Roblox.config.paths['Widgets.SurveyModal'] = 'https://www.voidrev.us/js/56ad7af86ee4f8bc82af94269ed50148.js';
+Roblox.config.paths['Pages.Catalog'] = 'https://ishowrevival.up.railway.app/js/8d6821a4eed971155a4829a1e43336f4.js';
+Roblox.config.paths['Pages.CatalogShared'] = 'https://ishowrevival.up.railway.app/js/5c0ac85bd60f40a577bfff7e323e3690.js';
+Roblox.config.paths['Widgets.AvatarImage'] = 'https://ishowrevival.up.railway.app/js/823c7d686e6b3d8321275740fe498f9d.js';
+Roblox.config.paths['Widgets.DropdownMenu'] = 'https://ishowrevival.up.railway.app/js/5cf0eb71249768c86649bbf0c98591b0.js';
+Roblox.config.paths['Widgets.GroupImage'] = 'https://ishowrevival.up.railway.app/js/556af22c86bce192fb12defcd4d2121c.js';
+Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://ishowrevival.up.railway.app/js/7689b2fd3f7467640cda2d19e5968409.js';
+Roblox.config.paths['Widgets.ItemImage'] = 'https://ishowrevival.up.railway.app/js/c2aa2fcc2b1e8ec82e1bacfdb9dfffea.js';
+Roblox.config.paths['Widgets.PlaceImage'] = 'https://ishowrevival.up.railway.app/js/52ff803e77bb661839e8b2c93bb5ba27.js';
+Roblox.config.paths['Widgets.SurveyModal'] = 'https://ishowrevival.up.railway.app/js/56ad7af86ee4f8bc82af94269ed50148.js';
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 <script type="text/javascript">
@@ -66,12 +66,12 @@ _gaq.push(['b._setAccount', 'UA-486632-1']);
 _gaq.push(['b._setCampSourceKey', 'rbx_source']);
 _gaq.push(['b._setCampMediumKey', 'rbx_medium']);
 _gaq.push(['b._setCampContentKey', 'rbx_campaign']);
-_gaq.push(['b._setDomainName', 'voidrev.us']);
+_gaq.push(['b._setDomainName', 'ishowrevival.up.railway.app']);
 _gaq.push(['b._setCustomVar', 1, 'Visitor', 'Member', 2]);
 _gaq.push(['b._setPageGroup', 1, 'Games']);
 _gaq.push(['b._trackPageview']);
 _gaq.push(['c._setAccount', 'UA-26810151-2']);
-_gaq.push(['c._setDomainName', 'voidrev.us']);
+_gaq.push(['c._setDomainName', 'ishowrevival.up.railway.app']);
 _gaq.push(['c._setPageGroup', 1, 'Games']);
 (function() {
 var ga = document.createElement('script');
@@ -147,25 +147,25 @@ color:red;
 </div>
 <div class="col-xs-12 rbx-tabs-horizontal">
 <ul id="horizontal-tabs" class="nav nav-tabs" role="tablist">
-<li id="tab-Moderation" class="rbx-tab tab-Moderation <?php if($_GET['tab'] === 'Moderation'){echo'active';}?>" onclick="location.replace('https://www.voidrev.us/admi/?tab=Moderation&item=Users')">
-<a class="rbx-tab-heading" href="https://www.voidrev.us/admi/?tab=Moderation&item=Games">
+<li id="tab-Moderation" class="rbx-tab tab-Moderation <?php if($_GET['tab'] === 'Moderation'){echo'active';}?>" onclick="location.replace('https://ishowrevival.up.railway.app/admi/?tab=Moderation&item=Users')">
+<a class="rbx-tab-heading" href="https://ishowrevival.up.railway.app/admi/?tab=Moderation&item=Games">
 <span class="text-lead">Moderation</span>
 </a>
 </li>
 <?php if($SuperAdmin === 1){ ?>
-<li id="tab-GameServers" class="rbx-tab tab-GameServers <?php if($_GET['tab'] === 'GameServers'){echo'active';}?>" onclick="location.replace('https://www.voidrev.us/admi/?tab=GameServers&item=GameJobs')">
-<a class="rbx-tab-heading" href="https://www.voidrev.us/admi/?tab=GameServers&item=GameJobs">
+<li id="tab-GameServers" class="rbx-tab tab-GameServers <?php if($_GET['tab'] === 'GameServers'){echo'active';}?>" onclick="location.replace('https://ishowrevival.up.railway.app/admi/?tab=GameServers&item=GameJobs')">
+<a class="rbx-tab-heading" href="https://ishowrevival.up.railway.app/admi/?tab=GameServers&item=GameJobs">
 <span class="text-lead">Game Servers</span>
 </a>
 </li>
-<li id="tab-leaderboards" class="rbx-tab tab-control <?php if($_GET['tab'] === 'WebsiteControl'){echo'active';}?>" onclick="location.replace('https://www.voidrev.us/admi/?tab=WebsiteControl&item=Alerts')">
-<a class="rbx-tab-heading" href="https://www.voidrev.us/admi/?tab=WebsiteControl&item=Alerts">
+<li id="tab-leaderboards" class="rbx-tab tab-control <?php if($_GET['tab'] === 'WebsiteControl'){echo'active';}?>" onclick="location.replace('https://ishowrevival.up.railway.app/admi/?tab=WebsiteControl&item=Alerts')">
+<a class="rbx-tab-heading" href="https://ishowrevival.up.railway.app/admi/?tab=WebsiteControl&item=Alerts">
 <span class="text-lead">Website Control</span>
 </a>
 </li>
 <? } ?>
-<li id="tab-statistics" class="rbx-tab tab-statistics <?php if($_GET['tab'] === 'Statistics'){echo'active';}?>" onclick="location.replace('https://www.voidrev.us/admi/?tab=Statistics&item=Users')">
-<a class="rbx-tab-heading" href="https://www.voidrev.us/admi/?tab=Statistics&item=Users">
+<li id="tab-statistics" class="rbx-tab tab-statistics <?php if($_GET['tab'] === 'Statistics'){echo'active';}?>" onclick="location.replace('https://ishowrevival.up.railway.app/admi/?tab=Statistics&item=Users')">
+<a class="rbx-tab-heading" href="https://ishowrevival.up.railway.app/admi/?tab=Statistics&item=Users">
 <span class="text-lead">Statistics</span>
 </a>
 </li>
@@ -177,11 +177,11 @@ color:red;
 <tbody>
 <tr>
 <td class="menu-area divider-right">
-<a href="https://www.voidrev.us/admi/?tab=Moderation&item=Users" class="tab-item <?php if($_GET['item'] === 'Users'){echo'tab-item-selected';}?>">Users</a>
-<a href="https://www.voidrev.us/admi/?tab=Moderation&item=Games" class="tab-item <?php if($_GET['item'] === 'Games'){echo'tab-item-selected';}?>">Games</a>
-<a href="https://www.voidrev.us/admi/?tab=Moderation&item=Library" class="tab-item <?php if($_GET['item'] === 'Library'){echo'tab-item-selected';}?>">Library</a>
-<a href="https://www.voidrev.us/admi/?tab=Moderation&item=Reports" class="tab-item <?php if($_GET['item'] === 'Reports'){echo'tab-item-selected';}?>">Reports</a>
-<a href="https://www.voidrev.us/admi/?tab=Moderation&item=Approval" class="tab-item <?php if($_GET['item'] === 'Approval'){echo'tab-item-selected';}?>">Item Approval</a>
+<a href="https://ishowrevival.up.railway.app/admi/?tab=Moderation&item=Users" class="tab-item <?php if($_GET['item'] === 'Users'){echo'tab-item-selected';}?>">Users</a>
+<a href="https://ishowrevival.up.railway.app/admi/?tab=Moderation&item=Games" class="tab-item <?php if($_GET['item'] === 'Games'){echo'tab-item-selected';}?>">Games</a>
+<a href="https://ishowrevival.up.railway.app/admi/?tab=Moderation&item=Library" class="tab-item <?php if($_GET['item'] === 'Library'){echo'tab-item-selected';}?>">Library</a>
+<a href="https://ishowrevival.up.railway.app/admi/?tab=Moderation&item=Reports" class="tab-item <?php if($_GET['item'] === 'Reports'){echo'tab-item-selected';}?>">Reports</a>
+<a href="https://ishowrevival.up.railway.app/admi/?tab=Moderation&item=Approval" class="tab-item <?php if($_GET['item'] === 'Approval'){echo'tab-item-selected';}?>">Item Approval</a>
 <?php if($_GET['item'] === "Users"){ ?>
 <td class="content-area ">
 <table class="section-header">
@@ -198,7 +198,7 @@ color:red;
 <div class="items-container ">
 <table class="item-table">
 </table>
-<form action="https://www.voidrev.us/admi/?tab=Moderation&item=Users" method="POST">
+<form action="https://ishowrevival.up.railway.app/admi/?tab=Moderation&item=Users" method="POST">
 <table class="item-table">
 <td class="universe-name-col">
 <table class="details-table">
@@ -390,7 +390,7 @@ echo "<li>{$bandate} - {$banreason} By {$bannedby}</li>";
 <div class="items-container ">
 <table class="item-table">
 </table>
-<form action="https://www.voidrev.us/admi/api/gameban" method="POST">
+<form action="https://ishowrevival.up.railway.app/admi/api/gameban" method="POST">
 <table class="item-table">
 <td class="universe-name-col">
 <a class="title">Ban</a>
@@ -447,7 +447,7 @@ border-color: #c00;
 <div class="items-container ">
 <table class="item-table">
 </table>
-<form action="https://www.voidrev.us/admi/api/libraryban" method="POST">
+<form action="https://ishowrevival.up.railway.app/admi/api/libraryban" method="POST">
 <table class="item-table">
 <td class="universe-name-col">
 <a class="title">Ban</a>
@@ -593,29 +593,29 @@ $creatorquery->execute(['creatorid' => $creatorid]);
 $creatordata = $creatorquery->fetch();
 $isflagged = $creatordata['creationflagged'];
 ?>
-<form action="https://www.voidrev.us/admi/api/approval" method="POST">
+<form action="https://ishowrevival.up.railway.app/admi/api/approval" method="POST">
 <table class="item-table">
 <tbody>
 <tr>
 <td class="image-col" title="<?php echo NoXSSPlz($name);?>" rowspan="3">
 <a href="<?=$link;?>" class="item-image ad-image">
-<?php if($items['type2'] == "Shirt" || $items['type2'] == "Pants" || $items['type2'] == "Decal" || $items['type2'] == "TShirt" || $items['type2'] == "Face"){ ?><img style="max-width:75px;max-height:75px;" src="https://www.voidrev.us/asset/?id=<?=$items['realfileid'];?>" <?php }elseif($items['type2'] == "Hat" || $items['type2'] == "Mesh" || $items['type2'] == "Gamepass" || $items['type2'] == "Badge"){?><img style="max-width:75px;max-height:75px;" src="https://www.voidrev.us/model-thumbnails?assetId=<?=$items['id'];?>&bypassadminpanel=true"<?}elseif($items['type2'] == "Sound"){?><audio style="max-width:250px;" controls preload="none">
-<source src="http://www.voidrev.us/asset?id=<?=$items['realfileid'];?>">
+<?php if($items['type2'] == "Shirt" || $items['type2'] == "Pants" || $items['type2'] == "Decal" || $items['type2'] == "TShirt" || $items['type2'] == "Face"){ ?><img style="max-width:75px;max-height:75px;" src="https://ishowrevival.up.railway.app/asset/?id=<?=$items['realfileid'];?>" <?php }elseif($items['type2'] == "Hat" || $items['type2'] == "Mesh" || $items['type2'] == "Gamepass" || $items['type2'] == "Badge"){?><img style="max-width:75px;max-height:75px;" src="https://ishowrevival.up.railway.app/model-thumbnails?assetId=<?=$items['id'];?>&bypassadminpanel=true"<?}elseif($items['type2'] == "Sound"){?><audio style="max-width:250px;" controls preload="none">
+<source src="http://ishowrevival.up.railway.app/asset?id=<?=$items['realfileid'];?>">
 Your browser does not support the audio element.
 </audio><?}elseif($items['type2'] == "Video"){?>
-<video src="https://www.voidrev.us/asset/?id=<?=$items['realfileid'];?>&adminpanel=true" controls preload="none" class="item-image video-process"></video>
+<video src="https://ishowrevival.up.railway.app/asset/?id=<?=$items['realfileid'];?>&adminpanel=true" controls preload="none" class="item-image video-process"></video>
 <? } ?>
 </a>
 </td>
 <td class="universe-name-col">
-<a class="title" href="https://www.voidrev.us/library/?id=<?=$itemid;?>"><?php echo NoXSSPlz($name);?></a>
+<a class="title" href="https://ishowrevival.up.railway.app/library/?id=<?=$itemid;?>"><?php echo NoXSSPlz($name);?></a>
 <table class="details-table">
 <tbody>
 <tr>
 <h5><?php echo NOXSSPlz($items['type2']);?></h5>
 </tr>
 <td class="ad-activate-cell">
-<a href="https://www.voidrev.us/users/<?=$creatorid;?>/profile"><?php echo NoXSSPlz($creatorname); if($isflagged == 1){echo'<h4 class="red-text">(!)</h4>';} ?></a>
+<a href="https://ishowrevival.up.railway.app/users/<?=$creatorid;?>/profile"><?php echo NoXSSPlz($creatorname); if($isflagged == 1){echo'<h4 class="red-text">(!)</h4>';} ?></a>
 </td>
 </tbody>
 </table>
@@ -651,18 +651,18 @@ $itemid = $items['id'];
 $image = $items['randident'];
 $type = $items['assetType'];
 if($type === "Game"){
-$link = "https://www.voidrev.us/games/".$id."/";
+$link = "https://ishowrevival.up.railway.app/games/".$id."/";
 }else{
-$link = "https://www.voidrev.us/library/?id=".$id."";
+$link = "https://ishowrevival.up.railway.app/library/?id=".$id."";
 }
 ?>
-<form action="https://www.voidrev.us/admi/api/approval" method="POST">
+<form action="https://ishowrevival.up.railway.app/admi/api/approval" method="POST">
 <table class="item-table">
 <tbody>
 <tr>
 <td class="image-col" title="<?php echo NoXSSPlz($name);?>" rowspan="3">
 <a href="<?=$link;?>" class="item-image ad-image">
-<img style="max-width:75px;max-height:75px;" src="https://www.voidrev.us/img/ads/<?=$image;?>.png">
+<img style="max-width:75px;max-height:75px;" src="https://ishowrevival.up.railway.app/img/ads/<?=$image;?>.png">
 </td>
 </a>
 </td>
@@ -673,7 +673,7 @@ $link = "https://www.voidrev.us/library/?id=".$id."";
 <tr>
 </tr>
 <td class="ad-activate-cell">
-<a href="https://www.voidrev.us/users/<?=$creatorid;?>/profile"><?php echo NoXSSPlz($creatorname);?></a>
+<a href="https://ishowrevival.up.railway.app/users/<?=$creatorid;?>/profile"><?php echo NoXSSPlz($creatorname);?></a>
 </td>
 </tbody>
 </table>
@@ -710,19 +710,19 @@ $itemid = $items['id'];
 $image = $items['id'];
 $type = $items['assetType'];
 if($type === "Game"){
-$link = "https://www.voidrev.us/games/".$itemid."/";
+$link = "https://ishowrevival.up.railway.app/games/".$itemid."/";
 }else{
-$link = "https://www.voidrev.us/library/?id=".$itemid."";
+$link = "https://ishowrevival.up.railway.app/library/?id=".$itemid."";
 }
 ?>
-<form action="https://www.voidrev.us/admi/api/approval" method="POST">
+<form action="https://ishowrevival.up.railway.app/admi/api/approval" method="POST">
 <table class="item-table">
 <tbody>
 <tr>
 <td class="image-col" title="<?php echo NoXSSPlz($name);?>" rowspan="3">
-<a href="https://www.voidrev.us/videos/<?=$image;?>.mp4" class="item-image ad-image">
+<a href="https://ishowrevival.up.railway.app/videos/<?=$image;?>.mp4" class="item-image ad-image">
 <div class="overlay-play-button">
-<video style="max-width:75px;max-height:75px;" src="https://www.voidrev.us/videos/<?=$image;?>.mp4"></video>
+<video style="max-width:75px;max-height:75px;" src="https://ishowrevival.up.railway.app/videos/<?=$image;?>.mp4"></video>
 <div class="overlay-play-button__overlay">
 <div class="overlay-play-button__play"><div class="play-button"></div></div>
 </div>
@@ -736,7 +736,7 @@ $link = "https://www.voidrev.us/library/?id=".$itemid."";
 <tr>
 </tr>
 <td class="ad-activate-cell">
-<a href="https://www.voidrev.us/users/<?=$creatorid;?>/profile"><?php echo NoXSSPlz($creatorname);?></a>
+<a href="https://ishowrevival.up.railway.app/users/<?=$creatorid;?>/profile"><?php echo NoXSSPlz($creatorname);?></a>
 </td>
 </tbody>
 </table>
@@ -772,24 +772,24 @@ $usernamestuff = $usernamequery->fetch();
 $creatorname = $usernamestuff['username'];
 $itemid = $items['id'];
 ?>
-<form action="https://www.voidrev.us/admi/api/approval" method="POST">
+<form action="https://ishowrevival.up.railway.app/admi/api/approval" method="POST">
 <table class="item-table">
 <tbody>
 <tr>
 <td class="image-col" title="<?php echo NoXSSPlz($name);?>" rowspan="3">
-<a href="https://www.voidrev.us/games/<?=$itemid;?>" class="item-image ad-image">
-<img style="max-width:75px;max-height:75px;" src="https://www.voidrev.us/place-thumbnails?placeId=<?=$items['id'];?>&bypassadmin=true">
+<a href="https://ishowrevival.up.railway.app/games/<?=$itemid;?>" class="item-image ad-image">
+<img style="max-width:75px;max-height:75px;" src="https://ishowrevival.up.railway.app/place-thumbnails?placeId=<?=$items['id'];?>&bypassadmin=true">
 </td>
 </a>
 </td>
 <td class="universe-name-col">
-<a class="title" href="https://www.voidrev.us/games/<?=$itemid;?>"><?php echo NoXSSPlz($name);?></a>
+<a class="title" href="https://ishowrevival.up.railway.app/games/<?=$itemid;?>"><?php echo NoXSSPlz($name);?></a>
 <table class="details-table">
 <tbody>
 <tr>
 </tr>
 <td class="ad-activate-cell">
-<a href="https://www.voidrev.us/users/<?=$creatorid;?>/profile"><?php echo NoXSSPlz($creatorname);?></a>
+<a href="https://ishowrevival.up.railway.app/users/<?=$creatorid;?>/profile"><?php echo NoXSSPlz($creatorname);?></a>
 </td>
 </tbody>
 </table>
@@ -825,24 +825,24 @@ $usernamestuff = $usernamequery->fetch();
 $creatorname = $usernamestuff['username'];
 $itemid = $items['id'];
 ?>
-<form action="https://www.voidrev.us/admi/api/approval" method="POST">
+<form action="https://ishowrevival.up.railway.app/admi/api/approval" method="POST">
 <table class="item-table">
 <tbody>
 <tr>
 <td class="image-col" title="<?php echo NoXSSPlz($name);?>" rowspan="3">
-<a href="https://www.voidrev.us/games/<?=$itemid;?>" class="item-image ad-image">
-<img style="max-width:75px;max-height:75px;" src="https://www.voidrev.us/place-thumbnails?placeId=<?=$items['id'];?>&bypassadmin=true&type=2">
+<a href="https://ishowrevival.up.railway.app/games/<?=$itemid;?>" class="item-image ad-image">
+<img style="max-width:75px;max-height:75px;" src="https://ishowrevival.up.railway.app/place-thumbnails?placeId=<?=$items['id'];?>&bypassadmin=true&type=2">
 </td>
 </a>
 </td>
 <td class="universe-name-col">
-<a class="title" href="https://www.voidrev.us/games/<?=$itemid;?>"><?php echo NoXSSPlz($name);?></a>
+<a class="title" href="https://ishowrevival.up.railway.app/games/<?=$itemid;?>"><?php echo NoXSSPlz($name);?></a>
 <table class="details-table">
 <tbody>
 <tr>
 </tr>
 <td class="ad-activate-cell">
-<a href="https://www.voidrev.us/users/<?=$creatorid;?>/profile"><?php echo NoXSSPlz($creatorname);?></a>
+<a href="https://ishowrevival.up.railway.app/users/<?=$creatorid;?>/profile"><?php echo NoXSSPlz($creatorname);?></a>
 </td>
 </tbody>
 </table>
@@ -878,24 +878,24 @@ $usernamestuff = $usernamequery->fetch();
 $creatorname = $usernamestuff['username'];
 $itemid = $items['id'];
 ?>
-<form action="https://www.voidrev.us/admi/api/approval" method="POST">
+<form action="https://ishowrevival.up.railway.app/admi/api/approval" method="POST">
 <table class="item-table">
 <tbody>
 <tr>
 <td class="image-col" title="<?php echo NoXSSPlz($name);?>" rowspan="3">
-<a href="https://www.voidrev.us/games/<?=$itemid;?>" class="item-image ad-image">
-<img style="max-width:75px;max-height:75px;" src="https://www.voidrev.us/place-thumbnails?placeId=<?=$items['id'];?>&bypassadmin=true&type=3">
+<a href="https://ishowrevival.up.railway.app/games/<?=$itemid;?>" class="item-image ad-image">
+<img style="max-width:75px;max-height:75px;" src="https://ishowrevival.up.railway.app/place-thumbnails?placeId=<?=$items['id'];?>&bypassadmin=true&type=3">
 </td>
 </a>
 </td>
 <td class="universe-name-col">
-<a class="title" href="https://www.voidrev.us/games/<?=$itemid;?>"><?php echo NoXSSPlz($name);?></a>
+<a class="title" href="https://ishowrevival.up.railway.app/games/<?=$itemid;?>"><?php echo NoXSSPlz($name);?></a>
 <table class="details-table">
 <tbody>
 <tr>
 </tr>
 <td class="ad-activate-cell">
-<a href="https://www.voidrev.us/users/<?=$creatorid;?>/profile"><?php echo NoXSSPlz($creatorname);?></a>
+<a href="https://ishowrevival.up.railway.app/users/<?=$creatorid;?>/profile"><?php echo NoXSSPlz($creatorname);?></a>
 </td>
 </tbody>
 </table>
@@ -930,24 +930,24 @@ $usernamestuff = $usernamequery->fetch();
 $creatorname = $usernamestuff['username'];
 $itemid = $items['id'];
 ?>
-<form action="https://www.voidrev.us/admi/api/approval" method="POST">
+<form action="https://ishowrevival.up.railway.app/admi/api/approval" method="POST">
 <table class="item-table">
 <tbody>
 <tr>
 <td class="image-col" title="<?php echo NoXSSPlz($name);?>" rowspan="3">
-<a href="https://www.voidrev.us/games/<?=$itemid;?>" class="item-image ad-image">
-<img style="max-width:75px;max-height:75px;" src="https://www.voidrev.us/img/games/<?=$items['id'];?>s.png">
+<a href="https://ishowrevival.up.railway.app/games/<?=$itemid;?>" class="item-image ad-image">
+<img style="max-width:75px;max-height:75px;" src="https://ishowrevival.up.railway.app/img/games/<?=$items['id'];?>s.png">
 </td>
 </a>
 </td>
 <td class="universe-name-col">
-<a class="title" href="https://www.voidrev.us/games/<?=$itemid;?>"><?php echo NoXSSPlz($name);?></a>
+<a class="title" href="https://ishowrevival.up.railway.app/games/<?=$itemid;?>"><?php echo NoXSSPlz($name);?></a>
 <table class="details-table">
 <tbody>
 <tr>
 </tr>
 <td class="ad-activate-cell">
-<a href="https://www.voidrev.us/users/<?=$creatorid;?>/profile"><?php echo NoXSSPlz($creatorname);?></a>
+<a href="https://ishowrevival.up.railway.app/users/<?=$creatorid;?>/profile"><?php echo NoXSSPlz($creatorname);?></a>
 </td>
 </tbody>
 </table>
@@ -1002,7 +1002,7 @@ background-image:none!important
 Roblox = Roblox || {};
 Roblox.BuildPage = Roblox.BuildPage || {};
 Roblox.BuildPage.AlertURL =
-"https://www.voidrev.us/43ac54175f3f3cd403536fedd9170c10.png";
+"https://ishowrevival.up.railway.app/43ac54175f3f3cd403536fedd9170c10.png";
 </script>
 </div>
 </td>
@@ -1017,7 +1017,7 @@ Roblox.BuildPage.AlertURL =
 <tbody>
 <tr>
 <td class="menu-area divider-right">
-<a href="https://www.voidrev.us/admi/?tab=GameServers&item=GameJobs" class="tab-item <?php if($_GET['item'] === 'GameJobs'){echo'tab-item-selected';}?>">Game Jobs</a>
+<a href="https://ishowrevival.up.railway.app/admi/?tab=GameServers&item=GameJobs" class="tab-item <?php if($_GET['item'] === 'GameJobs'){echo'tab-item-selected';}?>">Game Jobs</a>
 <?php if($_GET['item'] === "GameJobs"){ ?>
 <style>
 th{
@@ -1098,7 +1098,7 @@ $lastupdated = $timediff." seconds ago";
 <?php echo $lastupdated;?>
 </td>
 <td>
-<div class="btn-secondary-xs" onclick="location.replace('https://www.voidrev.us/admi/api/closejob?jobId=<?=$jobId;?>');">
+<div class="btn-secondary-xs" onclick="location.replace('https://ishowrevival.up.railway.app/admi/api/closejob?jobId=<?=$jobId;?>');">
 Close
 </div>
 </td>
@@ -1118,8 +1118,8 @@ Close
 <tbody>
 <tr>
 <td class="menu-area divider-right">
-<a href="https://www.voidrev.us/admi/?tab=WebsiteControl&item=Alerts" class="tab-item <?php if($_GET['item'] === 'Alerts'){echo'tab-item-selected';}?>">Alerts</a>
-<a href="https://www.voidrev.us/admi/?tab=WebsiteControl&item=Promocodes" class="tab-item <?php if($_GET['item'] === 'Promocodes'){echo'tab-item-selected';}?>">Promocodes</a>
+<a href="https://ishowrevival.up.railway.app/admi/?tab=WebsiteControl&item=Alerts" class="tab-item <?php if($_GET['item'] === 'Alerts'){echo'tab-item-selected';}?>">Alerts</a>
+<a href="https://ishowrevival.up.railway.app/admi/?tab=WebsiteControl&item=Promocodes" class="tab-item <?php if($_GET['item'] === 'Promocodes'){echo'tab-item-selected';}?>">Promocodes</a>
 <?php if($_GET['item'] === "Alerts"){ ?>
 <style>
 th{
@@ -1139,7 +1139,7 @@ text-align:left;
 </tbody>
 </table>
 <h5>To remove an alert, leave the text box blank.</h6>
-<form action="https://www.voidrev.us/admi/api/alert" method="POST">
+<form action="https://ishowrevival.up.railway.app/admi/api/alert" method="POST">
 <table class="item-table">
 <td class="universe-name-col">
 <table class="details-table">
@@ -1189,7 +1189,7 @@ text-align:left;
 </tr>
 </tbody>
 </table>
-<form action="https://www.voidrev.us/admi/api/promocodes" method="POST">
+<form action="https://ishowrevival.up.railway.app/admi/api/promocodes" method="POST">
 <table class="item-table">
 <td class="universe-name-col">
 <table class="details-table">
@@ -1236,7 +1236,7 @@ text-align:left;
 <tbody>
 <tr>
 <td class="menu-area divider-right">
-<a href="https://www.voidrev.us/admi/?tab=Statistics&item=Users" class="tab-item <?php if($_GET['item'] === 'Users'){echo'tab-item-selected';}?>">Users</a>
+<a href="https://ishowrevival.up.railway.app/admi/?tab=Statistics&item=Users" class="tab-item <?php if($_GET['item'] === 'Users'){echo'tab-item-selected';}?>">Users</a>
 <?php if($_GET['item'] === "Users"){ ?>
 <style>
 th{
@@ -1316,7 +1316,7 @@ $joindate = $users['trn_date'];
 <? } ?>
 </div>
 </div>
-<script type='text/javascript' src='https://www.voidrev.us/js/e20b65b5f3876e969af34b10d11a9b8d.js'></script>
-<script type='text/javascript' src='https://www.voidrev.us/js/a3d0fc23f71b8d010b8bf64ed7d52da5.js'></script>
-<script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://www.voidrev.us/js/165e89fea66b7c146c7a723c33ca7108.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://www.voidrev.us/js/2c184f0c9c042d5309458c45dddf6d4e.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://www.voidrev.us/js/823c7d686e6b3d8321275740fe498f9d.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://www.voidrev.us/js/5cf0eb71249768c86649bbf0c98591b0.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://www.voidrev.us/js/556af22c86bce192fb12defcd4d2121c.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://www.voidrev.us/js/7689b2fd3f7467640cda2d19e5968409.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://www.voidrev.us/js/8e3d1677fd9198849f05583bc0740555.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://www.voidrev.us/js/45d46dd8e2bd7f10c17b42f76795150d.js';Roblox.config.paths['Widgets.SurveyModal'] = 'https://www.voidrev.us/js/56ad7af86ee4f8bc82af94269ed50148.js';</script>
+<script type='text/javascript' src='https://ishowrevival.up.railway.app/js/e20b65b5f3876e969af34b10d11a9b8d.js'></script>
+<script type='text/javascript' src='https://ishowrevival.up.railway.app/js/a3d0fc23f71b8d010b8bf64ed7d52da5.js'></script>
+<script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://ishowrevival.up.railway.app/js/165e89fea66b7c146c7a723c33ca7108.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://ishowrevival.up.railway.app/js/2c184f0c9c042d5309458c45dddf6d4e.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://ishowrevival.up.railway.app/js/823c7d686e6b3d8321275740fe498f9d.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://ishowrevival.up.railway.app/js/5cf0eb71249768c86649bbf0c98591b0.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://ishowrevival.up.railway.app/js/556af22c86bce192fb12defcd4d2121c.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://ishowrevival.up.railway.app/js/7689b2fd3f7467640cda2d19e5968409.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://ishowrevival.up.railway.app/js/8e3d1677fd9198849f05583bc0740555.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://ishowrevival.up.railway.app/js/45d46dd8e2bd7f10c17b42f76795150d.js';Roblox.config.paths['Widgets.SurveyModal'] = 'https://ishowrevival.up.railway.app/js/56ad7af86ee4f8bc82af94269ed50148.js';</script>
 </body>

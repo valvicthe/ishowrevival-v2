@@ -13,17 +13,17 @@ $response = array('data' => array());
 for ($i = 0; $i < count($decoded); $i++) {
 $obj = $decoded[$i];
 if($obj->type == "Avatar"){
-$imageurl = "https://www.voidrev.us".getUserThumbnail($con,$obj->targetId);
+$imageurl = "https://ishowrevival.up.railway.app".getUserThumbnail($con,$obj->targetId);
 }elseif($obj->type == "AvatarHeadShot"){
-$imageurl = "https://www.voidrev.us".getUserHeadshotThumbnail($con,$obj->targetId);
+$imageurl = "https://ishowrevival.up.railway.app".getUserHeadshotThumbnail($con,$obj->targetId);
 }elseif($obj->type == "Asset"){
 $userAgent = $_SERVER['HTTP_USER_AGENT'];
 $isRoblox = stripos($userAgent, 'Roblox') !== false;
-$imageUrl = "https://www.voidrev.us" . getModelThumbnail($con, $obj->targetId, $isRoblox);
+$imageUrl = "https://ishowrevival.up.railway.app" . getModelThumbnail($con, $obj->targetId, $isRoblox);
 }elseif($obj->type == "PlaceIcon"){
-$imageurl = "https://www.voidrev.us".getPlaceIcon($con,$obj->targetId);
+$imageurl = "https://ishowrevival.up.railway.app".getPlaceIcon($con,$obj->targetId);
 }elseif($obj->type == "GameIcon"){
-$imageurl = "https://www.voidrev.us".getPlaceIcon($con,$obj->targetId);
+$imageurl = "https://ishowrevival.up.railway.app".getPlaceIcon($con,$obj->targetId);
 }else{
 die(json_encode(['message' => "Sorry, that type doesn't exist."]));
 }

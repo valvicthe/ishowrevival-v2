@@ -45,7 +45,7 @@ exit();
 if(strlen($username) > 19){
 exit();
 }
-$usernamecheck = json_decode(file_get_contents("http://www.voidrev.us/usercheck/checkifinvalidusernameforsignup?username=".$username.""),true);
+$usernamecheck = json_decode(file_get_contents("http://ishowrevival.up.railway.app/usercheck/checkifinvalidusernameforsignup?username=".$username.""),true);
 $usernamecheck = $usernamecheck['data'];
 if($usernamecheck != 0){
 echo"[]";
@@ -86,11 +86,11 @@ $usrquery->execute(['username' => $username]);
 $usr = $usrquery->fetch();
 $uID = $usr['id'];
 $roblosec = $usr['ROBLOSECURITY'];
-setcookie("username", $username, time() + (460800* 30), "/", '.voidrev.us');
-setcookie("password", $password, time() + (460800* 30), "/", '.voidrev.us');
-setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.voidrev.us');
-setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.voidrev.us');
-setcookie(".RBXID", $roblosec, time() + (460800* 30), "/", '.voidrev.us');
+setcookie("username", $username, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie("password", $password, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.ishowrevival.up.railway.app');
+setcookie(".RBXID", $roblosec, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
 $usrquery = $con->prepare("SELECT * FROM `users` WHERE `username` = :username");
 $usrquery->execute(['username' => $username]);
 $usr = $usrquery->fetch();

@@ -1,7 +1,7 @@
 <?php
 require($_SERVER['DOCUMENT_ROOT']."/config/includes.php");
 if (is_array(getUserData($con))) {
-header("Location: https://www.voidrev.us/home");
+header("Location: https://ishowrevival.up.railway.app/home");
 }
 // lets go bowling
 $words = [

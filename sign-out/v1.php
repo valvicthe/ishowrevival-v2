@@ -7,10 +7,10 @@ $parts = explode('=', $cookie);
 $name = trim($parts[0]);
 setcookie($name, '', - 24 * 60 * 60);
 setcookie($name, '', - 24 * 60 * 60, '/');
-setcookie($name, '', - 24 * 60 * 60, '/', '.voidrev.us');
+setcookie($name, '', - 24 * 60 * 60, '/', '.ishowrevival.up.railway.app');
 }
 }
-setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.voidrev.us');
-header("Location: https://www.voidrev.us");
+setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.ishowrevival.up.railway.app');
+header("Location: https://ishowrevival.up.railway.app");
 exit();
 ?>

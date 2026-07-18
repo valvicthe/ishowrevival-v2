@@ -9,15 +9,15 @@
 <html>
 <!--<![endif]-->
 <head>
-<link rel='stylesheet' href='https://www.voidrev.us/css/leanbase.css' />
-<link rel='stylesheet' href='https://www.voidrev.us/css/robloxerrorpage403.css' />
+<link rel='stylesheet' href='https://ishowrevival.up.railway.app/css/leanbase.css' />
+<link rel='stylesheet' href='https://ishowrevival.up.railway.app/css/robloxerrorpage403.css' />
     
 <script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js'></script>
 <script type='text/javascript'>window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-1.11.1.js'><\/script>")</script>
 <script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.2.1.min.js'></script>
 <script type='text/javascript'>window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-migrate-1.2.1.js'><\/script>")</script>
 
-<script type='text/javascript' src='https://www.voidrev.us/js/86411e39f51e0ef39c7fa2f1f92fe7b3.js'></script>
+<script type='text/javascript' src='https://ishowrevival.up.railway.app/js/86411e39f51e0ef39c7fa2f1f92fe7b3.js'></script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 
@@ -102,37 +102,37 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
     <div class="footer">
         <ul class="row footer-links">
                 <li class="col-4 col-xs-1 footer-link">
-                    <a href="http://corp.voidrev.us" class="text-footer-nav roblox-interstitial" target="_blank">
+                    <a href="http://corp.ishowrevival.up.railway.app" class="text-footer-nav roblox-interstitial" target="_blank">
                         About Us
                     </a>
                 </li>
                 <li class="col-4 col-xs-1 footer-link">
-                    <a href="http://corp.voidrev.us/jobs" class="text-footer-nav roblox-interstitial" target="_blank">
+                    <a href="http://corp.ishowrevival.up.railway.app/jobs" class="text-footer-nav roblox-interstitial" target="_blank">
                         Jobs
                     </a>
                 </li>
             <li class="col-4 col-xs-1 footer-link">
-                <a href="http://blog.voidrev.us" class="text-footer-nav" target="_blank">
+                <a href="http://blog.ishowrevival.up.railway.app" class="text-footer-nav" target="_blank">
                     Blog
                 </a>
             </li>
             <li class="col-4 col-xs-1 footer-link">
-                <a href="http://corp.voidrev.us/parents" class="text-footer-nav roblox-interstitial" target="_blank">
+                <a href="http://corp.ishowrevival.up.railway.app/parents" class="text-footer-nav roblox-interstitial" target="_blank">
                     Parents
                 </a>
             </li>
             <li class="col-4 col-xs-1 footer-link">
-                <a href="http://help.voidrev.us/" class="text-footer-nav roblox-interstitial" target="_blank">
+                <a href="http://help.ishowrevival.up.railway.app/" class="text-footer-nav roblox-interstitial" target="_blank">
                     Help
                 </a>
             </li>
             <li class="col-4 col-xs-1 footer-link">
-                <a href="https://www.voidrev.us/Info/terms-of-service" class="text-footer-nav" target="_blank">
+                <a href="https://ishowrevival.up.railway.app/Info/terms-of-service" class="text-footer-nav" target="_blank">
                     Terms
                 </a>
             </li>
             <li class="col-4 col-xs-1 footer-link">
-                <a href="https://www.voidrev.us/Info/Privacy.aspx" class="text-footer-nav privacy" target="_blank">
+                <a href="https://ishowrevival.up.railway.app/Info/Privacy.aspx" class="text-footer-nav privacy" target="_blank">
                     Privacy
                 </a>
             </li>
@@ -165,7 +165,7 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
      data-protocol-detection-enabled="true">
     <div class="modalPopup blueAndWhite PlaceLauncherModal" style="min-height: 160px">
         <div id="Spinner" class="Spinner" style="padding:20px 0;">
-            <img data-delaysrc="https://www.voidrev.us/img//e998fb4c03e8c2e30792f2f3436e9416.gif" height="32" width="32" alt="Progress" />
+            <img data-delaysrc="https://ishowrevival.up.railway.app/img//e998fb4c03e8c2e30792f2f3436e9416.gif" height="32" width="32" alt="Progress" />
         </div>
         <div id="status" style="min-height:40px;text-align:center;margin:5px 20px">
             <div id="Starting" class="PlaceLauncherStatus MadStatusStarting" style="display:block">
@@ -185,14 +185,14 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
 
         </div>
         <div class="ph-logo-row">
-            <img data-delaysrc="https://www.voidrev.us/img//e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R" />
+            <img data-delaysrc="https://ishowrevival.up.railway.app/img//e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R" />
         </div>
         <div class="ph-areyouinstalleddialog-content">
             <p class="larger-font-size">
                 ROBLOX is now loading. Get ready to play!
             </p>
             <div class="ph-startingdialog-spinner-row">
-                <img data-delaysrc="https://www.voidrev.us/img//4bed93c91f909002b1f17f05c0ce13d1.gif" width="82" height="24" />
+                <img data-delaysrc="https://ishowrevival.up.railway.app/img//4bed93c91f909002b1f17f05c0ce13d1.gif" width="82" height="24" />
             </div>
         </div>
     </div>
@@ -203,7 +203,7 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
             <span class="icon-close simplemodal-close"></span>
         </div>
         <div class="ph-logo-row">
-            <img data-delaysrc="https://www.voidrev.us/img//e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R" />
+            <img data-delaysrc="https://ishowrevival.up.railway.app/img//e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R" />
         </div>
         <div class="ph-areyouinstalleddialog-content">
             <p class="larger-font-size">
@@ -215,7 +215,7 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
                 </button>
             </div>
             <div class="small">
-                <a href="https://help.voidrev.us/hc/en-us/articles/204473560" class="text-name" target="_blank">Click here for help</a>
+                <a href="https://help.ishowrevival.up.railway.app/hc/en-us/articles/204473560" class="text-name" target="_blank">Click here for help</a>
             </div>
         </div>
     </div>
@@ -225,7 +225,7 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
         <span class="icon-moreinfo"></span>
                 
                     Check <b>Remember my choice</b> and click
-                    <img data-delaysrc="https://www.voidrev.us/img//7c8d7a39b4335931221857cca2b5430b.png" alt="Launch Application" />
+                    <img data-delaysrc="https://ishowrevival.up.railway.app/img//7c8d7a39b4335931221857cca2b5430b.png" alt="Launch Application" />
                 
         in the dialog box above to join games faster in the future!
     </p>
@@ -251,7 +251,7 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
         </div>
         <div id="videoPrerollJoinBC">
             <span>Get more with Builders Club!</span>
-            <a href="https://www.voidrev.us/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
+            <a href="https://ishowrevival.up.railway.app/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
         </div>
     </div>   
 
@@ -311,7 +311,7 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
                     <a href id="decline-btn"><span></span></a>
                 </div>
                 <div class="loading modal-processing">
-                    <img class="loading-default" src='https://www.voidrev.us/img//4bed93c91f909002b1f17f05c0ce13d1.gif' alt="Processing..." />
+                    <img class="loading-default" src='https://ishowrevival.up.railway.app/img//4bed93c91f909002b1f17f05c0ce13d1.gif' alt="Processing..." />
                 </div>
             </div>
             <div class="modal-footer text-footer">
@@ -343,14 +343,14 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
 </script>
 
     
-    <script type='text/javascript' src='https://www.voidrev.us/js/6df9bc0534efbd8f409e764c1c275374.js'></script>
+    <script type='text/javascript' src='https://ishowrevival.up.railway.app/js/6df9bc0534efbd8f409e764c1c275374.js'></script>
 
 
     
                         
 
     
-    <script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://www.voidrev.us/js/943dbead6327ef7e601925fc45ffbeb0.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://www.voidrev.us/js/496e8f05b3aabfcd72a147ddb49aaf1e.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://www.voidrev.us/js/6bac93e9bb6716f32f09db749cec330b.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://www.voidrev.us/js/7b436bae917789c0b84f40fdebd25d97.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://www.voidrev.us/js/33d82b98045d49ec5a1f635d14cc7010.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://www.voidrev.us/js/3368571372da9b2e1713bb54ca42a65a.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://www.voidrev.us/js/e79fc9c586a76e2eabcddc240298e52c.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://www.voidrev.us/js/31df1ed92170ebf3231defcd9b841008.js';Roblox.config.paths['Widgets.SurveyModal'] = 'https://www.voidrev.us/js/d6e979598c460090eafb6d38231159f6.js';</script>
+    <script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://ishowrevival.up.railway.app/js/943dbead6327ef7e601925fc45ffbeb0.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://ishowrevival.up.railway.app/js/496e8f05b3aabfcd72a147ddb49aaf1e.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://ishowrevival.up.railway.app/js/6bac93e9bb6716f32f09db749cec330b.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://ishowrevival.up.railway.app/js/7b436bae917789c0b84f40fdebd25d97.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://ishowrevival.up.railway.app/js/33d82b98045d49ec5a1f635d14cc7010.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://ishowrevival.up.railway.app/js/3368571372da9b2e1713bb54ca42a65a.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://ishowrevival.up.railway.app/js/e79fc9c586a76e2eabcddc240298e52c.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://ishowrevival.up.railway.app/js/31df1ed92170ebf3231defcd9b841008.js';Roblox.config.paths['Widgets.SurveyModal'] = 'https://ishowrevival.up.railway.app/js/d6e979598c460090eafb6d38231159f6.js';</script>
 
 
         <script>
@@ -381,6 +381,6 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
 </script>
 
     
-    <script type='text/javascript' src='https://www.voidrev.us/js/1c0f28e0c99de276b80e6d82fa3d455a.js'></script>
+    <script type='text/javascript' src='https://ishowrevival.up.railway.app/js/1c0f28e0c99de276b80e6d82fa3d455a.js'></script>
 </body>
 </html>

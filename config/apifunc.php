@@ -14,7 +14,7 @@ if(stripos($user_agent, 'Roblox Android App') !== false || stripos($user_agent, 
 $array = ["An Unknown Error occurred.","Invalid ROBLOSECURITY", "Invalid password", "error", "SQL query failed", "Unknown Error", "Missing GET", "Invalid Header", "file_get_contents received 500", "curl received 500", "unknown error","failed to include","PHP Parse error: syntax error, unexpected '{' in index.php on line 20", "PHP Parse error: syntax error, unexpected '}' in index.php on line 54"];
 $message = array_rand($array);
 http_response_code(500);
-header("Location: https://www.voidrev.us/ErrorPages/500");
+header("Location: https://ishowrevival.up.railway.app/ErrorPages/500");
 echo $array[$message];
 exit();
 }

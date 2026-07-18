@@ -1,4 +1,4 @@
 <?php
-header("Location: https://www.voidrev.us/login");
+header("Location: https://ishowrevival.up.railway.app/login");
 exit();
 ?>

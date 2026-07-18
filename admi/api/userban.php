@@ -65,7 +65,7 @@ $stmtInsert->bindValue(':Reason', $Reason, PDO::PARAM_STR);
 $stmtInsert->bindValue(':BannedBy', $uID, PDO::PARAM_INT);
 $stmtInsert->bindValue(':BannedId', $UserId, PDO::PARAM_INT);
 $stmtInsert->execute();
-header("Location: https://www.voidrev.us/admi/?tab=Moderation&item=Users");
+header("Location: https://ishowrevival.up.railway.app/admi/?tab=Moderation&item=Users");
 die("Success, returning");
 } else {
 die("Bad Request");

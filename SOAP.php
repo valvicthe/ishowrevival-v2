@@ -254,9 +254,9 @@ $scriptText = '
 "Type": "Place",
 "PlaceId": '.$placeId.',
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$placeId.'", "PNG", 1280, 720, "https://www.voidrev.us", '.$placeId.']
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$placeId.'", "PNG", 1280, 720, "https://ishowrevival.up.railway.app", '.$placeId.']
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -310,9 +310,9 @@ $scriptText = '
 "Type": "Avatar_R15_Action",
 "PlaceId": 0,
 "UserId": '.$userId.',
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us", "https://www.voidrev.us/v1.1/avatar-fetch?userId='.$userId.'&placeId=0", "PNG", 768, 768]
+"Arguments": ["https://ishowrevival.up.railway.app", "https://ishowrevival.up.railway.app/v1.1/avatar-fetch?userId='.$userId.'&placeId=0", "PNG", 768, 768]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -367,9 +367,9 @@ $scriptText = '
 "Type": "Closeup",
 "PlaceId": 1,
 "UserId": '.$userId.',
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us", "https://www.voidrev.us/v1.1/avatar-fetch?userId='.$userId.'&placeId=1", "PNG", 768, 768, true, 40, 100, 0, 0]
+"Arguments": ["https://ishowrevival.up.railway.app", "https://ishowrevival.up.railway.app/v1.1/avatar-fetch?userId='.$userId.'&placeId=1", "PNG", 768, 768, true, 40, 100, 0, 0]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -423,9 +423,9 @@ $scriptText = '
 "Type": "Avatar_R15_Action",
 "PlaceId": 0,
 "UserId": '.$userId.',
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us", "https://www.voidrev.us/v1.1/avatar-fetch?userId='.$userId.'&placeId=0", "OBJ", 768, 768]
+"Arguments": ["https://ishowrevival.up.railway.app", "https://ishowrevival.up.railway.app/v1.1/avatar-fetch?userId='.$userId.'&placeId=0", "OBJ", 768, 768]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -470,9 +470,9 @@ $scriptText = '
 "Type": "Package",
 "PlaceId": '.$assetId.',
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","https://www.voidrev.us/","OBJ", 720, 720, "https://www.voidrev.us/asset/?id=8246626421", ""]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","https://ishowrevival.up.railway.app/","OBJ", 720, 720, "https://ishowrevival.up.railway.app/asset/?id=8246626421", ""]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -488,9 +488,9 @@ $scriptText = '
 "Type": "Pants",
 "PlaceId": '.$assetId.',
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","OBJ", 720, 720, "https://www.voidrev.us/", 8246626421]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","OBJ", 720, 720, "https://ishowrevival.up.railway.app/", 8246626421]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -506,9 +506,9 @@ $scriptText = '
 "Type": "Shirt",
 "PlaceId": '.$assetId.',
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","OBJ", 720, 720, "https://www.voidrev.us/", 8246626421]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","OBJ", 720, 720, "https://ishowrevival.up.railway.app/", 8246626421]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -524,9 +524,9 @@ $scriptText = '
 "Type": "Shirt",
 "PlaceId": '.$assetId.',
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","OBJ", 720, 720, "https://www.voidrev.us/", 8246626421]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","OBJ", 720, 720, "https://ishowrevival.up.railway.app/", 8246626421]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -542,9 +542,9 @@ $scriptText = '
 "Type": "Hat",
 "PlaceId": '.$assetId.',
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","OBJ", 720, 720, "https://www.voidrev.us/"]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","OBJ", 720, 720, "https://ishowrevival.up.railway.app/"]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -560,9 +560,9 @@ $scriptText = '
 "Type": "Gear",
 "PlaceId": 0,
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","OBJ", 720, 720, "https://www.voidrev.us/"]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","OBJ", 720, 720, "https://ishowrevival.up.railway.app/"]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -578,9 +578,9 @@ $scriptText = '
 "Type": "Mesh",
 "PlaceId": '.$assetId.',
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","OBJ", 720, 720, "https://www.voidrev.us/"]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","OBJ", 720, 720, "https://ishowrevival.up.railway.app/"]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -596,9 +596,9 @@ $scriptText = '
 "Type": "Model",
 "PlaceId": '.$assetId.',
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","OBJ", 720, 720, "https://www.voidrev.us/"]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","OBJ", 720, 720, "https://ishowrevival.up.railway.app/"]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -614,9 +614,9 @@ $scriptText = '
 "Type": "Model",
 "PlaceId": '.$assetId.',
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","OBJ", 720, 720, "https://www.voidrev.us/"]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","OBJ", 720, 720, "https://ishowrevival.up.railway.app/"]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -667,9 +667,9 @@ $scriptText = '
 "Type": "Package",
 "PlaceId": '.$assetId.',
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","https://www.voidrev.us/","PNG", 720, 720, "https://www.voidrev.us/asset/?id=235400037", ""]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","https://ishowrevival.up.railway.app/","PNG", 720, 720, "https://ishowrevival.up.railway.app/asset/?id=235400037", ""]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -685,9 +685,9 @@ $scriptText = '
 "Type": "Pants",
 "PlaceId": 1,
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","PNG", 720, 720, "https://www.voidrev.us/", 235400037]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","PNG", 720, 720, "https://ishowrevival.up.railway.app/", 235400037]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -703,9 +703,9 @@ $scriptText = '
 "Type": "Shirt",
 "PlaceId": 1,
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","PNG", 720, 720, "https://www.voidrev.us/", 235400037]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","PNG", 720, 720, "https://ishowrevival.up.railway.app/", 235400037]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -721,9 +721,9 @@ $scriptText = '
 "Type": "Shirt",
 "PlaceId": 1,
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","PNG", 720, 720, "https://www.voidrev.us/", 235400037]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","PNG", 720, 720, "https://ishowrevival.up.railway.app/", 235400037]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -739,9 +739,9 @@ $scriptText = '
 "Type": "Hat",
 "PlaceId": 1,
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","PNG", 720, 720, "https://www.voidrev.us/"]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","PNG", 720, 720, "https://ishowrevival.up.railway.app/"]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -757,9 +757,9 @@ $scriptText = '
 "Type": "Mesh",
 "PlaceId": 7,
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","PNG", 720, 720, "https://www.voidrev.us/"]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","PNG", 720, 720, "https://ishowrevival.up.railway.app/"]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -775,9 +775,9 @@ $scriptText = '
 "Type": "Model",
 "PlaceId": 1,
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","PNG", 720, 720, "https://www.voidrev.us/"]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","PNG", 720, 720, "https://ishowrevival.up.railway.app/"]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -793,9 +793,9 @@ $scriptText = '
 "Type": "Gear",
 "PlaceId": 1,
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","PNG", 720, 720, "https://www.voidrev.us/"]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","PNG", 720, 720, "https://ishowrevival.up.railway.app/"]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -812,9 +812,9 @@ $scriptText = '
 "Type": "Model",
 "PlaceId": 1,
 "UserId": 1,
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us/asset/?id='.$assetId.'","PNG", 720, 720, "https://www.voidrev.us/"]
+"Arguments": ["https://ishowrevival.up.railway.app/asset/?id='.$assetId.'","PNG", 720, 720, "https://ishowrevival.up.railway.app/"]
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"
@@ -895,7 +895,7 @@ settings().Network.ExperimentalPhysicsEnabled = true
 settings().Network.WaitingForCharacterLogRate = 100
 pcall(function() settings().Diagnostics:LegacyScriptMode() end)
 local assetId = '.$placeId.'
-local url = "https://www.voidrev.us/"
+local url = "https://ishowrevival.up.railway.app/"
 local scriptContext = game:GetService(\'ScriptContext\')
 scriptContext.ScriptsDisabled = true
 game:SetPlaceID('.$placeId.', true)
@@ -1022,7 +1022,7 @@ $scriptText = '
 "CreatorId":'.$creatorid.',
 "CreatorType":"User",
 "PlaceVersion":'.$placeversion.',
-"BaseUrl":"www.voidrev.us",
+"BaseUrl":"ishowrevival.up.railway.app",
 "JobId":"'.$JobId.'",
 "PreferredPort":'.$gamerandomport.'
 },
@@ -1098,10 +1098,10 @@ $scriptText = '
 "CreatorId":'.$creatorid.',
 "CreatorType":"User",
 "PlaceVersion":'.$placeversion.',
-"BaseUrl":"www.voidrev.us",
+"BaseUrl":"ishowrevival.up.railway.app",
 "JobId":"'.$JobId.'",
 "PreferredPort":'.$gamerandomport.',
-"PlaceFetchUrl":"https://www.voidrev.us/asset/?id='.$placeId.'"
+"PlaceFetchUrl":"https://ishowrevival.up.railway.app/asset/?id='.$placeId.'"
 },
 "Arguments":{}
 }
@@ -1152,9 +1152,9 @@ $scriptText = '
 "Type": "Avatar_R15_Action",
 "PlaceId": 0,
 "UserId": '.$userId.',
-"BaseUrl": "voidrev.us",
+"BaseUrl": "ishowrevival.up.railway.app",
 "MatchmakingContextId": 1,
-"Arguments": ["https://www.voidrev.us", "https://www.voidrev.us/v1.1/avatar-fetch?userId='.$userId.'&placeId=0", "PNG", '.$x.', '.$y.']
+"Arguments": ["https://ishowrevival.up.railway.app", "https://ishowrevival.up.railway.app/v1.1/avatar-fetch?userId='.$userId.'&placeId=0", "PNG", '.$x.', '.$y.']
 },
 "Arguments": {
 "MachineAddress": "127.0.0.1"

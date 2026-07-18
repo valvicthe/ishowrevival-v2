@@ -6,7 +6,7 @@ $options = [
 'cost' => 10,
 ];
 $analyticsdata = password_hash("BJ@ynVL+ZP2xT-h8rXTPv@9yCbfS8Z%rb_TkCE^T=SUycJVjh6gaf8=92W7nvFtU", PASSWORD_BCRYPT, $options);
-setcookie("browserTrackerIds", $analyticsdata, time() + (460800 * 30), "/", '.voidrev.us');
+setcookie("browserTrackerIds", $analyticsdata, time() + (460800 * 30), "/", '.ishowrevival.up.railway.app');
 }
 header('Content-Type: application/json; charset=UTF-8; X-Robots-Tag: noindex');
 function processLoginForm($username, $password, $con, $headers)
@@ -43,11 +43,11 @@ $roblosec = $check['ROBLOSECURITY'];
 $uID = $check['id'];
 $banvalue = $check['banned'];
 $isBanned = ($banvalue != 0) ? true : false;
-setcookie("username", $username, time() + (460800 * 30), "/", '.voidrev.us');
-setcookie("password", $password, time() + (460800 * 30), "/", '.voidrev.us');
-setcookie(".ROBLOSECURITY", $roblosec, time() + (460800 * 30), "/", '.voidrev.us');
-setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.voidrev.us');
-setcookie("RBXEventTrackerV2", "CreateDate=" . date('n/j/Y g:i:s A') . "&rbxid=" . $uID . "&browserid=" . $uID . "", time() + 24 * 60 * 60, "/", '.voidrev.us');
+setcookie("username", $username, time() + (460800 * 30), "/", '.ishowrevival.up.railway.app');
+setcookie("password", $password, time() + (460800 * 30), "/", '.ishowrevival.up.railway.app');
+setcookie(".ROBLOSECURITY", $roblosec, time() + (460800 * 30), "/", '.ishowrevival.up.railway.app');
+setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.ishowrevival.up.railway.app');
+setcookie("RBXEventTrackerV2", "CreateDate=" . date('n/j/Y g:i:s A') . "&rbxid=" . $uID . "&browserid=" . $uID . "", time() + 24 * 60 * 60, "/", '.ishowrevival.up.railway.app');
 if (strpos($headers['User-Agent'], "Android") !== false || strpos($headers['User-Agent'], "iPhone") !== false) {
 $response = [
 "membershipType" => 4,

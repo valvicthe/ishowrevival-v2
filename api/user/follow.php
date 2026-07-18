@@ -43,7 +43,7 @@ $usrquery = $con->prepare("SELECT * FROM `users` WHERE `ROBLOSECURITY` = :ROBLOS
 $usrquery->execute(['ROBLOSECURITY' => $roblosec]);
 $usr = $usrquery->fetch();
 if(!is_array($usr)){
-header("Location: https://www.voidrev.us/newlogin/");
+header("Location: https://ishowrevival.up.railway.app/newlogin/");
 exit();
 }
 if($usr['banned'] != 0){

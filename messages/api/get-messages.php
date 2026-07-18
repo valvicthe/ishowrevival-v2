@@ -61,19 +61,19 @@ $data["Collection"][] = [
 "UserId" => $sender["id"],
 "UserName" => $sender["username"],
 "DisplayName" => $senderdisplayname,
-"SenderAbsoluteUrl" => "https://www.voidrev.us/users/".$sender["id"]."/profile/"
+"SenderAbsoluteUrl" => "https://ishowrevival.up.railway.app/users/".$sender["id"]."/profile/"
 ],
 "Recipient" => [
 "HasVerifiedBadge" => (bool)$recipient["Admin"],
 "UserId" => $recipient["id"],
 "UserName" => $recipient["username"],
 "DisplayName" => $recipientdisplayname,
-"RecipientAbsoluteUrl" => "https://www.voidrev.us/users/".$recipient["id"]."/profile/"
+"RecipientAbsoluteUrl" => "https://ishowrevival.up.railway.app/users/".$recipient["id"]."/profile/"
 ],
 "Subject" => $message["subtitle"],
 "Body" => $message["content"],
-"SenderThumbnail" => "https://www.voidrev.us".getUserHeadshotThumbnail($con,$sender["id"]),
-"RecipientThumbnail" => "https://www.voidrev.us".getUserHeadshotThumbnail($con,$recipient["id"]),
+"SenderThumbnail" => "https://ishowrevival.up.railway.app".getUserHeadshotThumbnail($con,$sender["id"]),
+"RecipientThumbnail" => "https://ishowrevival.up.railway.app".getUserHeadshotThumbnail($con,$recipient["id"]),
 "Created" => date('Y-m-d\TH:i:s.u\Z',$message["created"]),
 "Updated" => date('Y-m-d\TH:i:s.u\Z',$message["updated"]),
 "IsRead" => (bool) $message["messageread"],

@@ -1,1 +1,1 @@
-setup.voidrev.us
+setup.ishowrevival.up.railway.app

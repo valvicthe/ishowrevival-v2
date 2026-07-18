@@ -53,7 +53,7 @@ if(empty($email)){
 die('{"success":false}');    
 }
 try {
-file_get_contents("https://www.voidrev.us/mail/?request=passwordreset&email=".$email."");
+file_get_contents("https://ishowrevival.up.railway.app/mail/?request=passwordreset&email=".$email."");
 }catch(Throwable $e) {
 die('{"success":false, "error":"'.$e.'"}'); 
 }

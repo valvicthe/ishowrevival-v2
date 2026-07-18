@@ -39,7 +39,7 @@ exit();
 {
 "Id": "<?=$participantUserId;?>",
 "Name": "<?=$participantUsername;?>",
-"UserProfileLink": "https://www.voidrev.us/users/profile/<?=$participantUserId;?>"
+"UserProfileLink": "https://ishowrevival.up.railway.app/users/profile/<?=$participantUserId;?>"
 }
 ],
 "ChatMessages": [],

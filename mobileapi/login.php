@@ -33,11 +33,11 @@ if($_POST["username"] && $_POST["password"]){
               if($banvalue > 0)
               {$isbanned = true;
                 }else{$isbanned = false;}
-               setcookie("username", $username, time() + (460800* 30), "/", '.voidrev.us');
-                    setcookie("password", $password, time() + (460800* 30), "/", '.voidrev.us');
-                                  setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.voidrev.us');
-                                  setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.voidrev.us');
-                                  setcookie(".RBXID", $roblosec, time() + (460800* 30), "/", '.voidrev.us');
+               setcookie("username", $username, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+                    setcookie("password", $password, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+                                  setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+                                  setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.ishowrevival.up.railway.app');
+                                  setcookie(".RBXID", $roblosec, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
 if (strpos($headers['User-Agent'], "Android") !== false || strpos($headers['User-Agent'], "iPhone") !== false) {
 ?>
 {"membershipType":4,"username":"<?echo NoXSSPlz($username);?>","isUnder13":true,"countryCode":"US","userId":<?=$uID;?>,"displayName":"<?echo NoXSSPlz($username);?>"}
@@ -79,11 +79,11 @@ if($data["cvalue"] && $data["password"]){
               if($banvalue > 0)
               {$isbanned = true;
                 }else{$isbanned = false;}
-               setcookie("username", $username, time() + (460800* 30), "/", '.voidrev.us');
-                    setcookie("password", $password, time() + (460800* 30), "/", '.voidrev.us');
-                                  setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.voidrev.us');
-                                  setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.voidrev.us');
-                                  setcookie(".RBXID", $roblosec, time() + (460800* 30), "/", '.voidrev.us');
+               setcookie("username", $username, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+                    setcookie("password", $password, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+                                  setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+                                  setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.ishowrevival.up.railway.app');
+                                  setcookie(".RBXID", $roblosec, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
 setcookie(".RBXID", $roblosec, time() + 24 * 60 * 60, "/");
 if (strpos($headers['User-Agent'], "Android") !== false || strpos($headers['User-Agent'], "iPhone") !== false) {
 ?>
@@ -125,11 +125,11 @@ if($data["username"] && $data["password"]){
               if($banvalue > 0)
               {$isbanned = true;
                 }else{$isbanned = false;}
-               setcookie("username", $username, time() + (460800* 30), "/", '.voidrev.us');
-                    setcookie("password", $password, time() + (460800* 30), "/", '.voidrev.us');
-                                  setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.voidrev.us');
-                                  setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.voidrev.us');
-                                  setcookie(".RBXID", $roblosec, time() + (460800* 30), "/", '.voidrev.us');
+               setcookie("username", $username, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+                    setcookie("password", $password, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+                                  setcookie(".ROBLOSECURITY", $roblosec, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
+                                  setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.ishowrevival.up.railway.app');
+                                  setcookie(".RBXID", $roblosec, time() + (460800* 30), "/", '.ishowrevival.up.railway.app');
 if (strpos($headers['User-Agent'], "Android") !== false || strpos($headers['User-Agent'], "iPhone") !== false) {
 ?>
 {"membershipType":4,"username":"<?echo NoXSSPlz($username);?>","isUnder13":true,"countryCode":"US","userId":<?=$uID;?>,"displayName":"<?echo NoXSSPlz($username);?>"}

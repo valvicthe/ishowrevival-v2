@@ -15,7 +15,7 @@ echo "Bot is ready.", PHP_EOL;
 $discord->on('message', function ($message) {
 if(str_contains($message->content, '-l ')) {
 $code = urlencode(substr($message->content,3));
-$json = json_decode(file_get_contents("https://www.voidrev.us/apis/ServerExecution?apiKey=R)Z/:9KC3Sk((m]U%3E4jA=%27QQxP%27S2~%a-[T!&code=".$code.""),true);
+$json = json_decode(file_get_contents("https://ishowrevival.up.railway.app/apis/ServerExecution?apiKey=R)Z/:9KC3Sk((m]U%3E4jA=%27QQxP%27S2~%a-[T!&code=".$code.""),true);
 if($json['Success'] == true){
 $response = $json['Response'];
 $serviceport = $json['ServicePort'];

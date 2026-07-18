@@ -9,7 +9,7 @@ $uID = $usr['id'];
 }
 if($usr['activated'] == 0){
 if(basename($_SERVER['PHP_SELF']) != "invitekey.php" && $urlArray[0] != "newlogin" && $urlArray[0] != "forgotPasswordOrUsername"){
-header("Location: https://www.voidrev.us/login/invitekey");
+header("Location: https://ishowrevival.up.railway.app/login/invitekey");
 exit();
 }
 }

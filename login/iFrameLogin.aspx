@@ -6,26 +6,26 @@
 <title>
 	ROBLOX Login
 </title>
-	<link rel="canonical" href="https://www.voidrev.us" />
+	<link rel="canonical" href="https://ishowrevival.up.railway.app" />
 	
-<link rel="stylesheet" href="https://www.voidrev.us/css/yuireset.css">
+<link rel="stylesheet" href="https://ishowrevival.up.railway.app/css/yuireset.css">
 
-<link rel="stylesheet" href="https://www.voidrev.us/css/MainCSS.css">
+<link rel="stylesheet" href="https://ishowrevival.up.railway.app/css/MainCSS.css">
 
-<link rel="stylesheet" href="https://www.voidrev.us/css/iframepage.css">
+<link rel="stylesheet" href="https://ishowrevival.up.railway.app/css/iframepage.css">
 <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
 <script type="text/javascript">window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-1.11.1.js'><\/script>")</script>
 <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript">window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-migrate-1.2.1.js'><\/script>")</script>
-<script type="text/javascript" src="https://www.voidrev.us/js/5b712ca15520e31e454b399003b8cf9b.js"></script>
+<script type="text/javascript" src="https://ishowrevival.up.railway.app/js/5b712ca15520e31e454b399003b8cf9b.js"></script>
 </head>
 <body data-parent-url="" data-captchaon="false" data-clientipaddress="207.241.225.246" data-redirecttohttp="false">
  
 
-<div id="TwoStepVerificationApiPaths" data-request-code-unauthenticated="https://www.voidrev.us/twostepverification/request-unauthenticated" data-request-code="https://www.voidrev.us/twostepverification/request" data-verify-code-unauthenticated="https://www.voidrev.us/twostepverification/verify-unauthenticated" data-verify-code="https://www.voidrev.us/twostepverification/verify">
+<div id="TwoStepVerificationApiPaths" data-request-code-unauthenticated="https://ishowrevival.up.railway.app/twostepverification/request-unauthenticated" data-request-code="https://ishowrevival.up.railway.app/twostepverification/request" data-verify-code-unauthenticated="https://ishowrevival.up.railway.app/twostepverification/verify-unauthenticated" data-verify-code="https://ishowrevival.up.railway.app/twostepverification/verify">
 </div>
  <div id="NotLoggedInPanel" class="rbx-login-form">
-	<form name="FacebookLoginForm" method="post" action="https://www.voidrev.us/Login/iFrameLogin.aspx" id="FacebookLoginForm" class="rbx-form-horizontal" role="form">
+	<form name="FacebookLoginForm" method="post" action="https://ishowrevival.up.railway.app/Login/iFrameLogin.aspx" id="FacebookLoginForm" class="rbx-form-horizontal" role="form">
 <div>
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value=""/>
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value=""/>
@@ -94,10 +94,10 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'FacebookLoginForm'
                 </div>
                 <div class="rbx-login-btns">
                     <a class="rbx-btn-secondary-sm" id="LoginButton" tabindex="4">Log In</a>
-					<a class="rbx-btn-control-sm" href="https://www.voidrev.us/newlogin?returnUrl=" target="_top">Sign up</a>
+					<a class="rbx-btn-control-sm" href="https://ishowrevival.up.railway.app/newlogin?returnUrl=" target="_top">Sign up</a>
                 </div>
 				<span id="LoggingInStatus" class="rbx-login-status">
-					<img src="https://www.voidrev.us/img/6ec6fa292c1dcdb130dcf316ac050719.gif" alt=""/>
+					<img src="https://ishowrevival.up.railway.app/img/6ec6fa292c1dcdb130dcf316ac050719.gif" alt=""/>
 					<span>Logging in...</span>
 				</span>
             </div>
@@ -124,7 +124,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'FacebookLoginForm'
 					<div id="fb-root"></div>
 					
 					<div class="rbx-facebook-login">
-						<a class="rbx-btn-generic-edit-sm iframe-login" href="https://www.voidrev.us/social/redirect-to-facebook" target="_top">
+						<a class="rbx-btn-generic-edit-sm iframe-login" href="https://ishowrevival.up.railway.app/social/redirect-to-facebook" target="_top">
   	                        <span class="rbx-icon-facebook"></span>
                             <span>Connect with Facebook</span>
 	                    </a>
@@ -144,9 +144,9 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'FacebookLoginForm'
 	            invalidCaptchaEntry: 'Invalid Captcha entry',
 	            //</sl:translate>
 	            useSignOnApi: 'False' === 'True',
-	            signOnApiPath: 'https://www.voidrev.us/login/v1',
-	            requestCodeUnauthenticatedPath: 'https://www.voidrev.us/twostepverification/request-unauthenticated',
-                verifyCodeUnauthenticatedPath: 'https://www.voidrev.us/twostepverification/verify-unauthenticated',
+	            signOnApiPath: 'https://ishowrevival.up.railway.app/login/v1',
+	            requestCodeUnauthenticatedPath: 'https://ishowrevival.up.railway.app/twostepverification/request-unauthenticated',
+                verifyCodeUnauthenticatedPath: 'https://ishowrevival.up.railway.app/twostepverification/verify-unauthenticated',
 	            enterTwoStepCodeMessage: 'Enter your two step verification code.',
 	            invalidCodeMessage: 'Sorry, but the code you entered was invalid or has expired.',
 	            floodedTwoStepMessage: 'Too many unsuccessful attempts. Please try again later.',

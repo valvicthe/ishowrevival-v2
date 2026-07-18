@@ -1,4 +1,4 @@
-<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.voidrev.us/roblox.xsd" version="4">
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ishowrevival.up.railway.app/roblox.xsd" version="4">
 	<External>null</External>
 	<External>nil</External>
 	<Item class="Accessory" referent="RBX5F61A650809940DD9BD0FA38B6C27CB4">
@@ -208,7 +208,7 @@ end
 					<bool name="Playing">true</bool>
 					<token name="RollOffMode">0</token>
 					<Ref name="SoundGroup">null</Ref>
-					<Content name="SoundId"><url>http://www.voidrev.us/asset/?id=250</url></Content>
+					<Content name="SoundId"><url>http://ishowrevival.up.railway.app/asset/?id=250</url></Content>
 					<double name="TimePosition">0</double>
 					<float name="Volume">5</float>
 					<float name="xmlRead_MaxDistance_3">10000</float>

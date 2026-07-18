@@ -1,3 +1,3 @@
 <?php
-header("Location: https://www.voidrev.us/info/roblox-badges");
+header("Location: https://ishowrevival.up.railway.app/info/roblox-badges");
 ?>

@@ -11,7 +11,7 @@ if (isset($_SESSION['last_message_time'])) {
     
     if ($timeSinceLastMessage < $rateLimit) {
         // User has exceeded the rate limit
-        header("Location: https://www.voidrev.us/my/messages/?tab=inbox&success=ratelimit");
+        header("Location: https://ishowrevival.up.railway.app/my/messages/?tab=inbox&success=ratelimit");
         exit();
     }
 }
@@ -34,7 +34,7 @@ $recquery->execute(['recipientId' => $recipientId]);
 $recipient = $recquery->fetch();
 
 if (!is_array($recipient)) {
-    header("Location: https://www.voidrev.us/my/messages/?tab=inbox&success=false");
+    header("Location: https://ishowrevival.up.railway.app/my/messages/?tab=inbox&success=false");
     exit();
 }
 
@@ -46,16 +46,16 @@ if (isset($_POST['messagecont'], $_POST['messagecont'], $_GET['recipientId'])) {
         
         // ...
 
-        header("Location: https://www.voidrev.us/my/messages/?tab=inbox&success=true");
+        header("Location: https://ishowrevival.up.railway.app/my/messages/?tab=inbox&success=true");
         exit();
     } catch (Throwable $e) {
-        header("Location: https://www.voidrev.us/my/messages/?tab=inbox&success=false");
+        header("Location: https://ishowrevival.up.railway.app/my/messages/?tab=inbox&success=false");
         exit();
     }
 }
 ?> <head>
 <title>New Message - Void</title>
-<link rel='stylesheet' href='https://www.voidrev.us/css/leanbase.css' />
+<link rel='stylesheet' href='https://ishowrevival.up.railway.app/css/leanbase.css' />
 <script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js'></script>
 <script type='text/javascript'>
 window.jQuery || document.write(" < script type = 'text/javascript'
@@ -66,8 +66,8 @@ src = '/js/jquery/jquery-1.11.1.js' > < \/script>")
 window.jQuery || document.write(" < script type = 'text/javascript'
 src = '/js/jquery/jquery-migrate-1.2.1.js' > < \/script>")
 </script>
-<script type='text/javascript' src='https://www.voidrev.us/js/74b3a61e84d476a876d7c93e0880bf85.js'></script>
-<script type="text/javascript" src="https://www.voidrev.us/js/86411e39f51e0ef39c7fa2f1f92fe7b3.js"></script>
+<script type='text/javascript' src='https://ishowrevival.up.railway.app/js/74b3a61e84d476a876d7c93e0880bf85.js'></script>
+<script type="text/javascript" src="https://ishowrevival.up.railway.app/js/86411e39f51e0ef39c7fa2f1f92fe7b3.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 <script type="text/javascript">
 $(function() {
@@ -87,12 +87,12 @@ _gaq.push(['b._setAccount', 'UA-486632-1']);
 _gaq.push(['b._setCampSourceKey', 'rbx_source']);
 _gaq.push(['b._setCampMediumKey', 'rbx_medium']);
 _gaq.push(['b._setCampContentKey', 'rbx_campaign']);
-_gaq.push(['b._setDomainName', 'voidrev.us']);
+_gaq.push(['b._setDomainName', 'ishowrevival.up.railway.app']);
 _gaq.push(['b._setCustomVar', 1, 'Visitor', 'Member', 2]);
 _gaq.push(['b._setPageGroup', 1, 'Games']);
 _gaq.push(['b._trackPageview']);
 _gaq.push(['c._setAccount', 'UA-26810151-2']);
-_gaq.push(['c._setDomainName', 'voidrev.us']);
+_gaq.push(['c._setDomainName', 'ishowrevival.up.railway.app']);
 _gaq.push(['c._setPageGroup', 1, 'Games']);
 (function() {
 var ga = document.createElement('script');
@@ -121,7 +121,7 @@ var successDiv = document.querySelector('.alert.alert-success');
 successDiv.classList.add('on');
 setTimeout(function() {
 successDiv.classList.remove('on');
-window.location.href = 'https://www.voidrev.us/my/messages/?tab=inbox';
+window.location.href = 'https://ishowrevival.up.railway.app/my/messages/?tab=inbox';
 }, 1500);
 }, 1000);
 </script>";
@@ -131,7 +131,7 @@ var successDiv = document.querySelector('.alert.alert-warning');
 successDiv.classList.add('on');
 setTimeout(function() {
 successDiv.classList.remove('on');
-window.location.href = 'https://www.voidrev.us/my/messages/?tab=inbox';
+window.location.href = 'https://ishowrevival.up.railway.app/my/messages/?tab=inbox';
 }, 1500);
 }, 1000);
 </script>";
@@ -230,7 +230,7 @@ if(isset($_GET['recipientId'])){
 ?>
 <div class="buttonrow">
 <div class="innerbuttons" style="padding-left:5px;padding-bottom:5px;">
-<button type="button" onclick="location.replace('https://www.voidrev.us/my/messages/?tab=inbox')" control-id="ControlID-5"><span class="icon-back"></span></button>
+<button type="button" onclick="location.replace('https://ishowrevival.up.railway.app/my/messages/?tab=inbox')" control-id="ControlID-5"><span class="icon-back"></span></button>
 </div>
 </div>
 <div class="section-content" style="padding: 15px;display:block;">
@@ -258,7 +258,7 @@ padding: 5px;
 <? } ?>
 </div>
 </div>
-<script type='text/javascript' src='https://www.voidrev.us/js/e20b65b5f3876e969af34b10d11a9b8d.js'></script>
-<script type='text/javascript' src='https://www.voidrev.us/js/a3d0fc23f71b8d010b8bf64ed7d52da5.js'></script>
-<script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://www.voidrev.us/js/165e89fea66b7c146c7a723c33ca7108.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://www.voidrev.us/js/2c184f0c9c042d5309458c45dddf6d4e.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://www.voidrev.us/js/823c7d686e6b3d8321275740fe498f9d.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://www.voidrev.us/js/5cf0eb71249768c86649bbf0c98591b0.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://www.voidrev.us/js/556af22c86bce192fb12defcd4d2121c.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://www.voidrev.us/js/7689b2fd3f7467640cda2d19e5968409.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://www.voidrev.us/js/8e3d1677fd9198849f05583bc0740555.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://www.voidrev.us/js/45d46dd8e2bd7f10c17b42f76795150d.js';Roblox.config.paths['Widgets.SurveyModal'] = 'https://www.voidrev.us/js/56ad7af86ee4f8bc82af94269ed50148.js';</script>
+<script type='text/javascript' src='https://ishowrevival.up.railway.app/js/e20b65b5f3876e969af34b10d11a9b8d.js'></script>
+<script type='text/javascript' src='https://ishowrevival.up.railway.app/js/a3d0fc23f71b8d010b8bf64ed7d52da5.js'></script>
+<script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://ishowrevival.up.railway.app/js/165e89fea66b7c146c7a723c33ca7108.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://ishowrevival.up.railway.app/js/2c184f0c9c042d5309458c45dddf6d4e.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://ishowrevival.up.railway.app/js/823c7d686e6b3d8321275740fe498f9d.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://ishowrevival.up.railway.app/js/5cf0eb71249768c86649bbf0c98591b0.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://ishowrevival.up.railway.app/js/556af22c86bce192fb12defcd4d2121c.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://ishowrevival.up.railway.app/js/7689b2fd3f7467640cda2d19e5968409.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://ishowrevival.up.railway.app/js/8e3d1677fd9198849f05583bc0740555.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://ishowrevival.up.railway.app/js/45d46dd8e2bd7f10c17b42f76795150d.js';Roblox.config.paths['Widgets.SurveyModal'] = 'https://ishowrevival.up.railway.app/js/56ad7af86ee4f8bc82af94269ed50148.js';</script>
 </body>

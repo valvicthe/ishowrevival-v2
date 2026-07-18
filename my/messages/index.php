@@ -96,7 +96,7 @@ if (!isMetricsApiEnabled
 return;
 }
 var xhr = new XMLHttpRequest();
-var metricsApiUrl = (Roblox.EnvironmentUrls && Roblox.EnvironmentUrls.metricsApi) || "https://metrics.voidrev.us";
+var metricsApiUrl = (Roblox.EnvironmentUrls && Roblox.EnvironmentUrls.metricsApi) || "https://metrics.ishowrevival.up.railway.app";
 xhr.open("POST", metricsApiUrl + "/v1/bundle-metrics/report", true);
 xhr.setRequestHeader("Content-Type", "application/json");
 xhr.withCredentials = true;
@@ -277,11 +277,11 @@ Roblox.BundleDetector.verifyBundles();
 Roblox.BundleDetector.setTiming(window.performance.timing);
 //# sourceURL=somename.js
 </script>
-<link rel="manifest" href="https://www.voidrev.us/v2/push-notifications/chrome-manifest" crossorigin="use-credentials">
-<link rel="canonical" href="https://www.voidrev.us/my/messages/" />
-<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' data-bundlename='StyleGuide' href='https://www.voidrev.us/css/4db56b05c02c8ab6a24e3aec5aca644b3a2ac54ae5c1157bc697e7d8918f9918.css' />
-<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://www.voidrev.us/css/leanbase.css' />
-<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://www.voidrev.us/css/mymessages.css' />
+<link rel="manifest" href="https://ishowrevival.up.railway.app/v2/push-notifications/chrome-manifest" crossorigin="use-credentials">
+<link rel="canonical" href="https://ishowrevival.up.railway.app/my/messages/" />
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' data-bundlename='StyleGuide' href='https://ishowrevival.up.railway.app/css/4db56b05c02c8ab6a24e3aec5aca644b3a2ac54ae5c1157bc697e7d8918f9918.css' />
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://ishowrevival.up.railway.app/css/leanbase.css' />
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='https://ishowrevival.up.railway.app/css/mymessages.css' />
 <script type="text/javascript">
 var Roblox = Roblox || {};
 Roblox.GaEventSettings = {
@@ -290,7 +290,7 @@ gaLaunchAttemptAndLaunchSuccessEnabled: "false" === "true",
 gaPerformanceEventEnabled: "false" === "true"
 };
 </script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='headerinit' type='text/javascript' src='https://www.voidrev.us/js/175a4c92837369e0600f5343486a24f9.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='headerinit' type='text/javascript' src='https://ishowrevival.up.railway.app/js/175a4c92837369e0600f5343486a24f9.js'></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 <script type="text/javascript">
 var Roblox = Roblox || {};
@@ -344,13 +344,13 @@ _gaq.push(['b._setSampleRate', '10']);
 _gaq.push(['b._setCampSourceKey', 'rbx_source']);
 _gaq.push(['b._setCampMediumKey', 'rbx_medium']);
 _gaq.push(['b._setCampContentKey', 'rbx_campaign']);
-_gaq.push(['b._setDomainName', 'voidrev.us']);
+_gaq.push(['b._setDomainName', 'ishowrevival.up.railway.app']);
 _gaq.push(['b._setCustomVar', 1, 'Visitor', 'Member', 2]);
 _gaq.push(['b._setPageGroup', 1, 'Messages']);
 _gaq.push(['b._trackPageview']);
 _gaq.push(['c._setAccount', 'UA-26810151-2']);
 _gaq.push(['c._setSampleRate', '1']);
-_gaq.push(['c._setDomainName', 'voidrev.us']);
+_gaq.push(['c._setDomainName', 'ishowrevival.up.railway.app']);
 _gaq.push(['c._setPageGroup', 1, 'Messages']);
 (function () {
 if (!Roblox.browserDoNotTrack) {
@@ -365,10 +365,10 @@ s.parentNode.insertBefore(ga, s);
 </script>
 <script type="text/javascript">
 if (Roblox && Roblox.EventStream) {
-Roblox.EventStream.Init("//ecsv2.voidrev.us/www/e.png",
-"//ecsv2.voidrev.us/www/e.png",
-"//ecsv2.voidrev.us/pe?t=studio",
-"//ecsv2.voidrev.us/pe?t=diagnostic");
+Roblox.EventStream.Init("//ecsv2.ishowrevival.up.railway.app/www/e.png",
+"//ecsv2.ishowrevival.up.railway.app/www/e.png",
+"//ecsv2.ishowrevival.up.railway.app/pe?t=studio",
+"//ecsv2.ishowrevival.up.railway.app/pe?t=diagnostic");
 }
 </script>
 </head>
@@ -380,7 +380,7 @@ frameborder="0"
 height="110"
 scrolling="no"
 data-src=""
-src="https://www.voidrev.us/user-sponsorship/?id=3"
+src="https://ishowrevival.up.railway.app/user-sponsorship/?id=3"
 width="728"
 data-js-adtype="iframead"
 data-ad-slot="Roblox_Default_Top_728x90"></iframe>
@@ -393,7 +393,7 @@ totalAnnouncements : 0,
 maxPrivateMessageLength : 9000,
 minimumAdRefreshInterval: 1000,
 lastAdRefresh: new Date(),
-adminIconUrl: "https://www.voidrev.us/images/Logo/admin_icon_11222016.svg"
+adminIconUrl: "https://ishowrevival.up.railway.app/images/Logo/admin_icon_11222016.svg"
 }
 Roblox.websiteTemplates = {
 avatarTemplate : "common-thumbnail",
@@ -413,13 +413,13 @@ MarkMessagesReadLink: "/messages/api/mark-messages-read",
 MarkMessagesUnreadLink: "/messages/api/mark-messages-unread",
 SendMessageJsonResultLink: "/messages/send",
 GetMyUnreadMessagesCountLink: "/messages/api/unread-messages-summary",
-GetMessageDetailByIdLink: "https://www.voidrev.us/messages/api/get-message/"
+GetMessageDetailByIdLink: "https://ishowrevival.up.railway.app/messages/api/get-message/"
 };
 Roblox.messageDefaults = {
 robloxUserId: 1,
 robloxUserName: "ripguests",
-robloxUserThumbnail: "https://www.voidrev.us<?=getUserHeadshotThumbnail($con,1);?>",
-robloxUserAbsoluteUrl: "https://www.voidrev.us/users/1/profile/"
+robloxUserThumbnail: "https://ishowrevival.up.railway.app<?=getUserHeadshotThumbnail($con,1);?>",
+robloxUserAbsoluteUrl: "https://ishowrevival.up.railway.app/users/1/profile/"
 };
 </script>
 <div ng-modules="robloxApp, messages" class="messages-container">
@@ -436,7 +436,7 @@ frameborder="0"
 height="612"
 scrolling="no"
 data-src=""
-src="https://www.voidrev.us/user-sponsorship/?id=1"
+src="https://ishowrevival.up.railway.app/user-sponsorship/?id=1"
 width="160"
 data-js-adtype="iframead"
 data-ad-slot="Roblox_Default_Right_160x600"></iframe>
@@ -460,21 +460,21 @@ RefactorEnabled: "True",
 IsProtocolHandlerBaseUrlParamEnabled: "False",
 ProtocolHandlerAreYouInstalled: {
 play: {
-content: "<img src='https://www.voidrev.us/img/6304dfebadecbb3b338a79a6a528936c.svg' width='90' height='90' alt='R'/><p>You&#39;re moments away from getting into the game!</p>",
+content: "<img src='https://ishowrevival.up.railway.app/img/6304dfebadecbb3b338a79a6a528936c.svg' width='90' height='90' alt='R'/><p>You&#39;re moments away from getting into the game!</p>",
 buttonText: "Download and Install Roblox",
-footerContent: "<a href='https://assetgame.voidrev.us/game/help'class= 'text-name small' target='_blank' >Click here for help</a> "
+footerContent: "<a href='https://assetgame.ishowrevival.up.railway.app/game/help'class= 'text-name small' target='_blank' >Click here for help</a> "
 },
 studio: {
-content: "<img src='https://www.voidrev.us/img/3da410727fa2670dcb4f31316643138a.svg' width='95' height='95' alt='R' /><p>Get started creating your own games!</p>",
+content: "<img src='https://ishowrevival.up.railway.app/img/3da410727fa2670dcb4f31316643138a.svg' width='95' height='95' alt='R' /><p>Get started creating your own games!</p>",
 buttonText: "Download Studio"
 }
 },
 ProtocolHandlerStartingDialog: {
 play: {
-content: "<img src='https://www.voidrev.us/img/6304dfebadecbb3b338a79a6a528936c.svg' width='90' height='90' alt='R'/><p>Roblox is now loading. Get ready to play!</p>"
+content: "<img src='https://ishowrevival.up.railway.app/img/6304dfebadecbb3b338a79a6a528936c.svg' width='90' height='90' alt='R'/><p>Roblox is now loading. Get ready to play!</p>"
 },
 studio: {
-content: "<img src='https://www.voidrev.us/img/3da410727fa2670dcb4f31316643138a.svg' width='95' height='95' alt='R' /><p>Checking for Roblox Studio...</p>"
+content: "<img src='https://ishowrevival.up.railway.app/img/3da410727fa2670dcb4f31316643138a.svg' width='95' height='95' alt='R' /><p>Checking for Roblox Studio...</p>"
 },
 loader: "<span class='spinner spinner-default'></span>"
 }
@@ -502,7 +502,7 @@ data-protocol-enable-authentication-tickets="true"
 >
 <div class="modalPopup blueAndWhite PlaceLauncherModal" style="min-height: 160px">
 <div id="Spinner" class="Spinner" style="padding:20px 0;">
-<img data-delaysrc="https://www.voidrev.us/img/e998fb4c03e8c2e30792f2f3436e9416.gif" height="32" width="32" alt="Progress" />
+<img data-delaysrc="https://ishowrevival.up.railway.app/img/e998fb4c03e8c2e30792f2f3436e9416.gif" height="32" width="32" alt="Progress" />
 </div>
 <div id="status" style="min-height:40px;text-align:center;margin:5px 20px">
 <div id="Starting" class="PlaceLauncherStatus MadStatusStarting" style="display:block">
@@ -543,7 +543,7 @@ Loading <span id="videoPrerollLoadingPercent">0%</span> - <span id="videoPreroll
 </div>
 <div id="videoPrerollJoinBC">
 <span>Get more with Builders Club!</span>
-<a href="https://www.voidrev.us/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
+<a href="https://ishowrevival.up.railway.app/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
 </div>
 </div>
 <script type="text/javascript">
@@ -578,7 +578,7 @@ $(videoPreRollDFP.checkEligibility);
 </script>
 <script type="text/javascript">
 function checkRobloxInstall() {
-window.location = 'https://www.voidrev.us/install/unsupported.aspx?osx=10.5'; return false;
+window.location = 'https://ishowrevival.up.railway.app/install/unsupported.aspx?osx=10.5'; return false;
 }
 </script>
 <div id="InstallationInstructions" class="" style="display:none;">
@@ -593,17 +593,17 @@ window.location = 'https://www.voidrev.us/install/unsupported.aspx?osx=10.5'; re
 <li class="step1-of-4">
 <h2>1</h2>
 <p class="larger-font-size">Click <strong>RobloxPlayer.exe</strong> to run the Roblox installer, which just downloaded via your web browser.</p>
-<img data-delaysrc="https://www.voidrev.us/img/28eaa93b899b93461399aebf21c5346f.png" />
+<img data-delaysrc="https://ishowrevival.up.railway.app/img/28eaa93b899b93461399aebf21c5346f.png" />
 </li>
 <li class="step2-of-4">
 <h2>2</h2>
 <p class="larger-font-size">Click <strong>Run</strong> when prompted by your computer to begin the installation process.</p>
-<img data-delaysrc="https://www.voidrev.us/img/51328932dedb5d8d61107272cc1a27db.png" />
+<img data-delaysrc="https://ishowrevival.up.railway.app/img/51328932dedb5d8d61107272cc1a27db.png" />
 </li>
 <li class="step3-of-4">
 <h2>3</h2>
 <p class="larger-font-size">Click <strong>Ok</strong> once you've successfully installed Roblox.</p>
-<img data-delaysrc="https://www.voidrev.us/img/3797745629baca2d1b9496b76bc9e6dc.png" />
+<img data-delaysrc="https://ishowrevival.up.railway.app/img/3797745629baca2d1b9496b76bc9e6dc.png" />
 </li>
 <li class="step4-of-4">
 <h2>4</h2>
@@ -628,7 +628,7 @@ Roblox.ProtocolHandlerClientInterface.attachManualDownloadToLink();
 <div class="InstallInstructionsImage" data-modalwidth="970" style="display:none;"></div>
 <div id="pluginObjDiv" style="height:1px;width:1px;visibility:hidden;position: absolute;top: 0;"></div>
 <iframe id="downloadInstallerIFrame" name="downloadInstallerIFrame" style="visibility:hidden;height:0;width:1px;position:absolute"></iframe>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='clientinstaller' type='text/javascript' src='https://www.voidrev.us/js/3f2a863e0026fe90136944e1837e13df.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='clientinstaller' type='text/javascript' src='https://ishowrevival.up.railway.app/js/3f2a863e0026fe90136944e1837e13df.js'></script>
 <script type="text/javascript">
 Roblox.Client._skip = '/install/unsupported.aspx';
 Roblox.Client._CLSID = '';
@@ -714,7 +714,7 @@ Cancel: "Cancel"
 <a href id="decline-btn"><span></span></a>
 </div>
 <div class="loading modal-processing">
-<img class="loading-default" src='https://www.voidrev.us/img/4bed93c91f909002b1f17f05c0ce13d1.gif' alt="Processing..." />
+<img class="loading-default" src='https://ishowrevival.up.railway.app/img/4bed93c91f909002b1f17f05c0ce13d1.gif' alt="Processing..." />
 </div>
 </div>
 <div class="modal-footer text-footer">
@@ -728,7 +728,7 @@ Roblox.jsConsoleEnabled = false;
 </script>
 <script type="text/javascript">
 $(function () {
-Roblox.CookieUpgrader.domain = 'voidrev.us';
+Roblox.CookieUpgrader.domain = 'ishowrevival.up.railway.app';
 Roblox.CookieUpgrader.upgrade("GuestData", { expires: Roblox.CookieUpgrader.thirtyYearsFromNow });
 Roblox.CookieUpgrader.upgrade("RBXSource", { expires: function (cookie) { return Roblox.CookieUpgrader.getExpirationFromCookieValue("rbx_acquisition_time", cookie); } });
 Roblox.CookieUpgrader.upgrade("RBXViralAcquisition", { expires: function (cookie) { return Roblox.CookieUpgrader.getExpirationFromCookieValue("time", cookie); } });
@@ -737,23 +737,23 @@ Roblox.CookieUpgrader.upgrade("RBXSessionTracker", { expires: Roblox.CookieUpgra
 Roblox.CookieUpgrader.upgrade("RBXEventTrackerV2", {expires: Roblox.CookieUpgrader.thirtyYearsFromNow});
 });
 </script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='intl-polyfill' type='text/javascript' src='https://www.voidrev.us/js/ee40f2a1a1a92c3ddcfbd6941428ebc0.js'></script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='InternationalCore' type='text/javascript' src='https://www.voidrev.us/js/b7765265afdb7c76d94552b635c3d3b9003e39e810227f3d25432466a817b0f1.js'></script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='TranslationResources' type='text/javascript' src='https://www.voidrev.us/js/73a89de8a6dbe8005fb3d6be12e361fddac57c13295171d3a8d5f397e761615d.js'></script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='leanbase' type='text/javascript' src='https://www.voidrev.us/js/f45665e7e5db98201fe7b2507178cf22.js'></script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='CoreUtilities' type='text/javascript' src='https://www.voidrev.us/js/e39d717145fdd1164dc2880ed356b8e529fa8124c5dfbed43c20a5614fc3821f.js'></script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='CoreRobloxUtilities' type='text/javascript' src='https://www.voidrev.us/js/ccc5b6b92eb7dba88eef70b0f6da0f5df2ed8da5168b590d67f69856068983af.js'></script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='React' type='text/javascript' src='https://www.voidrev.us/js/3485182d26ebdd16cc205fc1dc5d7de152529918cf897b07865339de5d5abfce.js'></script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='ReactStyleGuide' type='text/javascript' src='https://www.voidrev.us/js/f686b3f78964914c1e500373348a30f7bab55ef4dd196044f191e2862be822c0.js'></script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='ReactUtilities' type='text/javascript' src='https://www.voidrev.us/js/3bfcca1f8bb2298e510c1baa286b2033ae6209a08bdf8967dacd2de45229730e.js'></script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='angular' type='text/javascript' src='https://www.voidrev.us/js/ae5b5a047c32177e8d21426c506865aa.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='intl-polyfill' type='text/javascript' src='https://ishowrevival.up.railway.app/js/ee40f2a1a1a92c3ddcfbd6941428ebc0.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='InternationalCore' type='text/javascript' src='https://ishowrevival.up.railway.app/js/b7765265afdb7c76d94552b635c3d3b9003e39e810227f3d25432466a817b0f1.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='TranslationResources' type='text/javascript' src='https://ishowrevival.up.railway.app/js/73a89de8a6dbe8005fb3d6be12e361fddac57c13295171d3a8d5f397e761615d.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='leanbase' type='text/javascript' src='https://ishowrevival.up.railway.app/js/f45665e7e5db98201fe7b2507178cf22.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='CoreUtilities' type='text/javascript' src='https://ishowrevival.up.railway.app/js/e39d717145fdd1164dc2880ed356b8e529fa8124c5dfbed43c20a5614fc3821f.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='CoreRobloxUtilities' type='text/javascript' src='https://ishowrevival.up.railway.app/js/ccc5b6b92eb7dba88eef70b0f6da0f5df2ed8da5168b590d67f69856068983af.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='React' type='text/javascript' src='https://ishowrevival.up.railway.app/js/3485182d26ebdd16cc205fc1dc5d7de152529918cf897b07865339de5d5abfce.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='ReactStyleGuide' type='text/javascript' src='https://ishowrevival.up.railway.app/js/f686b3f78964914c1e500373348a30f7bab55ef4dd196044f191e2862be822c0.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='ReactUtilities' type='text/javascript' src='https://ishowrevival.up.railway.app/js/3bfcca1f8bb2298e510c1baa286b2033ae6209a08bdf8967dacd2de45229730e.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='angular' type='text/javascript' src='https://ishowrevival.up.railway.app/js/ae5b5a047c32177e8d21426c506865aa.js'></script>
 <div ng-modules="baseTemplateApp">
-<script type="text/javascript" src="https://www.voidrev.us/js/cbd9a121217c4887264ffe32686ecd52.js"></script>
+<script type="text/javascript" src="https://ishowrevival.up.railway.app/js/cbd9a121217c4887264ffe32686ecd52.js"></script>
 </div>
 <div ng-modules="pageTemplateApp">
-<script type="text/javascript" src="https://www.voidrev.us/js/13aa9ebeaba4e1d608ad536624741aa2.js"></script>
+<script type="text/javascript" src="https://ishowrevival.up.railway.app/js/13aa9ebeaba4e1d608ad536624741aa2.js"></script>
 </div>
-<script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://www.voidrev.us/js/baa0c90950583c77f295ecd0748e32ce.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://www.voidrev.us/js/fac702cb852bab6006d426d83c56f8ab.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://www.voidrev.us/js/76e30b0ae6a1be83cbf018579681b891.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://www.voidrev.us/js/c948a7edd36e01db699c8cf19303376d.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://www.voidrev.us/js/3afc03adcc2aaca01500baaf69b52d9c.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://www.voidrev.us/js/c90aea1e430a241776db6775e98c3e03.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://www.voidrev.us/js/de56e6c24a3e70ee7d1ec900c24042e8.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://www.voidrev.us/js/6003f8790df31d5445169faea5c04fd7.js';</script>
+<script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://ishowrevival.up.railway.app/js/baa0c90950583c77f295ecd0748e32ce.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://ishowrevival.up.railway.app/js/fac702cb852bab6006d426d83c56f8ab.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://ishowrevival.up.railway.app/js/76e30b0ae6a1be83cbf018579681b891.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://ishowrevival.up.railway.app/js/c948a7edd36e01db699c8cf19303376d.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://ishowrevival.up.railway.app/js/3afc03adcc2aaca01500baaf69b52d9c.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://ishowrevival.up.railway.app/js/c90aea1e430a241776db6775e98c3e03.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://ishowrevival.up.railway.app/js/de56e6c24a3e70ee7d1ec900c24042e8.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://ishowrevival.up.railway.app/js/6003f8790df31d5445169faea5c04fd7.js';</script>
 <script>
 $(function () {
 Roblox.DeveloperConsoleWarning.showWarning();
@@ -830,8 +830,8 @@ decline: "No, thanks"
 //</sl:translate>
 };
 </script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='page' type='text/javascript' src='https://www.voidrev.us/js/1b7cb0f770a5636f91d309f8488a5e0f.js'></script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='StyleGuide' type='text/javascript' src='https://www.voidrev.us/js/935ce03d7733b2b55182ed4e77db83394692ba7e345a74c2240128f802d1af0d.js'></script>
-<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='pageEnd' type='text/javascript' src='https://www.voidrev.us/js/7e42bd8acc22cb6b98926ccd04832d9c.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='page' type='text/javascript' src='https://ishowrevival.up.railway.app/js/1b7cb0f770a5636f91d309f8488a5e0f.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='StyleGuide' type='text/javascript' src='https://ishowrevival.up.railway.app/js/935ce03d7733b2b55182ed4e77db83394692ba7e345a74c2240128f802d1af0d.js'></script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='pageEnd' type='text/javascript' src='https://ishowrevival.up.railway.app/js/7e42bd8acc22cb6b98926ccd04832d9c.js'></script>
 </body>
 </html>

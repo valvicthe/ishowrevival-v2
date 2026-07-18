@@ -316,16 +316,16 @@
         var $container;
         var useAjax = false;
 
-        if (voidrev.usalogValues) {
-            if (voidrev.usalogValues.CatalogContentsUrl && voidrev.usalogValues.ContainerID) {
-                $container = $("#" + voidrev.usalogValues.ContainerID);
+        if (ishowrevival.up.railway.appalogValues) {
+            if (ishowrevival.up.railway.appalogValues.CatalogContentsUrl && ishowrevival.up.railway.appalogValues.ContainerID) {
+                $container = $("#" + ishowrevival.up.railway.appalogValues.ContainerID);
                 if ($container.length !== 0) {
-                    url = voidrev.usalogValues.CatalogContentsUrl + "?";
+                    url = ishowrevival.up.railway.appalogValues.CatalogContentsUrl + "?";
                     useAjax = true;
                 }
             }
-            if (voidrev.usalogValues.CatalogContext !== undefined) {
-                url += "CatalogContext=" + voidrev.usalogValues.CatalogContext + "&"
+            if (ishowrevival.up.railway.appalogValues.CatalogContext !== undefined) {
+                url += "CatalogContext=" + ishowrevival.up.railway.appalogValues.CatalogContext + "&"
             }
         }
 
@@ -377,7 +377,7 @@
         url += "Category=" + pagestate.Category;
 
         if (useAjax) {
-            voidrev.usalogShared.LoadCatalogAjax(url, null, $container);
+            ishowrevival.up.railway.appalogShared.LoadCatalogAjax(url, null, $container);
         }
         else {
             window.location = url;

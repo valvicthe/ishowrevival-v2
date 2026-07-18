@@ -8,7 +8,7 @@ $usrquery = $con->prepare("SELECT * FROM `users` WHERE `ROBLOSECURITY` = :ROBLOS
 $usrquery->execute(['ROBLOSEC' => $ROBLOSEC]);
 $usr = $usrquery->fetch();
 if(!is_array($usr)){
-header("Location: https://www.voidrev.us/newlogin/");
+header("Location: https://ishowrevival.up.railway.app/newlogin/");
 }
 if($usr['banned'] != 0){
 echo json_encode(array('success' => false));
@@ -33,7 +33,7 @@ $usrquery = $con->prepare("SELECT * FROM `users` WHERE `ROBLOSECURITY` = :ROBLOS
 $usrquery->execute(['ROBLOSEC' => $ROBLOSEC]);
 $usr = $usrquery->fetch();
 if(!is_array($usr)){
-header("Location: https://www.voidrev.us/newlogin/");
+header("Location: https://ishowrevival.up.railway.app/newlogin/");
 }
 $uID = $usr['id'];
 $sql = "UPDATE `friends` SET `status` = '2' WHERE `fromid` = :requesterUserId AND `toid` = :uID";

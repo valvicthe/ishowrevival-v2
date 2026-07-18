@@ -128,7 +128,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<Content name="MeshId"><url>https://voidrev.us/asset?id=1082802</url></Content>
+					<Content name="MeshId"><url>https://ishowrevival.up.railway.app/asset?id=1082802</url></Content>
 					<token name="MeshType">5</token>
 					<string name="Name">Mesh</string>
 					<Vector3 name="Offset">
@@ -143,7 +143,7 @@
 					</Vector3>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
-					<Content name="TextureId"><url>https://voidrev.us/asset?id=1489080159</url></Content>
+					<Content name="TextureId"><url>https://ishowrevival.up.railway.app/asset?id=1489080159</url></Content>
 					<Vector3 name="VertexColor">
 						<X>1</X>
 						<Y>1</Y>

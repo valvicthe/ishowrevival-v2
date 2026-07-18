@@ -91,12 +91,12 @@ die(http_response_code(500));
 ?>
 {
 "FriendUserDataModel": {
-"Url": "https://www.voidrev.us/users/friends/?id=<?=$uID;?>",
+"Url": "https://ishowrevival.up.railway.app/users/friends/?id=<?=$uID;?>",
 "TotalCount": <?=$friendreqcount;?>,
 "DiaplayCount": <?=$friendreqcount;?>
 },
 "MessageUserDataModel": {
-"Url": "https://www.voidrev.us/my/messages",
+"Url": "https://ishowrevival.up.railway.app/my/messages",
 "TotalCount": <?=$messagescount;?>,
 "DiaplayCount": <?=$messagescount;?>
 },

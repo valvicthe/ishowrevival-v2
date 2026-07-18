@@ -20,7 +20,7 @@ foreach ($universeIds as $universeId) {
 $jsonObject = [
 "targetId" => $universeId,
 "state" => "Completed",
-"imageUrl" => "https://www.voidrev.us".getPlaceIcon($con,$universeId)
+"imageUrl" => "https://ishowrevival.up.railway.app".getPlaceIcon($con,$universeId)
 ];
 // Add JSON object to the response array
 $jsonResponse[] = $jsonObject;

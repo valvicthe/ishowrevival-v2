@@ -1,1 +1,1 @@
-<?php header("Location: https://www.voidrev.us/login/forgotPasswordOrUsername/"); ?>
+<?php header("Location: https://ishowrevival.up.railway.app/login/forgotPasswordOrUsername/"); ?>

@@ -1,1 +1,1 @@
-<?php header("Location: https://www.voidrev.us/Admi"); ?>
+<?php header("Location: https://ishowrevival.up.railway.app/Admi"); ?>

@@ -10,10 +10,10 @@ $offsale = $items['offsale'];
 if($offsale == 0){
 $sql = "UPDATE `library` SET `offsale` = '1' WHERE `id`='$assetId'";
 $con->exec($sql);
-header("Location: https://www.voidrev.us/library/?id=".$assetId."");
+header("Location: https://ishowrevival.up.railway.app/library/?id=".$assetId."");
 }else{
 $sql = "UPDATE `library` SET `offsale` = '0' WHERE `id`='$assetId'";
 $con->exec($sql);
-header("Location: https://www.voidrev.us/library/?id=".$assetId."");
+header("Location: https://ishowrevival.up.railway.app/library/?id=".$assetId."");
 }
 ?>
