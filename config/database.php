@@ -1,7 +1,7 @@
 <?php
 ob_start();
 error_reporting(E_ERROR);
-ini_set('display_errors', 0);
+ini_set('display_errors', 1);
 
 // Use environment variables (Railway provides these automatically)
 // If they aren't found (like when running locally), it defaults to your local setup
