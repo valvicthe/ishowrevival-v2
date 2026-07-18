@@ -1,7 +1,7 @@
 <?php
 require($_SERVER['DOCUMENT_ROOT']."/config/includes.php");
 if (is_array(getUserData($con))) {
-header("Location: https://www.voidrev.us/home");
+header("Location: https://ishowrevival.up.railway.app/home");
 }
 ?>
 <!doctype html>
@@ -182,7 +182,7 @@ background: #121212;
 <input type="password" class="form-control mb-2" name="password" placeholder="Password">
 <input type="password" class="form-control mb-1" name="password" placeholder="Confirm password">
 <div class="cf-turnstile" data-sitekey="0x4AAAAAAAKoHfgDUxnnOKn5" data-callback="javascriptCallback"></div>
-<small class="">By signing up, you agree to our Terms of Service.</small>
+<small class="">By signing up, you agree to our Terms of Service and must be aged 13 or over.</small>
 <input type="submit" class="btn btn-primary d-block w-100 mt-1" name="submit" value="Register">
 </form>
 </div>
